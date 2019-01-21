@@ -1,0 +1,11 @@
+scp ~/.ssh/id_rsa.pub pi@AB01:id_rsa.pub
+scp ~/.ssh/id_rsa.pub pi@AB02:id_rsa.pub
+scp ~/.ssh/id_rsa.pub pi@AB03:id_rsa.pub
+scp ~/.ssh/id_rsa.pub pi@AB04:id_rsa.pub
+scp ~/.ssh/id_rsa.pub pi@AB05:id_rsa.pub
+scp ~/.ssh/id_rsa.pub pi@AB06:id_rsa.pub
+scp ~/.ssh/id_rsa.pub pi@AB07:id_rsa.pub
+scp ~/.ssh/id_rsa.pub pi@AB08:id_rsa.pub
+scp ~/.ssh/id_rsa.pub pi@AB09:id_rsa.pub
+scp ~/.ssh/id_rsa.pub pi@AB10:id_rsa.pub
+scp ~/.ssh/id_rsa.pub pi@AB11:id_rsa.pub
