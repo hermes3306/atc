@@ -1,0 +1,10 @@
+isql -u sys -p manager -s AB01 <7.gen10_rec1.sql 
+isql -u sys -p manager -s AB02 <7.gen10_rec2.sql 
+isql -u sys -p manager -s AB03 <7.gen10_rec3.sql 
+isql -u sys -p manager -s AB04 <7.gen10_rec4.sql 
+isql -u sys -p manager -s AB05 <7.gen10_rec5.sql 
+isql -u sys -p manager -s AB06 <7.gen10_rec6.sql 
+isql -u sys -p manager -s AB07 <7.gen10_rec7.sql 
+isql -u sys -p manager -s AB08 <7.gen10_rec8.sql 
+isql -u sys -p manager -s AB09 <7.gen10_rec9.sql 
+isql -u sys -p manager -s AB10 <7.gen10_rec10.sql 

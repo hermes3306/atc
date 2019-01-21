@@ -1,0 +1,11 @@
+isql -u sys -p manager -s AB01 -f 1.crtuser.sql
+isql -u sys -p manager -s AB02 -f 1.crtuser.sql
+isql -u sys -p manager -s AB03 -f 1.crtuser.sql
+isql -u sys -p manager -s AB04 -f 1.crtuser.sql
+isql -u sys -p manager -s AB05 -f 1.crtuser.sql
+isql -u sys -p manager -s AB06 -f 1.crtuser.sql
+isql -u sys -p manager -s AB07 -f 1.crtuser.sql
+isql -u sys -p manager -s AB08 -f 1.crtuser.sql
+isql -u sys -p manager -s AB09 -f 1.crtuser.sql
+isql -u sys -p manager -s AB10 -f 1.crtuser.sql
+isql -u sys -p manager -s AB11 -f 1.crtuser.sql

@@ -1,0 +1,400 @@
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = UNIX, SERVER = localhost
+[ERR-910FB : Connected to idle instance]
+Connecting to the DB server...... Connected.
+
+
+TRANSITION TO PHASE : PROCESS
+Commencing Server as Community Edition
+
+
+TRANSITION TO PHASE : CONTROL
+
+
+TRANSITION TO PHASE : META
+  [SM] Recovery Phase - 1 : Preparing Database
+                          : Dynamic Memory Version => Parallel Loading
+  [SM] Recovery Phase - 2 : Loading Database 
+  [SM] Recovery Phase - 3 : Starting Recovery
+                            Initializing Active Transaction List 
+                            Redo 
+.
+                            Refine Disk Table..
+                            Undo 
+  [SM] Refine Memory Table : ......................................................................................................................... [SUCCESS]
+  [SM] Rebuilding Indices [Total Count:141] ...................................................................................................................................... [SUCCESS]
+
+
+TRANSITION TO PHASE : SERVICE
+  [CM] Listener started : TCP on port 20300 [IPV4]
+  [CM] Listener started : UNIX
+  [CM] Listener started : IPC
+  [RP] Initialization : [PASS]
+
+--- STARTUP Process SUCCESS ---   
+Command executed successfully.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = UNIX, SERVER = localhost
+[ERR-910FB : Connected to idle instance]
+Connecting to the DB server......... Connected.
+
+
+TRANSITION TO PHASE : PROCESS
+Commencing Server as Community Edition
+
+
+TRANSITION TO PHASE : CONTROL
+
+
+TRANSITION TO PHASE : META
+  [SM] Recovery Phase - 1 : Preparing Database
+                          : Dynamic Memory Version => Parallel Loading
+  [SM] Recovery Phase - 2 : Loading Database 
+  [SM] Recovery Phase - 3 : Starting Recovery
+                            Initializing Active Transaction List 
+                            Redo 
+
+                            Refine Disk Table..
+                            Undo 
+  [SM] Refine Memory Table : ......................................................................................................................... [SUCCESS]
+  [SM] Rebuilding Indices [Total Count:141] ...................................................................................................................................... [SUCCESS]
+
+
+TRANSITION TO PHASE : SERVICE
+  [CM] Listener started : TCP on port 20300 [IPV4]
+  [CM] Listener started : UNIX
+  [CM] Listener started : IPC
+  [RP] Initialization : [PASS]
+
+--- STARTUP Process SUCCESS ---   
+Command executed successfully.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = UNIX, SERVER = localhost
+[ERR-910FB : Connected to idle instance]
+Connecting to the DB server........ Connected.
+
+
+TRANSITION TO PHASE : PROCESS
+Commencing Server as Community Edition
+
+
+TRANSITION TO PHASE : CONTROL
+
+
+TRANSITION TO PHASE : META
+  [SM] Recovery Phase - 1 : Preparing Database
+                          : Dynamic Memory Version => Parallel Loading
+  [SM] Recovery Phase - 2 : Loading Database 
+  [SM] Recovery Phase - 3 : Starting Recovery
+                            Initializing Active Transaction List 
+                            Redo 
+
+                            Refine Disk Table..
+                            Undo 
+  [SM] Refine Memory Table : ......................................................................................................................... [SUCCESS]
+  [SM] Rebuilding Indices [Total Count:141] ...................................................................................................................................... [SUCCESS]
+
+
+TRANSITION TO PHASE : SERVICE
+  [CM] Listener started : TCP on port 20300 [IPV4]
+  [CM] Listener started : UNIX
+  [CM] Listener started : IPC
+  [RP] Initialization : [PASS]
+
+--- STARTUP Process SUCCESS ---   
+Command executed successfully.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = UNIX, SERVER = localhost
+[ERR-910FB : Connected to idle instance]
+Connecting to the DB server...... Connected.
+
+
+TRANSITION TO PHASE : PROCESS
+Commencing Server as Community Edition
+
+
+TRANSITION TO PHASE : CONTROL
+
+
+TRANSITION TO PHASE : META
+  [SM] Recovery Phase - 1 : Preparing Database
+                          : Dynamic Memory Version => Parallel Loading
+  [SM] Recovery Phase - 2 : Loading Database 
+  [SM] Recovery Phase - 3 : Starting Recovery
+                            Initializing Active Transaction List 
+                            Redo 
+
+                            Refine Disk Table..
+                            Undo 
+  [SM] Refine Memory Table : ......................................................................................................................... [SUCCESS]
+  [SM] Rebuilding Indices [Total Count:141] ...................................................................................................................................... [SUCCESS]
+
+
+TRANSITION TO PHASE : SERVICE
+  [CM] Listener started : TCP on port 20300 [IPV4]
+  [CM] Listener started : UNIX
+  [CM] Listener started : IPC
+  [RP] Initialization : [PASS]
+
+--- STARTUP Process SUCCESS ---   
+Command executed successfully.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = UNIX, SERVER = localhost
+[ERR-910FB : Connected to idle instance]
+Connecting to the DB server...... Connected.
+
+
+TRANSITION TO PHASE : PROCESS
+Commencing Server as Community Edition
+
+
+TRANSITION TO PHASE : CONTROL
+
+
+TRANSITION TO PHASE : META
+  [SM] Recovery Phase - 1 : Preparing Database
+                          : Dynamic Memory Version => Parallel Loading
+  [SM] Recovery Phase - 2 : Loading Database 
+  [SM] Recovery Phase - 3 : Starting Recovery
+                            Initializing Active Transaction List 
+                            Redo 
+
+                            Refine Disk Table..
+                            Undo 
+  [SM] Refine Memory Table : ......................................................................................................................... [SUCCESS]
+  [SM] Rebuilding Indices [Total Count:141] ...................................................................................................................................... [SUCCESS]
+
+
+TRANSITION TO PHASE : SERVICE
+  [CM] Listener started : TCP on port 20300 [IPV4]
+  [CM] Listener started : UNIX
+  [CM] Listener started : IPC
+  [RP] Initialization : [PASS]
+
+--- STARTUP Process SUCCESS ---   
+Command executed successfully.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = UNIX, SERVER = localhost
+[ERR-910FB : Connected to idle instance]
+Connecting to the DB server...... Connected.
+
+
+TRANSITION TO PHASE : PROCESS
+Commencing Server as Community Edition
+
+
+TRANSITION TO PHASE : CONTROL
+
+
+TRANSITION TO PHASE : META
+  [SM] Recovery Phase - 1 : Preparing Database
+                          : Dynamic Memory Version => Parallel Loading
+  [SM] Recovery Phase - 2 : Loading Database 
+  [SM] Recovery Phase - 3 : Starting Recovery
+                            Initializing Active Transaction List 
+                            Redo 
+
+                            Refine Disk Table..
+                            Undo 
+  [SM] Refine Memory Table : ......................................................................................................................... [SUCCESS]
+  [SM] Rebuilding Indices [Total Count:141] ...................................................................................................................................... [SUCCESS]
+
+
+TRANSITION TO PHASE : SERVICE
+  [CM] Listener started : TCP on port 20300 [IPV4]
+  [CM] Listener started : UNIX
+  [CM] Listener started : IPC
+  [RP] Initialization : [PASS]
+
+--- STARTUP Process SUCCESS ---   
+Command executed successfully.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = UNIX, SERVER = localhost
+[ERR-910FB : Connected to idle instance]
+Connecting to the DB server...... Connected.
+
+
+TRANSITION TO PHASE : PROCESS
+Commencing Server as Community Edition
+
+
+TRANSITION TO PHASE : CONTROL
+
+
+TRANSITION TO PHASE : META
+  [SM] Recovery Phase - 1 : Preparing Database
+                          : Dynamic Memory Version => Parallel Loading
+  [SM] Recovery Phase - 2 : Loading Database 
+  [SM] Recovery Phase - 3 : Starting Recovery
+                            Initializing Active Transaction List 
+                            Redo 
+
+                            Refine Disk Table..
+                            Undo 
+  [SM] Refine Memory Table : ......................................................................................................................... [SUCCESS]
+  [SM] Rebuilding Indices [Total Count:141] ...................................................................................................................................... [SUCCESS]
+
+
+TRANSITION TO PHASE : SERVICE
+  [CM] Listener started : TCP on port 20300 [IPV4]
+  [CM] Listener started : UNIX
+  [CM] Listener started : IPC
+  [RP] Initialization : [PASS]
+
+--- STARTUP Process SUCCESS ---   
+Command executed successfully.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = UNIX, SERVER = localhost
+[ERR-910FB : Connected to idle instance]
+Connecting to the DB server...... Connected.
+
+
+TRANSITION TO PHASE : PROCESS
+Commencing Server as Community Edition
+
+
+TRANSITION TO PHASE : CONTROL
+
+
+TRANSITION TO PHASE : META
+  [SM] Recovery Phase - 1 : Preparing Database
+                          : Dynamic Memory Version => Parallel Loading
+  [SM] Recovery Phase - 2 : Loading Database 
+  [SM] Recovery Phase - 3 : Starting Recovery
+                            Initializing Active Transaction List 
+                            Redo 
+.
+                            Refine Disk Table..
+                            Undo 
+  [SM] Refine Memory Table : ......................................................................................................................... [SUCCESS]
+  [SM] Rebuilding Indices [Total Count:141] ...................................................................................................................................... [SUCCESS]
+
+
+TRANSITION TO PHASE : SERVICE
+  [CM] Listener started : TCP on port 20300 [IPV4]
+  [CM] Listener started : UNIX
+  [CM] Listener started : IPC
+  [RP] Initialization : [PASS]
+
+--- STARTUP Process SUCCESS ---   
+Command executed successfully.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = UNIX, SERVER = localhost
+[ERR-910FB : Connected to idle instance]
+Connecting to the DB server...... Connected.
+
+
+TRANSITION TO PHASE : PROCESS
+Commencing Server as Community Edition
+
+
+TRANSITION TO PHASE : CONTROL
+
+
+TRANSITION TO PHASE : META
+  [SM] Recovery Phase - 1 : Preparing Database
+                          : Dynamic Memory Version => Parallel Loading
+  [SM] Recovery Phase - 2 : Loading Database 
+  [SM] Recovery Phase - 3 : Starting Recovery
+                            Initializing Active Transaction List 
+                            Redo 
+.
+                            Refine Disk Table..
+                            Undo 
+  [SM] Refine Memory Table : ......................................................................................................................... [SUCCESS]
+  [SM] Rebuilding Indices [Total Count:141] ...................................................................................................................................... [SUCCESS]
+
+
+TRANSITION TO PHASE : SERVICE
+  [CM] Listener started : TCP on port 20300 [IPV4]
+  [CM] Listener started : UNIX
+  [CM] Listener started : IPC
+  [RP] Initialization : [PASS]
+
+--- STARTUP Process SUCCESS ---   
+Command executed successfully.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = UNIX, SERVER = localhost
+[ERR-910FB : Connected to idle instance]
+Connecting to the DB server...... Connected.
+
+
+TRANSITION TO PHASE : PROCESS
+Commencing Server as Community Edition
+
+
+TRANSITION TO PHASE : CONTROL
+
+
+TRANSITION TO PHASE : META
+  [SM] Recovery Phase - 1 : Preparing Database
+                          : Dynamic Memory Version => Parallel Loading
+  [SM] Recovery Phase - 2 : Loading Database 
+  [SM] Recovery Phase - 3 : Starting Recovery
+                            Initializing Active Transaction List 
+                            Redo 
+
+                            Refine Disk Table..
+                            Undo 
+  [SM] Refine Memory Table : ......................................................................................................................... [SUCCESS]
+  [SM] Rebuilding Indices [Total Count:141] ...................................................................................................................................... [SUCCESS]
+
+
+TRANSITION TO PHASE : SERVICE
+  [CM] Listener started : TCP on port 20300 [IPV4]
+  [CM] Listener started : UNIX
+  [CM] Listener started : IPC
+  [RP] Initialization : [PASS]
+
+--- STARTUP Process SUCCESS ---   
+Command executed successfully.

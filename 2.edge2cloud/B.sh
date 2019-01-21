@@ -1,0 +1,11 @@
+isql -u smssuser -p smssuser -s AB01 < B.sql
+isql -u smssuser -p smssuser -s AB02 < B.sql
+isql -u smssuser -p smssuser -s AB03 < B.sql
+isql -u smssuser -p smssuser -s AB04 < B.sql
+isql -u smssuser -p smssuser -s AB05 < B.sql
+isql -u smssuser -p smssuser -s AB06 < B.sql
+isql -u smssuser -p smssuser -s AB07 < B.sql
+isql -u smssuser -p smssuser -s AB08 < B.sql
+isql -u smssuser -p smssuser -s AB09 < B.sql
+isql -u smssuser -p smssuser -s AB10 < B.sql
+isql -u smssuser -p smssuser -s AB11 < B.sql
