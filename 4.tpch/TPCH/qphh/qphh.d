@@ -1,0 +1,1 @@
+qphh.o: qphh.cpp

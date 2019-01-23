@@ -1,0 +1,28 @@
+iSQL> CREATE VIEW REVENUE ( SUPPLIER_NO, TOTAL_REVENUE )
+    AS SELECT L_SUPPKEY,
+              SUM(L_EXTENDEDPRICE * (1 - L_DISCOUNT))
+       FROM LINEITEM
+       WHERE L_SHIPDATE >= DATE'1996-01-01'
+         AND L_SHIPDATE < ADD_MONTHS(DATE'1996-01-01', 3)
+       GROUP BY L_SUPPKEY;
+Create success.
+iSQL> SELECT S_SUPPKEY,
+       S_NAME,
+       S_ADDRESS,
+       S_PHONE,
+       TOTAL_REVENUE
+FROM SUPPLIER,
+     REVENUE
+WHERE S_SUPPKEY = SUPPLIER_NO
+  AND TOTAL_REVENUE = ( SELECT MAX(TOTAL_REVENUE) FROM REVENUE )
+ORDER BY S_SUPPKEY; 
+S_SUPPKEY   S_NAME                     
+------------------------------------------
+S_ADDRESS                                 S_PHONE          
+--------------------------------------------------------------
+TOTAL_REVENUE          
+-------------------------
+8449        Supplier#000008449         
+Wp34zim9qYFbVctdW                         20-469-856-8873  
+1772627.2087           
+1 row selected.

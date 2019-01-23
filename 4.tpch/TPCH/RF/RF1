@@ -1,0 +1,12 @@
+#!/bin/sh
+
+num=$1
+
+beginTime=$(date +%s%N)
+iloader in -S $HOST -port 20309 -U $DBUSER -P $DBPASS -d orders.tbl.u$num  -f orders.fmt   -t '|' -log orders.log -array 1000
+iloader in -S $HOST -port 20309 -U $DBUSER -P $DBPASS -d lineitem.tbl.u$num -f lineitem.fmt -t '|' -log lineitem.log -array 1000
+endTime=$(date +%s%N)
+
+elapsed=`echo "($endTime - $beginTime) / 1000000" | bc`
+elapsedTime=`echo "scale=2;$elapsed / 1000" | bc`
+echo "elapsed time :" $elapsedTime

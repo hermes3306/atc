@@ -1,0 +1,46 @@
+iSQL> SELECT
+        L_RETURNFLAG,
+        L_LINESTATUS,
+        SUM(L_QUANTITY) AS SUM_QTY,
+        TO_CHAR(SUM(L_EXTENDEDPRICE)) AS SUM_BASE_PRICE,
+        SUM(L_EXTENDEDPRICE * (1 - L_DISCOUNT)) AS SUM_DISC_PRICE,
+        SUM(L_EXTENDEDPRICE * (1 - L_DISCOUNT) * (1 + L_TAX)) AS SUM_CHARGE,
+        AVG(L_QUANTITY) AS AVG_QTY,
+        AVG(L_EXTENDEDPRICE) AS AVG_PRICE,
+        AVG(L_DISCOUNT) AS AVG_DISC,
+        COUNT(*) AS COUNT_ORDER
+FROM
+        LINEITEM
+WHERE
+        L_SHIPDATE <= DATE'1998-12-01' - INTERVAL'90'
+GROUP BY
+        L_RETURNFLAG,
+        L_LINESTATUS
+ORDER BY
+        L_RETURNFLAG,
+        L_LINESTATUS;
+L_RETURNFLAG  L_LINESTATUS  SUM_QTY                
+-------------------------------------------------------
+SUM_BASE_PRICE                                                    
+--------------------------------------------------------------------
+SUM_DISC_PRICE         SUM_CHARGE             AVG_QTY                
+-------------------------------------------------------------------------
+AVG_PRICE              AVG_DISC               COUNT_ORDER          
+-----------------------------------------------------------------------
+A  F  37734107               
+56586554400.7299                                                  
+53758257134.8651       55909065222.8256       25.5220058532573       
+38273.1297346216       0.0499852958382544     1478493              
+N  F  991417                 
+1487504710.38                                                     
+1413082168.0541        1469649223.19436       25.516471920523        
+38284.4677608482       0.0500934266741932     38854                
+N  O  74476040               
+111701729697.736                                                  
+106118230307.612       110367043872.492       25.502226769585        
+38249.1179889067       0.0499965860536267     2920374              
+R  F  37719753               
+56568041380.9045                                                  
+53741292684.6038       55889619119.8297       25.5057936126908       
+38250.8546261027       0.0500094058299836     1478870              
+4 rows selected.
