@@ -45,7 +45,7 @@ exec dbms_shard.set_shard_range ('sys','TEST', 10000,  'dn2');
 exec dbms_shard.set_shard_range ('sys','TEST', 15000,  'dn3');
 exec dbms_shard.set_shard_range ('sys','TEST', 20000, 'dn4');
 exec dbms_shard.set_shard_range ('sys','TEST', 25000,  'dn5');
-elec dbms_shard.set_shard_range ('sys','TEST', 30000,  'dn6');
+exec dbms_shard.set_shard_range ('sys','TEST', 30000,  'dn6');
 exec dbms_shard.set_shard_range ('sys','TEST', 35000,  'dn7');
 exec dbms_shard.set_shard_range ('sys','TEST', 40000,  'dn8');
 exec dbms_shard.set_shard_range ('sys','TEST', 45000,  'dn9');
