@@ -1,0 +1,235 @@
+rm -f bmt_insert bmt_insert.o bmt_insert_merged.c
+rm -f bmt_select bmt_select.o bmt_select_merged.c
+rm -f bmt_update bmt_update.o bmt_update_merged.c
+rm -f bmt_delete bmt_delete.o bmt_delete_merged.c
+cat bmt_header.c bmt_insert.c bmt_footer.c >bmt_insert_merged.c
+gcc -D_GNU_SOURCE -W -Wall -pipe -D_POSIX_PTHREAD_SEMANTICS -D_POSIX_THREADS -D_POSIX_THREAD_SAFE_FUNCTIONS -D_REENTRANT -DPDL_HAS_AIO_CALLS -m64 -mtune=k8 -O3 -funroll-loops -fno-strict-aliasing -fno-omit-frame-pointer -DPDL_NDEBUG -D_GNU_SOURCE -DACP_CFG_COMPILE_64BIT -DACP_CFG_COMPILE_BIT=64 -DACP_CFG_COMPILE_BIT_STR=64 -DCOMPILER_OPT_FLAGS="-O3 -funroll-loops -fno-strict-aliasing -fno-omit-frame-pointer" -MMD -MP -c -I/data/test01/altibase_home/include -o bmt_insert.o bmt_insert_merged.c
+bmt_insert_merged.c: In function ‘allocateUnit’:
+bmt_insert_merged.c:85:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if ( (*remain) > sizeOfUnit ) {
+                    ^
+bmt_insert_merged.c: In function ‘worker’:
+bmt_insert_merged.c:188:5: warning: pointer targets in passing argument 3 of ‘SQLDriverConnect’ differ in signedness [-Wpointer-sign]
+     assert( SQLDriverConnect( dbc, NULL, connection, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_NOPROMPT ) == SQL_SUCCESS );
+     ^
+In file included from /data/test01/altibase_home/include/sqlcli.h:24:0,
+                 from bmt_insert_merged.c:13:
+/data/test01/altibase_home/include/sqlext.h:1705:19: note: expected ‘SQLCHAR *’ but argument is of type ‘char *’
+ SQLRETURN SQL_API SQLDriverConnect(
+                   ^
+bmt_insert_merged.c:192:5: warning: pointer targets in passing argument 2 of ‘SQLPrepare’ differ in signedness [-Wpointer-sign]
+     assert( SQLPrepare( stmt, "INSERT INTO TEST VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )", SQL_NTS ) == SQL_SUCCESS );
+     ^
+In file included from /data/test01/altibase_home/include/sqlcli.h:23:0,
+                 from bmt_insert_merged.c:13:
+/data/test01/altibase_home/include/sql.h:743:24: note: expected ‘SQLCHAR *’ but argument is of type ‘char *’
+     SQLRETURN  SQL_API SQLPrepare(SQLHSTMT StatementHandle,
+                        ^
+bmt_insert_merged.c: In function ‘main’:
+bmt_insert_merged.c:389:5: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long unsigned int’ [-Wformat=]
+     printf( "Number of Transactions            : %8ld\n", numberOfTransactions );
+     ^
+bmt_insert_merged.c:506:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long unsigned int’ [-Wformat=]
+     printf( "Number of Long Transactions       : %6.2f%% ( %d / %d )\n", (double)numberOfLongTransactions / (double)numberOfTransactions * 100, numberOfLongTransactions, numberOfTransactions );
+     ^
+bmt_insert_merged.c:506:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘long long unsigned int’ [-Wformat=]
+bmt_insert_merged.c:509:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long unsigned int’ [-Wformat=]
+         printf( " %d", contexts[thread].numberOfTransactions );
+         ^
+g++ -Wl,-relax -Wl,--no-as-needed -L. -O3 -L/data/test01/altibase_home/lib -o bmt_insert bmt_insert.o -lodbccli -ldl -lpthread -lcrypt -lrt -lstdc++
+cat bmt_header.c bmt_select.c bmt_footer.c >bmt_select_merged.c
+gcc -D_GNU_SOURCE -W -Wall -pipe -D_POSIX_PTHREAD_SEMANTICS -D_POSIX_THREADS -D_POSIX_THREAD_SAFE_FUNCTIONS -D_REENTRANT -DPDL_HAS_AIO_CALLS -m64 -mtune=k8 -O3 -funroll-loops -fno-strict-aliasing -fno-omit-frame-pointer -DPDL_NDEBUG -D_GNU_SOURCE -DACP_CFG_COMPILE_64BIT -DACP_CFG_COMPILE_BIT=64 -DACP_CFG_COMPILE_BIT_STR=64 -DCOMPILER_OPT_FLAGS="-O3 -funroll-loops -fno-strict-aliasing -fno-omit-frame-pointer" -MMD -MP -c -I/data/test01/altibase_home/include -o bmt_select.o bmt_select_merged.c
+bmt_select_merged.c: In function ‘allocateUnit’:
+bmt_select_merged.c:85:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if ( (*remain) > sizeOfUnit ) {
+                    ^
+bmt_select_merged.c: In function ‘worker’:
+bmt_select_merged.c:138:5: warning: pointer targets in passing argument 3 of ‘SQLDriverConnect’ differ in signedness [-Wpointer-sign]
+     assert( SQLDriverConnect( dbc, NULL, connection, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_NOPROMPT ) == SQL_SUCCESS );
+     ^
+In file included from /data/test01/altibase_home/include/sqlcli.h:24:0,
+                 from bmt_select_merged.c:13:
+/data/test01/altibase_home/include/sqlext.h:1705:19: note: expected ‘SQLCHAR *’ but argument is of type ‘char *’
+ SQLRETURN SQL_API SQLDriverConnect(
+                   ^
+bmt_select_merged.c:142:5: warning: pointer targets in passing argument 2 of ‘SQLPrepare’ differ in signedness [-Wpointer-sign]
+     assert( SQLPrepare( stmt, "SELECT K01, K02, K03, K04, K05, K06, K07, K08, K09, K10 FROM TEST WHERE K01 = ?", SQL_NTS ) == SQL_SUCCESS );
+     ^
+In file included from /data/test01/altibase_home/include/sqlcli.h:23:0,
+                 from bmt_select_merged.c:13:
+/data/test01/altibase_home/include/sql.h:743:24: note: expected ‘SQLCHAR *’ but argument is of type ‘char *’
+     SQLRETURN  SQL_API SQLPrepare(SQLHSTMT StatementHandle,
+                        ^
+bmt_select_merged.c: In function ‘main’:
+bmt_select_merged.c:261:5: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long unsigned int’ [-Wformat=]
+     printf( "Number of Transactions            : %8ld\n", numberOfTransactions );
+     ^
+bmt_select_merged.c:378:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long unsigned int’ [-Wformat=]
+     printf( "Number of Long Transactions       : %6.2f%% ( %d / %d )\n", (double)numberOfLongTransactions / (double)numberOfTransactions * 100, numberOfLongTransactions, numberOfTransactions );
+     ^
+bmt_select_merged.c:378:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘long long unsigned int’ [-Wformat=]
+bmt_select_merged.c:381:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long unsigned int’ [-Wformat=]
+         printf( " %d", contexts[thread].numberOfTransactions );
+         ^
+g++ -Wl,-relax -Wl,--no-as-needed -L. -O3 -L/data/test01/altibase_home/lib -o bmt_select bmt_select.o -lodbccli -ldl -lpthread -lcrypt -lrt -lstdc++
+cat bmt_header.c bmt_update.c bmt_footer.c >bmt_update_merged.c
+gcc -D_GNU_SOURCE -W -Wall -pipe -D_POSIX_PTHREAD_SEMANTICS -D_POSIX_THREADS -D_POSIX_THREAD_SAFE_FUNCTIONS -D_REENTRANT -DPDL_HAS_AIO_CALLS -m64 -mtune=k8 -O3 -funroll-loops -fno-strict-aliasing -fno-omit-frame-pointer -DPDL_NDEBUG -D_GNU_SOURCE -DACP_CFG_COMPILE_64BIT -DACP_CFG_COMPILE_BIT=64 -DACP_CFG_COMPILE_BIT_STR=64 -DCOMPILER_OPT_FLAGS="-O3 -funroll-loops -fno-strict-aliasing -fno-omit-frame-pointer" -MMD -MP -c -I/data/test01/altibase_home/include -o bmt_update.o bmt_update_merged.c
+bmt_update_merged.c: In function ‘allocateUnit’:
+bmt_update_merged.c:85:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if ( (*remain) > sizeOfUnit ) {
+                    ^
+bmt_update_merged.c: In function ‘worker’:
+bmt_update_merged.c:129:5: warning: pointer targets in passing argument 3 of ‘SQLDriverConnect’ differ in signedness [-Wpointer-sign]
+     assert( SQLDriverConnect( dbc, NULL, connection, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_NOPROMPT ) == SQL_SUCCESS );
+     ^
+In file included from /data/test01/altibase_home/include/sqlcli.h:24:0,
+                 from bmt_update_merged.c:13:
+/data/test01/altibase_home/include/sqlext.h:1705:19: note: expected ‘SQLCHAR *’ but argument is of type ‘char *’
+ SQLRETURN SQL_API SQLDriverConnect(
+                   ^
+bmt_update_merged.c:133:5: warning: pointer targets in passing argument 2 of ‘SQLPrepare’ differ in signedness [-Wpointer-sign]
+     assert( SQLPrepare( stmt, "UPDATE TEST SET K03 = K03 + ? WHERE K01 = ?", SQL_NTS ) == SQL_SUCCESS );
+     ^
+In file included from /data/test01/altibase_home/include/sqlcli.h:23:0,
+                 from bmt_update_merged.c:13:
+/data/test01/altibase_home/include/sql.h:743:24: note: expected ‘SQLCHAR *’ but argument is of type ‘char *’
+     SQLRETURN  SQL_API SQLPrepare(SQLHSTMT StatementHandle,
+                        ^
+bmt_update_merged.c: In function ‘main’:
+bmt_update_merged.c:239:5: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long unsigned int’ [-Wformat=]
+     printf( "Number of Transactions            : %8ld\n", numberOfTransactions );
+     ^
+bmt_update_merged.c:356:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long unsigned int’ [-Wformat=]
+     printf( "Number of Long Transactions       : %6.2f%% ( %d / %d )\n", (double)numberOfLongTransactions / (double)numberOfTransactions * 100, numberOfLongTransactions, numberOfTransactions );
+     ^
+bmt_update_merged.c:356:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘long long unsigned int’ [-Wformat=]
+bmt_update_merged.c:359:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long unsigned int’ [-Wformat=]
+         printf( " %d", contexts[thread].numberOfTransactions );
+         ^
+g++ -Wl,-relax -Wl,--no-as-needed -L. -O3 -L/data/test01/altibase_home/lib -o bmt_update bmt_update.o -lodbccli -ldl -lpthread -lcrypt -lrt -lstdc++
+cat bmt_header.c bmt_delete.c bmt_footer.c >bmt_delete_merged.c
+gcc -D_GNU_SOURCE -W -Wall -pipe -D_POSIX_PTHREAD_SEMANTICS -D_POSIX_THREADS -D_POSIX_THREAD_SAFE_FUNCTIONS -D_REENTRANT -DPDL_HAS_AIO_CALLS -m64 -mtune=k8 -O3 -funroll-loops -fno-strict-aliasing -fno-omit-frame-pointer -DPDL_NDEBUG -D_GNU_SOURCE -DACP_CFG_COMPILE_64BIT -DACP_CFG_COMPILE_BIT=64 -DACP_CFG_COMPILE_BIT_STR=64 -DCOMPILER_OPT_FLAGS="-O3 -funroll-loops -fno-strict-aliasing -fno-omit-frame-pointer" -MMD -MP -c -I/data/test01/altibase_home/include -o bmt_delete.o bmt_delete_merged.c
+bmt_delete_merged.c: In function ‘allocateUnit’:
+bmt_delete_merged.c:85:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if ( (*remain) > sizeOfUnit ) {
+                    ^
+bmt_delete_merged.c: In function ‘worker’:
+bmt_delete_merged.c:128:5: warning: pointer targets in passing argument 3 of ‘SQLDriverConnect’ differ in signedness [-Wpointer-sign]
+     assert( SQLDriverConnect( dbc, NULL, connection, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_NOPROMPT ) == SQL_SUCCESS );
+     ^
+In file included from /data/test01/altibase_home/include/sqlcli.h:24:0,
+                 from bmt_delete_merged.c:13:
+/data/test01/altibase_home/include/sqlext.h:1705:19: note: expected ‘SQLCHAR *’ but argument is of type ‘char *’
+ SQLRETURN SQL_API SQLDriverConnect(
+                   ^
+bmt_delete_merged.c:132:5: warning: pointer targets in passing argument 2 of ‘SQLPrepare’ differ in signedness [-Wpointer-sign]
+     assert( SQLPrepare( stmt, "DELETE FROM TEST WHERE K01 = ?", SQL_NTS ) == SQL_SUCCESS );
+     ^
+In file included from /data/test01/altibase_home/include/sqlcli.h:23:0,
+                 from bmt_delete_merged.c:13:
+/data/test01/altibase_home/include/sql.h:743:24: note: expected ‘SQLCHAR *’ but argument is of type ‘char *’
+     SQLRETURN  SQL_API SQLPrepare(SQLHSTMT StatementHandle,
+                        ^
+bmt_delete_merged.c: In function ‘main’:
+bmt_delete_merged.c:236:5: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long unsigned int’ [-Wformat=]
+     printf( "Number of Transactions            : %8ld\n", numberOfTransactions );
+     ^
+bmt_delete_merged.c:353:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long unsigned int’ [-Wformat=]
+     printf( "Number of Long Transactions       : %6.2f%% ( %d / %d )\n", (double)numberOfLongTransactions / (double)numberOfTransactions * 100, numberOfLongTransactions, numberOfTransactions );
+     ^
+bmt_delete_merged.c:353:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘long long unsigned int’ [-Wformat=]
+bmt_delete_merged.c:356:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long unsigned int’ [-Wformat=]
+         printf( " %d", contexts[thread].numberOfTransactions );
+         ^
+g++ -Wl,-relax -Wl,--no-as-needed -L. -O3 -L/data/test01/altibase_home/lib -o bmt_delete bmt_delete.o -lodbccli -ldl -lpthread -lcrypt -lrt -lstdc++
+
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 7.1.0.2.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = 192.168.1.104, PORT_NO = 30300
+iSQL> DROP TABLE TEST;
+Drop success.
+iSQL> CREATE TABLE TEST (
+    K01  INTEGER,
+    K02  INTEGER,
+    K03  INTEGER,
+    K04  INTEGER,
+    K05  INTEGER,
+    K06  INTEGER,
+    K07  INTEGER,
+    K08  INTEGER,
+    K09  INTEGER,
+    K10  INTEGER,
+    K11  INTEGER,
+    K12  INTEGER,
+    K13  INTEGER,
+    K14  INTEGER,
+    K15  INTEGER,
+    K16  INTEGER,
+    K17  INTEGER,
+    K18  INTEGER,
+    K19  INTEGER,
+    K20  INTEGER,
+    K21  INTEGER,
+    K22  INTEGER,
+    K23  INTEGER,
+    K24  INTEGER,
+    K25  INTEGER,
+    K26  INTEGER,
+    K27  INTEGER,
+    K28  INTEGER,
+    K29  INTEGER,
+    K30  INTEGER,
+    K31  INTEGER,
+    K32  INTEGER,
+    K33  INTEGER,
+    K34  INTEGER,
+    K35  INTEGER,
+    K36  INTEGER,
+    K37  INTEGER,
+    K38  INTEGER,
+    K39  INTEGER,
+    K40  INTEGER,
+    K41  INTEGER,
+    K42  INTEGER,
+    K43  INTEGER,
+    K44  INTEGER,
+    K45  INTEGER,
+    K46  VARCHAR(30),
+    K47  VARCHAR(30),
+    K48  VARCHAR(30),
+    K49  VARCHAR(30),
+    K50  VARCHAR(30)
+);
+Create success.
+iSQL> ALTER TABLE TEST ADD CONSTRAINT TEST_INDEX PRIMARY KEY ( K01 );
+Alter success.
+
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 7.1.0.2.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = 192.168.1.104, PORT_NO = 30300
+iSQL> ALTER SYSTEM CHECKPOINT;
+Alter success.
+iSQL> ALTER SYSTEM CHECKPOINT;
+Alter success.
+iSQL> ALTER SYSTEM CHECKPOINT;
+Alter success.
+Description                       : SIMPLE_BENCHMARK_INSERT_HDB_CLI_THREAD
+Number of Threads                 :      128
+Start Value                       :        0
+Number of Transactions            : 3000000000
+Size   of Unit                    :     1000
+Threshold(microsecond)            :  1000000
+Cap(TPS)                          :        0
+User                              : SYS
+Password                          : MANAGER
+Option                            : DSN=192.168.1.104;PORT_NO=30300;CONNTYPE=1
+Connection Elapsed                : 0.061503 second
+Start Time                        : 2019/04/24 16:59:02.938122
