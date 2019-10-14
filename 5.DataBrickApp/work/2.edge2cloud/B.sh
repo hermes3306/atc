@@ -1,0 +1,10 @@
+isql -u smssuser -p smssuser -s pc1 < B.sql
+isql -u smssuser -p smssuser -s pc2 < B.sql
+isql -u smssuser -p smssuser -s pc3 < B.sql
+isql -u smssuser -p smssuser -s pc4 < B.sql
+isql -u smssuser -p smssuser -s pc5 < B.sql
+isql -u smssuser -p smssuser -s pc6 < B.sql
+isql -u smssuser -p smssuser -s pc7 < B.sql
+isql -u smssuser -p smssuser -s pc8 < B.sql
+isql -u smssuser -p smssuser -s pc9 < B.sql
+isql -u smssuser -p smssuser -s pc0 < B.sql

@@ -1,0 +1,10 @@
+scp ./stopdb.sh db@pc1:/home/db/ab72/bin/stopdb.sh
+scp ./stopdb.sh db@pc2:/home/db/ab72/bin/stopdb.sh
+scp ./stopdb.sh db@pc3:/home/db/ab72/bin/stopdb.sh
+scp ./stopdb.sh db@pc4:/home/db/ab72/bin/stopdb.sh
+scp ./stopdb.sh db@pc5:/home/db/ab72/bin/stopdb.sh
+scp ./stopdb.sh db@pc6:/home/db/ab72/bin/stopdb.sh
+scp ./stopdb.sh db@pc7:/home/db/ab72/bin/stopdb.sh
+scp ./stopdb.sh db@pc8:/home/db/ab72/bin/stopdb.sh
+scp ./stopdb.sh db@pc0:/home/db/ab72/bin/stopdb.sh
+scp ./stopdb.sh db@pc9:/home/db/ab72/bin/stopdb.sh

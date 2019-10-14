@@ -1,0 +1,10 @@
+scp ~/.ssh/id_rsa.pub db@pc1:id_rsa.pub
+scp ~/.ssh/id_rsa.pub db@pc2:id_rsa.pub
+scp ~/.ssh/id_rsa.pub db@pc3:id_rsa.pub
+scp ~/.ssh/id_rsa.pub db@pc4:id_rsa.pub
+scp ~/.ssh/id_rsa.pub db@pc5:id_rsa.pub
+scp ~/.ssh/id_rsa.pub db@pc6:id_rsa.pub
+scp ~/.ssh/id_rsa.pub db@pc7:id_rsa.pub
+scp ~/.ssh/id_rsa.pub db@pc8:id_rsa.pub
+scp ~/.ssh/id_rsa.pub db@pc9:id_rsa.pub
+scp ~/.ssh/id_rsa.pub db@pc0:id_rsa.pub

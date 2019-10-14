@@ -1,0 +1,10 @@
+scp ./altibase.properties db@pc1:/home/db/ab72/conf/altibase.properties
+scp ./altibase.properties db@pc2:/home/db/ab72/conf/altibase.properties
+scp ./altibase.properties db@pc3:/home/db/ab72/conf/altibase.properties
+scp ./altibase.properties db@pc4:/home/db/ab72/conf/altibase.properties
+scp ./altibase.properties db@pc5:/home/db/ab72/conf/altibase.properties
+scp ./altibase.properties db@pc6:/home/db/ab72/conf/altibase.properties
+scp ./altibase.properties db@pc7:/home/db/ab72/conf/altibase.properties
+scp ./altibase.properties db@pc8:/home/db/ab72/conf/altibase.properties
+scp ./altibase.properties db@pc0:/home/db/ab72/conf/altibase.properties
+scp ./altibase.properties db@pc9:/home/db/ab72/conf/altibase.properties
