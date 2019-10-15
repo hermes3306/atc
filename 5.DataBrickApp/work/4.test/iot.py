@@ -17,8 +17,10 @@ g_arr = [0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0];
 w_arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 p_arr = [0,1,1,2,1,1,0,0,0,1,1,0,1,0,0,1,0,1,0,0];
 
+server_arr = ['pc1','pc2','pc3','pc4','pc5','pc6','pc7','pc8','pc9']
+myserver = server_arr[ random.randint(0,8) ]
 
-conn = pyodbc.connect('DSN=ALTI_UNIXODBC; SERVER=127.0.0.1; PORT_NO=20300; NLS_USE=UTF8; UID=smssuser; PWD=smssuser')
+conn = pyodbc.connect('DSN=ALTI_UNIXODBC; SERVER='+ myserver +'; PORT_NO=20300; NLS_USE=UTF8; UID=smssuser; PWD=smssuser')
 
 cur = conn.cursor()
 
