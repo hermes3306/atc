@@ -18,13 +18,13 @@ typedef struct threadContext {
     int             minimum;
     int             maximum;
     long long       sum;
-    int             numberOfTransactions;
-    int             numberOfLongTransactions;
+    unsigned long long       numberOfTransactions;
+    unsigned long long       numberOfLongTransactions;
 } threadContext;
 
 int numberOfThreads;
 int startValue;
-int numberOfTransactions;
+unsigned long long numberOfTransactions;
 int sizeOfUnit;
 int threshold;
 int cap;
@@ -34,7 +34,7 @@ struct timeval startTime;
 struct timeval endTime;
 
 pthread_mutex_t* mutex;
-int*             remain;
+unsigned long long*             remain;
 int*             cursor;
 int*             allocated;
 
@@ -100,7 +100,7 @@ int allocateUnit ( int* start, int* end ) {
       
 }
 
-#define DESCRIPTION "SIMPLE_BENCHMARK_SELECT_HDB_CLI_THREAD"
+#define DESCRIPTION "SIMPLE_BENCHMARK_DELETE_HDB_CLI_THREAD"
 
 void* worker ( void* argument ) {
     
@@ -108,17 +108,7 @@ void* worker ( void* argument ) {
     SQLHENV        env;
     SQLHDBC        dbc;
     SQLHSTMT       stmt;
-    int            p01;
     int            k01;
-    int            k02;
-    int            k03;
-    int            k04;
-    int            k05;
-    int            k06;
-    int            k07;
-    int            k08;
-    int            k09;
-    int            k10;
     
     int            start;
     int            end;
@@ -139,20 +129,9 @@ void* worker ( void* argument ) {
     
     assert( SQLAllocStmt( dbc, &stmt ) == SQL_SUCCESS );
     
-    assert( SQLPrepare( stmt, "SELECT K01, K02, K03, K04, K05, K06, K07, K08, K09, K10 FROM TEST WHERE K01 = ?", SQL_NTS ) == SQL_SUCCESS );
+    assert( SQLPrepare( stmt, "DELETE FROM TEST WHERE K01 = ?", SQL_NTS ) == SQL_SUCCESS );
     
-    assert( SQLBindParameter( stmt,  1, SQL_PARAM_INPUT, SQL_C_SLONG, SQL_INTEGER,  0, 0, &p01, 0, NULL ) == SQL_SUCCESS );
-    
-    assert( SQLBindCol( stmt,  1, SQL_C_SLONG, &k01, 0, NULL ) == SQL_SUCCESS );
-    assert( SQLBindCol( stmt,  2, SQL_C_SLONG, &k02, 0, NULL ) == SQL_SUCCESS );
-    assert( SQLBindCol( stmt,  3, SQL_C_SLONG, &k03, 0, NULL ) == SQL_SUCCESS );
-    assert( SQLBindCol( stmt,  4, SQL_C_SLONG, &k04, 0, NULL ) == SQL_SUCCESS );
-    assert( SQLBindCol( stmt,  5, SQL_C_SLONG, &k05, 0, NULL ) == SQL_SUCCESS );
-    assert( SQLBindCol( stmt,  6, SQL_C_SLONG, &k06, 0, NULL ) == SQL_SUCCESS );
-    assert( SQLBindCol( stmt,  7, SQL_C_SLONG, &k07, 0, NULL ) == SQL_SUCCESS );
-    assert( SQLBindCol( stmt,  8, SQL_C_SLONG, &k08, 0, NULL ) == SQL_SUCCESS );
-    assert( SQLBindCol( stmt,  9, SQL_C_SLONG, &k09, 0, NULL ) == SQL_SUCCESS );
-    assert( SQLBindCol( stmt, 10, SQL_C_SLONG, &k10, 0, NULL ) == SQL_SUCCESS );
+    assert( SQLBindParameter( stmt,  1, SQL_PARAM_INPUT, SQL_C_SLONG, SQL_INTEGER,  0, 0, &k01, 0, NULL ) == SQL_SUCCESS );
     
     assert( pthread_mutex_unlock( &(context->connected) ) == 0 );
     
@@ -162,13 +141,9 @@ void* worker ( void* argument ) {
             
             assert( gettimeofday( &startTime, NULL ) == 0 );
             
-            p01 = value;
+            k01 = value;
             
             assert( SQLExecute( stmt ) == SQL_SUCCESS );
-            
-            while( SQLFetch( stmt ) == SQL_SUCCESS );
-            
-            assert( SQLFreeStmt( stmt, SQL_CLOSE ) == SQL_SUCCESS );
             
             assert( gettimeofday( &endTime, NULL ) == 0 );
             
@@ -215,7 +190,8 @@ int main( int argc, char* argv[] ) {
     int                 minimum;
     int                 maximum;
     long long           sum;
-    int                 numberOfLongTransactions;
+    //int                 numberOfLongTransactions;
+    unsigned long  long int            numberOfLongTransactions;
     int                 average;
     
     numberOfThreads      = 1;
@@ -242,7 +218,7 @@ int main( int argc, char* argv[] ) {
      case 5:
         sizeOfUnit           = atoi( argv[4] );
      case 4:
-        numberOfTransactions = atoi( argv[3] );
+        numberOfTransactions = atoll( argv[3] );
      case 3:
         startValue           = atoi( argv[2] );
      case 2:
@@ -255,9 +231,9 @@ int main( int argc, char* argv[] ) {
     }
     
     printf( "Description                       : %s\n",  DESCRIPTION          );
-    //printf( "Number of Threads                 : %8d\n", numberOfThreads      );
+    printf( "Number of Threads                 : %8d\n", numberOfThreads      );
     printf( "Start Value                       : %8d\n", startValue           );
-    printf( "Number of Transactions            : %8d\n", numberOfTransactions );
+    printf( "Number of Transactions            : %8ld\n", numberOfTransactions );
     printf( "Size   of Unit                    : %8d\n", sizeOfUnit           );
     printf( "Threshold(microsecond)            : %8d\n", threshold            );
     printf( "Cap(TPS)                          : %8d\n", cap                  );
@@ -375,10 +351,10 @@ int main( int argc, char* argv[] ) {
     printf( "Maximum                           : %6d microseconds\n", maximum );
     printf( "Average                           : %6d microseconds\n", average );
     printf( "Number of Long Transactions       : %6.2f%% ( %d / %d )\n", (double)numberOfLongTransactions / (double)numberOfTransactions * 100, numberOfLongTransactions, numberOfTransactions );
-    //printf( "Number of Transactions per Thread :" );
-    //for ( thread = 0; thread < numberOfThreads; thread++ ) {
-    //    printf( " %d", contexts[thread].numberOfTransactions );
-    // }
+    printf( "Number of Transactions per Thread :" );
+    for ( thread = 0; thread < numberOfThreads; thread++ ) {
+        printf( " %d", contexts[thread].numberOfTransactions );
+    }
     printf( "\n" );
     printf( "\n" );
     

@@ -1,16 +1,16 @@
 bmt_insert.o: bmt_insert_merged.c \
- /data/test01/altibase_home/include/sqlcli.h \
- /data/test01/altibase_home/include/sqltypes.h \
- /data/test01/altibase_home/include/sql.h \
- /data/test01/altibase_home/include/sqlext.h \
- /data/test01/altibase_home/include/sqlucode.h
+ /home/pi/altibase-server-7.1.0/include/sqlcli.h \
+ /home/pi/altibase-server-7.1.0/include/sqltypes.h \
+ /home/pi/altibase-server-7.1.0/include/sql.h \
+ /home/pi/altibase-server-7.1.0/include/sqlext.h \
+ /home/pi/altibase-server-7.1.0/include/sqlucode.h
 
-/data/test01/altibase_home/include/sqlcli.h:
+/home/pi/altibase-server-7.1.0/include/sqlcli.h:
 
-/data/test01/altibase_home/include/sqltypes.h:
+/home/pi/altibase-server-7.1.0/include/sqltypes.h:
 
-/data/test01/altibase_home/include/sql.h:
+/home/pi/altibase-server-7.1.0/include/sql.h:
 
-/data/test01/altibase_home/include/sqlext.h:
+/home/pi/altibase-server-7.1.0/include/sqlext.h:
 
-/data/test01/altibase_home/include/sqlucode.h:
+/home/pi/altibase-server-7.1.0/include/sqlucode.h:

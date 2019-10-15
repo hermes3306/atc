@@ -27,8 +27,6 @@ for x in range(60) :
 
         
         t_id = random.randint(0,19)
-		
-
         site_id = site_arr[t_id]
         building_id = building_arr[t_id]
         floor_id = floor_arr[t_id]
@@ -47,7 +45,7 @@ for x in range(60) :
         print('SENSOR =  {}  :    {}      :   {}  :    {}    :     {}  :    {}   : {} : {} : {} : {} : {}: {} '.format(site_id, building_id, floor_id, sector_id,sensor_id, sensor_unit_id, val_1, val_2, val_3, val_4, val_5, val_6))
 
 
-        sql = "insert into tbl_sm_data(TIME_STAMP, SITE_ID, BUILDING_ID, FLOOR_ID, SECTOR_ID, SENSOR_ID, SENSOR_UNIT_ID, VALUE_COL_1, VALUE_COL_2, VALUE_COL_3, VALUE_COL_4, VALUE_COL_5, VALUE_COL_6,ID) values(sysdate,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,id_seq.nextval)"
+        sql = "insert into tbl_sm_data(TIME_STAMP, SITE_ID, BUILDING_ID, FLOOR_ID, SECTOR_ID, SENSOR_ID, SENSOR_UNIT_ID, VALUE_COL_1, VALUE_COL_2, VALUE_COL_3, VALUE_COL_4, VALUE_COL_5, VALUE_COL_6) values(sysdate,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
 
         cur.execute(sql, ( site_id, building_id, floor_id, sector_id, sensor_id, sensor_unit_id, val_1, val_2, val_3, val_4, val_5, val_6))
 

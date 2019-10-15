@@ -17,37 +17,41 @@ g_arr = [0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0];
 w_arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 p_arr = [0,1,1,2,1,1,0,0,0,1,1,0,1,0,0,1,0,1,0,0];
 
+
 conn = pyodbc.connect('DSN=ALTI_UNIXODBC; SERVER=127.0.0.1; PORT_NO=20300; NLS_USE=UTF8; UID=smssuser; PWD=smssuser')
+
 cur = conn.cursor()
 
 print('SENSOR   Site : Building : Floor : Sector : Sensor : ReportSec :  T : H : L : G : W : P')
-
 for x in range(60) :
-	try:
-		t_id = random.randint(0,19)
-		site_id = site_arr[t_id]
-		building_id = building_arr[t_id]
-		floor_id = floor_arr[t_id]
-		sector_id = sector_arr[t_id]
-		sensor_id = sensor_arr[t_id]
-		sensor_unit_id = report_arr[t_id]
 
-		val_1 = t_arr[t_id] + random.randint(0,2)
-		val_2 = h_arr[t_id] + random.randint(0,2)
-		val_3 = l_arr[t_id] + random.randint(0,29)
-		val_4 = g_arr[t_id] + random.randint(0,1)
-		val_5 = w_arr[t_id] + random.randint(0,1)
-		val_6 = p_arr[t_id] + random.randint(0,1)
+        
+        t_id = random.randint(0,19)
+        site_id = site_arr[t_id]
+        building_id = building_arr[t_id]
+        floor_id = floor_arr[t_id]
+        sector_id = sector_arr[t_id]
+        sensor_id = sensor_arr[t_id]
+        sensor_unit_id = report_arr[t_id]
 
-		print('SENSOR =  {}  :    {}      :   {}  :    {}    :     {}  :    {}   : {} : {} : {} : {} : {}: {} '.format(site_id, building_id, floor_id, sector_id,sensor_id, sensor_unit_id, val_1, val_2, val_3, val_4, val_5, val_6))
+        val_1 = t_arr[t_id] + random.randint(0,2)
+        val_2 = h_arr[t_id] + random.randint(0,2)
+        val_3 = l_arr[t_id] + random.randint(0,29)
+        val_4 = g_arr[t_id] + random.randint(0,1)
+        val_5 = w_arr[t_id] + random.randint(0,1)
+        val_6 = p_arr[t_id] + random.randint(0,1)
 
-		sql = "insert into smssuser.tbl_sm_data(TIME_STAMP, SITE_ID, BUILDING_ID, FLOOR_ID, SECTOR_ID, SENSOR_ID, SENSOR_UNIT_ID, VALUE_COL_1, VALUE_COL_2, VALUE_COL_3, VALUE_COL_4, VALUE_COL_5, VALUE_COL_6) values(sysdate, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+        
+        print('SENSOR =  {}  :    {}      :   {}  :    {}    :     {}  :    {}   : {} : {} : {} : {} : {}: {} '.format(site_id, building_id, floor_id, sector_id,sensor_id, sensor_unit_id, val_1, val_2, val_3, val_4, val_5, val_6))
 
-#	print(sql)
-		cur.execute(sql, ( site_id, building_id, floor_id, sector_id, sensor_id, sensor_unit_id, val_1, val_2, val_3, val_4, val_5, val_6))
-		conn.commit()
-	except err:
-		print(err)
-		logging.warn(err)
+
+        sql = "insert into tbl_sm_data(TIME_STAMP, SITE_ID, BUILDING_ID, FLOOR_ID, SECTOR_ID, SENSOR_ID, SENSOR_UNIT_ID, VALUE_COL_1, VALUE_COL_2, VALUE_COL_3, VALUE_COL_4, VALUE_COL_5, VALUE_COL_6) values(sysdate,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+
+        cur.execute(sql, ( site_id, building_id, floor_id, sector_id, sensor_id, sensor_unit_id, val_1, val_2, val_3, val_4, val_5, val_6))
+
+        conn.commit()
+        time.sleep(1)
+
 cur.close()
 conn.close()
+
