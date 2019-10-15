@@ -9,6 +9,8 @@ sql = "select SITE_ID, BUILDING_ID, FLOOR_ID, SECTOR_ID, SENSOR_ID, SENSOR_UNIT_
 dbcursor1.execute(sql)
 data = dbcursor1.fetchall()
 
+print('SENSOR   Site : Building : Floor : Sector : Sensor : ReportSec :  T : H : L : G : W : P')
+
 for x in data:
 	site_id 	= x[0]	
 	building_id 	= x[1]	

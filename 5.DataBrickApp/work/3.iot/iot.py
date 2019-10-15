@@ -23,7 +23,8 @@ conn = pyodbc.connect('DSN=ALTI_UNIXODBC; SERVER=127.0.0.1; PORT_NO=20300; NLS_U
 cur = conn.cursor()
 
 print('SENSOR   Site : Building : Floor : Sector : Sensor : ReportSec :  T : H : L : G : W : P')
-for x in range(60) :
+#for x in range(60) :
+while (1) :
 
         
         t_id = random.randint(0,19)
