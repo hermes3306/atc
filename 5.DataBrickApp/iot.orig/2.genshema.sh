@@ -1,0 +1,21 @@
+isql -u SMSSUSER -p SMSSUSER -s pc0 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc1 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc2 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc3 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc4 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc5 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc6 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc7 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc8 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc9 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc10 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc11 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc12 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc13 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc14 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc15 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc16 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc17 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc18 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc19 -f 2.schema.sql
+
