@@ -41,10 +41,18 @@ for x in range(60) :
 
 		print('SENSOR =  {}  :    {}      :   {}  :    {}    :     {}  :    {}   : {} : {} : {} : {} : {}: {} '.format(site_id, building_id, floor_id, sector_id,sensor_id, sensor_unit_id, val_1, val_2, val_3, val_4, val_5, val_6))
 
-		sql = "insert into smssuser.tbl_sm_data(TIME_STAMP, SITE_ID, BUILDING_ID, FLOOR_ID, SECTOR_ID, SENSOR_ID, SENSOR_UNIT_ID, VALUE_COL_1, VALUE_COL_2, VALUE_COL_3, VALUE_COL_4, VALUE_COL_5, VALUE_COL_6) values(sysdate, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+		sql = "insert into smssuser.tbl_sm_data(TIME_STAMP, SENSOR_ID, VALUE_COL_1, VALUE_COL_2, VALUE_COL_3, VALUE_COL_4, VALUE_COL_5, VALUE_COL_6) values(sysdate,"
+		sql += str(sensor_id) + ","
+		sql += str(val_1) + ","
+		sql += str(val_2) + ","
+		sql += str(val_3) + ","
+		sql += str(val_4) + ","
+		sql += str(val_5) + ","
+		sql += str(val_6)
+		sql += ")"
+		print(sql)
 
-#	print(sql)
-		cur.execute(sql, ( site_id, building_id, floor_id, sector_id, sensor_id, sensor_unit_id, val_1, val_2, val_3, val_4, val_5, val_6))
+		cur.execute(sql)
 		conn.commit()
 	except err:
 		print(err)
