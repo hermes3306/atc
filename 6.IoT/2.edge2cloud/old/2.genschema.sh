@@ -1,0 +1,10 @@
+isql -u SMSSUSER -p SMSSUSER -s pc1 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc2 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc3 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc4 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc5 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc6 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc7 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc8 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc0 -f 2.schema.sql
+isql -u SMSSUSER -p SMSSUSER -s pc9 -f 2.schema.sql
