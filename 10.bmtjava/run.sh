@@ -1,21 +1,25 @@
 #!/bin/sh
 
 HOST="localhost"
-PORT="20300"
-CONNTYPE="1"
+CLASSPATH=".:/home/pi/AB631/lib/Altibase5.jar:/home/pi/AB631/lib/Altibase.jar"
 
-THREADS="128"
-#RECORDS="3000000000"
-RECORDS="10000"
-RECORDS2="10000"
-UNIT="1000"
+if [ "$ALTIBASE_PORT_NO" ];
+then
+    PORT=$ALTIBASE_PORT_NO
+else
+    PORT="20300"
+fi
+CONNTYPE="2"
+
+THREADS="2"
+RECORDS="1000"
+UNIT="100"
 THRESHOLD="1000"
 CAP="0"
 USER="SYS"
 PASSWORD="MANAGER"
-OPTION="DSN=$HOST;PORT_NO=$PORT;CONNTYPE=$CONNTYPE"
+OPTION=":$PORT/mydb"
 
-./configure.sh
 make clean
 make
 echo
@@ -38,7 +42,8 @@ START="0"
 for THREAD in $THREADS
 do
 isql -s $HOST -u $USER -p $PASSWORD -port $PORT -f checkpoint.sql
-./bmt_insert $THREAD $START $RECORDS $UNIT $THRESHOLD $CAP $USER $PASSWORD $OPTION
+sleep 1
+java -cp $CLASSPATH bmt_insert $THREAD $START $RECORDS $UNIT $THRESHOLD $CAP $HOST $USER $PASSWORD $OPTION
 START=`expr $START + $RECORDS`
 done
 
@@ -46,6 +51,9 @@ START="0"
 for THREAD in $THREADS
 do
 isql -s $HOST -u $USER -p $PASSWORD -port $PORT -f checkpoint.sql
-./bmt_insert $THREAD $START $RECORDS2  $UNIT $THRESHOLD $CAP $USER $PASSWORD $OPTION
+sleep 1
+java -cp $CLASSPATH bmt_select $THREAD $START $RECORDS $UNIT $THRESHOLD $CAP $HOST $USER $PASSWORD $OPTION
 START=`expr $START + $RECORDS`
 done
+
+isql -s $HOST -u $USER -p $PASSWORD -port $PORT -f drop.sql
