@@ -1,0 +1,2870 @@
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB01, PORT_NO = 20300
+iSQL> alter replication rep1 stop;
+Alter success.
+iSQL> alter replication rep2 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep3 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep4 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep5 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep6 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep7 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep8 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep9 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep10 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep1;
+Drop success.
+iSQL> drop replication rep2;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep3;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep4;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep5;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep6;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep7;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep8;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep9;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep10;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop user SMSSUSER cascade;
+Drop success.
+iSQL> create user SMSSUSER identified by SMSSUSER;
+Create success.
+iSQL> grant all privileges to SMSSUSER; 
+Grant success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB02, PORT_NO = 20300
+iSQL> alter replication rep1 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep2 stop;
+Alter success.
+iSQL> alter replication rep3 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep4 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep5 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep6 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep7 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep8 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep9 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep10 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep1;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep2;
+Drop success.
+iSQL> drop replication rep3;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep4;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep5;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep6;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep7;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep8;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep9;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep10;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop user SMSSUSER cascade;
+Drop success.
+iSQL> create user SMSSUSER identified by SMSSUSER;
+Create success.
+iSQL> grant all privileges to SMSSUSER; 
+Grant success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB03, PORT_NO = 20300
+iSQL> alter replication rep1 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep2 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep3 stop;
+Alter success.
+iSQL> alter replication rep4 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep5 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep6 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep7 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep8 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep9 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep10 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep1;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep2;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep3;
+Drop success.
+iSQL> drop replication rep4;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep5;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep6;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep7;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep8;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep9;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep10;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop user SMSSUSER cascade;
+Drop success.
+iSQL> create user SMSSUSER identified by SMSSUSER;
+Create success.
+iSQL> grant all privileges to SMSSUSER; 
+Grant success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB04, PORT_NO = 20300
+iSQL> alter replication rep1 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep2 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep3 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep4 stop;
+Alter success.
+iSQL> alter replication rep5 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep6 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep7 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep8 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep9 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep10 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep1;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep2;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep3;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep4;
+Drop success.
+iSQL> drop replication rep5;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep6;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep7;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep8;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep9;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep10;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop user SMSSUSER cascade;
+Drop success.
+iSQL> create user SMSSUSER identified by SMSSUSER;
+Create success.
+iSQL> grant all privileges to SMSSUSER; 
+Grant success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB05, PORT_NO = 20300
+iSQL> alter replication rep1 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep2 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep3 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep4 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep5 stop;
+Alter success.
+iSQL> alter replication rep6 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep7 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep8 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep9 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep10 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep1;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep2;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep3;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep4;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep5;
+Drop success.
+iSQL> drop replication rep6;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep7;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep8;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep9;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep10;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop user SMSSUSER cascade;
+Drop success.
+iSQL> create user SMSSUSER identified by SMSSUSER;
+Create success.
+iSQL> grant all privileges to SMSSUSER; 
+Grant success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB06, PORT_NO = 20300
+iSQL> alter replication rep1 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep2 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep3 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep4 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep5 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep6 stop;
+Alter success.
+iSQL> alter replication rep7 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep8 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep9 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep10 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep1;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep2;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep3;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep4;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep5;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep6;
+Drop success.
+iSQL> drop replication rep7;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep8;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep9;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep10;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop user SMSSUSER cascade;
+Drop success.
+iSQL> create user SMSSUSER identified by SMSSUSER;
+Create success.
+iSQL> grant all privileges to SMSSUSER; 
+Grant success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB07, PORT_NO = 20300
+iSQL> alter replication rep1 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep2 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep3 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep4 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep5 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep6 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep7 stop;
+Alter success.
+iSQL> alter replication rep8 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep9 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep10 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep1;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep2;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep3;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep4;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep5;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep6;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep7;
+Drop success.
+iSQL> drop replication rep8;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep9;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep10;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop user SMSSUSER cascade;
+Drop success.
+iSQL> create user SMSSUSER identified by SMSSUSER;
+Create success.
+iSQL> grant all privileges to SMSSUSER; 
+Grant success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB08, PORT_NO = 20300
+iSQL> alter replication rep1 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep2 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep3 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep4 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep5 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep6 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep7 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep8 stop;
+Alter success.
+iSQL> alter replication rep9 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep10 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep1;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep2;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep3;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep4;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep5;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep6;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep7;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep8;
+Drop success.
+iSQL> drop replication rep9;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep10;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop user SMSSUSER cascade;
+Drop success.
+iSQL> create user SMSSUSER identified by SMSSUSER;
+Create success.
+iSQL> grant all privileges to SMSSUSER; 
+Grant success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB09, PORT_NO = 20300
+iSQL> alter replication rep1 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep2 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep3 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep4 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep5 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep6 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep7 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep8 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep9 stop;
+Alter success.
+iSQL> alter replication rep10 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep1;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep2;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep3;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep4;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep5;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep6;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep7;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep8;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep9;
+Drop success.
+iSQL> drop replication rep10;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop user SMSSUSER cascade;
+Drop success.
+iSQL> create user SMSSUSER identified by SMSSUSER;
+Create success.
+iSQL> grant all privileges to SMSSUSER; 
+Grant success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB10, PORT_NO = 20300
+iSQL> alter replication rep1 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep2 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep3 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep4 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep5 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep6 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep7 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep8 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep9 stop;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> alter replication rep10 stop;
+Alter success.
+iSQL> drop replication rep1;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep2;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep3;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep4;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep5;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep6;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep7;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep8;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep9;
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+iSQL> drop replication rep10;
+Drop success.
+iSQL> drop user SMSSUSER cascade;
+Drop success.
+iSQL> create user SMSSUSER identified by SMSSUSER;
+Create success.
+iSQL> grant all privileges to SMSSUSER; 
+Grant success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB11, PORT_NO = 20300
+iSQL> alter replication rep1 stop;
+[ERR-61027 : Replication did not start.]
+iSQL> alter replication rep2 stop;
+[ERR-61027 : Replication did not start.]
+iSQL> alter replication rep3 stop;
+[ERR-61027 : Replication did not start.]
+iSQL> alter replication rep4 stop;
+[ERR-61027 : Replication did not start.]
+iSQL> alter replication rep5 stop;
+[ERR-61027 : Replication did not start.]
+iSQL> alter replication rep6 stop;
+[ERR-61027 : Replication did not start.]
+iSQL> alter replication rep7 stop;
+[ERR-61027 : Replication did not start.]
+iSQL> alter replication rep8 stop;
+[ERR-61027 : Replication did not start.]
+iSQL> alter replication rep9 stop;
+[ERR-61027 : Replication did not start.]
+iSQL> alter replication rep10 stop;
+[ERR-61027 : Replication did not start.]
+iSQL> drop replication rep1;
+Drop success.
+iSQL> drop replication rep2;
+Drop success.
+iSQL> drop replication rep3;
+Drop success.
+iSQL> drop replication rep4;
+Drop success.
+iSQL> drop replication rep5;
+Drop success.
+iSQL> drop replication rep6;
+Drop success.
+iSQL> drop replication rep7;
+Drop success.
+iSQL> drop replication rep8;
+Drop success.
+iSQL> drop replication rep9;
+Drop success.
+iSQL> drop replication rep10;
+Drop success.
+iSQL> drop user SMSSUSER cascade;
+Drop success.
+iSQL> create user SMSSUSER identified by SMSSUSER;
+Create success.
+iSQL> grant all privileges to SMSSUSER; 
+Grant success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB01, PORT_NO = 20300
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_INFO
+(
+    SENSOR_ID       BIGINT NOT NULL,
+    SECTOR_ID       BIGINT NOT NULL,
+    FLOOR_ID        BIGINT NOT NULL,
+    BUILDING_ID     BIGINT NOT NULL,
+    SITE_ID         BIGINT NOT NULL,
+    SERIAL_NO       VARCHAR(32),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    SENSOR_UNIT_ID  INTEGER DEFAULT 0 NOT NULL,
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_INFO
+ADD UNIQUE (SENSOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_UNIT
+(
+    SENSOR_UNIT_ID  INTEGER NOT NULL,
+    COL_NAME_1      VARCHAR(20),
+    COL_NAME_2      VARCHAR(20),
+    COL_NAME_3      VARCHAR(20),
+    COL_NAME_4      VARCHAR(20),
+    COL_NAME_5      VARCHAR(20),
+    COL_NAME_6      VARCHAR(20),
+    COL_NAME_7      VARCHAR(20),
+    COL_NAME_8      VARCHAR(20),
+    COL_NAME_9      VARCHAR(20),
+    COL_NAME_10     VARCHAR(20),
+    COL_NAME_11     VARCHAR(20),
+    COL_NAME_12     VARCHAR(20),
+    COL_NAME_13     VARCHAR(20),
+    COL_NAME_14     VARCHAR(20),
+    COL_NAME_15     VARCHAR(20),
+    COL_NAME_16     VARCHAR(20),
+    COL_NAME_17     VARCHAR(20),
+    COL_NAME_18     VARCHAR(20),
+    COL_NAME_19     VARCHAR(20),
+    COL_NAME_20     VARCHAR(20),
+    COL_NAME_21     VARCHAR(20),
+    COL_NAME_22     VARCHAR(20),
+    COL_NAME_23     VARCHAR(20),
+    COL_NAME_24     VARCHAR(20),
+    COL_NAME_25     VARCHAR(20),
+    COL_NAME_26     VARCHAR(20),
+    COL_NAME_27     VARCHAR(20),
+    COL_NAME_28     VARCHAR(20),
+    COL_NAME_29     VARCHAR(20),
+    COL_NAME_30     VARCHAR(20),
+    COL_NAME_31     VARCHAR(20),
+    COL_NAME_32     VARCHAR(20),
+    COL_NAME_33     VARCHAR(20),
+    COL_NAME_34     VARCHAR(20),
+    COL_NAME_35     VARCHAR(20),
+    COL_NAME_36     VARCHAR(20),
+    COL_NAME_37     VARCHAR(20),
+    COL_NAME_38     VARCHAR(20),
+    COL_NAME_39     VARCHAR(20),
+    COL_NAME_40     VARCHAR(20)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_UNIT
+ADD UNIQUE (SENSOR_UNIT_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+(
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+ADD UNIQUE (BUILDING_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_DATA
+(
+    TIME_STAMP      DATE,
+    SITE_ID         BIGINT,
+    BUILDING_ID     BIGINT,
+    FLOOR_ID        BIGINT,
+    SECTOR_ID       BIGINT,
+    SENSOR_ID       BIGINT,
+    SENSOR_UNIT_ID  INTEGER,
+    VALUE_COL_1     INTEGER,
+    VALUE_COL_2     INTEGER,
+    VALUE_COL_3     INTEGER,
+    VALUE_COL_4     INTEGER,
+    VALUE_COL_5     INTEGER,
+    VALUE_COL_6     INTEGER,
+    VALUE_COL_7     INTEGER,
+    VALUE_COL_8     INTEGER,
+    VALUE_COL_9     INTEGER,
+    VALUE_COL_10    INTEGER,
+    VALUE_COL_11    INTEGER,
+    VALUE_COL_12    INTEGER,
+    VALUE_COL_13    INTEGER,
+    VALUE_COL_14    INTEGER,
+    VALUE_COL_15    INTEGER,
+    VALUE_COL_16    INTEGER,
+    VALUE_COL_17    INTEGER,
+    VALUE_COL_18    INTEGER,
+    VALUE_COL_19    INTEGER,
+    VALUE_COL_20    INTEGER,
+    VALUE_COL_21    INTEGER,
+    VALUE_COL_22    INTEGER,
+    VALUE_COL_23    INTEGER,
+    VALUE_COL_24    INTEGER,
+    VALUE_COL_25    INTEGER,
+    VALUE_COL_26    INTEGER,
+    VALUE_COL_27    INTEGER,
+    VALUE_COL_28    INTEGER,
+    VALUE_COL_29    INTEGER,
+    VALUE_COL_30    INTEGER,
+    VALUE_COL_31    INTEGER,
+    VALUE_COL_32    INTEGER,
+    VALUE_COL_33    INTEGER,
+    VALUE_COL_34    INTEGER,
+    VALUE_COL_35    INTEGER,
+    VALUE_COL_36    INTEGER,
+    VALUE_COL_37    INTEGER,
+    VALUE_COL_38    INTEGER,
+    VALUE_COL_39    INTEGER,
+    VALUE_COL_40    INTEGER
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_DATA
+ADD PRIMARY KEY (SENSOR_ID, TIME_STAMP);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+(
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+ADD UNIQUE (FLOOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+(
+    SECTOR_ID   BIGINT NOT NULL,
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+ADD UNIQUE (SECTOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SITE_INFO
+(
+    SITE_ID         BIGINT NOT NULL,
+    TELEPHONE_NO    VARCHAR(20),
+    SITE_NAME       VARCHAR(64),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    ADDR_LINE1      VARCHAR(128),
+    ADDR_LINE2      VARCHAR(128),
+    ADDR_CITY       VARCHAR(64),
+    ADDR_STATE      VARCHAR(128),
+    ADDR_COUNTRY    VARCHAR(64),
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SITE_INFO
+ADD UNIQUE (SITE_ID);
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB02, PORT_NO = 20300
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_INFO
+(
+    SENSOR_ID       BIGINT NOT NULL,
+    SECTOR_ID       BIGINT NOT NULL,
+    FLOOR_ID        BIGINT NOT NULL,
+    BUILDING_ID     BIGINT NOT NULL,
+    SITE_ID         BIGINT NOT NULL,
+    SERIAL_NO       VARCHAR(32),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    SENSOR_UNIT_ID  INTEGER DEFAULT 0 NOT NULL,
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_INFO
+ADD UNIQUE (SENSOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_UNIT
+(
+    SENSOR_UNIT_ID  INTEGER NOT NULL,
+    COL_NAME_1      VARCHAR(20),
+    COL_NAME_2      VARCHAR(20),
+    COL_NAME_3      VARCHAR(20),
+    COL_NAME_4      VARCHAR(20),
+    COL_NAME_5      VARCHAR(20),
+    COL_NAME_6      VARCHAR(20),
+    COL_NAME_7      VARCHAR(20),
+    COL_NAME_8      VARCHAR(20),
+    COL_NAME_9      VARCHAR(20),
+    COL_NAME_10     VARCHAR(20),
+    COL_NAME_11     VARCHAR(20),
+    COL_NAME_12     VARCHAR(20),
+    COL_NAME_13     VARCHAR(20),
+    COL_NAME_14     VARCHAR(20),
+    COL_NAME_15     VARCHAR(20),
+    COL_NAME_16     VARCHAR(20),
+    COL_NAME_17     VARCHAR(20),
+    COL_NAME_18     VARCHAR(20),
+    COL_NAME_19     VARCHAR(20),
+    COL_NAME_20     VARCHAR(20),
+    COL_NAME_21     VARCHAR(20),
+    COL_NAME_22     VARCHAR(20),
+    COL_NAME_23     VARCHAR(20),
+    COL_NAME_24     VARCHAR(20),
+    COL_NAME_25     VARCHAR(20),
+    COL_NAME_26     VARCHAR(20),
+    COL_NAME_27     VARCHAR(20),
+    COL_NAME_28     VARCHAR(20),
+    COL_NAME_29     VARCHAR(20),
+    COL_NAME_30     VARCHAR(20),
+    COL_NAME_31     VARCHAR(20),
+    COL_NAME_32     VARCHAR(20),
+    COL_NAME_33     VARCHAR(20),
+    COL_NAME_34     VARCHAR(20),
+    COL_NAME_35     VARCHAR(20),
+    COL_NAME_36     VARCHAR(20),
+    COL_NAME_37     VARCHAR(20),
+    COL_NAME_38     VARCHAR(20),
+    COL_NAME_39     VARCHAR(20),
+    COL_NAME_40     VARCHAR(20)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_UNIT
+ADD UNIQUE (SENSOR_UNIT_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+(
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+ADD UNIQUE (BUILDING_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_DATA
+(
+    TIME_STAMP      DATE,
+    SITE_ID         BIGINT,
+    BUILDING_ID     BIGINT,
+    FLOOR_ID        BIGINT,
+    SECTOR_ID       BIGINT,
+    SENSOR_ID       BIGINT,
+    SENSOR_UNIT_ID  INTEGER,
+    VALUE_COL_1     INTEGER,
+    VALUE_COL_2     INTEGER,
+    VALUE_COL_3     INTEGER,
+    VALUE_COL_4     INTEGER,
+    VALUE_COL_5     INTEGER,
+    VALUE_COL_6     INTEGER,
+    VALUE_COL_7     INTEGER,
+    VALUE_COL_8     INTEGER,
+    VALUE_COL_9     INTEGER,
+    VALUE_COL_10    INTEGER,
+    VALUE_COL_11    INTEGER,
+    VALUE_COL_12    INTEGER,
+    VALUE_COL_13    INTEGER,
+    VALUE_COL_14    INTEGER,
+    VALUE_COL_15    INTEGER,
+    VALUE_COL_16    INTEGER,
+    VALUE_COL_17    INTEGER,
+    VALUE_COL_18    INTEGER,
+    VALUE_COL_19    INTEGER,
+    VALUE_COL_20    INTEGER,
+    VALUE_COL_21    INTEGER,
+    VALUE_COL_22    INTEGER,
+    VALUE_COL_23    INTEGER,
+    VALUE_COL_24    INTEGER,
+    VALUE_COL_25    INTEGER,
+    VALUE_COL_26    INTEGER,
+    VALUE_COL_27    INTEGER,
+    VALUE_COL_28    INTEGER,
+    VALUE_COL_29    INTEGER,
+    VALUE_COL_30    INTEGER,
+    VALUE_COL_31    INTEGER,
+    VALUE_COL_32    INTEGER,
+    VALUE_COL_33    INTEGER,
+    VALUE_COL_34    INTEGER,
+    VALUE_COL_35    INTEGER,
+    VALUE_COL_36    INTEGER,
+    VALUE_COL_37    INTEGER,
+    VALUE_COL_38    INTEGER,
+    VALUE_COL_39    INTEGER,
+    VALUE_COL_40    INTEGER
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_DATA
+ADD PRIMARY KEY (SENSOR_ID, TIME_STAMP);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+(
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+ADD UNIQUE (FLOOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+(
+    SECTOR_ID   BIGINT NOT NULL,
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+ADD UNIQUE (SECTOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SITE_INFO
+(
+    SITE_ID         BIGINT NOT NULL,
+    TELEPHONE_NO    VARCHAR(20),
+    SITE_NAME       VARCHAR(64),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    ADDR_LINE1      VARCHAR(128),
+    ADDR_LINE2      VARCHAR(128),
+    ADDR_CITY       VARCHAR(64),
+    ADDR_STATE      VARCHAR(128),
+    ADDR_COUNTRY    VARCHAR(64),
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SITE_INFO
+ADD UNIQUE (SITE_ID);
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB03, PORT_NO = 20300
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_INFO
+(
+    SENSOR_ID       BIGINT NOT NULL,
+    SECTOR_ID       BIGINT NOT NULL,
+    FLOOR_ID        BIGINT NOT NULL,
+    BUILDING_ID     BIGINT NOT NULL,
+    SITE_ID         BIGINT NOT NULL,
+    SERIAL_NO       VARCHAR(32),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    SENSOR_UNIT_ID  INTEGER DEFAULT 0 NOT NULL,
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_INFO
+ADD UNIQUE (SENSOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_UNIT
+(
+    SENSOR_UNIT_ID  INTEGER NOT NULL,
+    COL_NAME_1      VARCHAR(20),
+    COL_NAME_2      VARCHAR(20),
+    COL_NAME_3      VARCHAR(20),
+    COL_NAME_4      VARCHAR(20),
+    COL_NAME_5      VARCHAR(20),
+    COL_NAME_6      VARCHAR(20),
+    COL_NAME_7      VARCHAR(20),
+    COL_NAME_8      VARCHAR(20),
+    COL_NAME_9      VARCHAR(20),
+    COL_NAME_10     VARCHAR(20),
+    COL_NAME_11     VARCHAR(20),
+    COL_NAME_12     VARCHAR(20),
+    COL_NAME_13     VARCHAR(20),
+    COL_NAME_14     VARCHAR(20),
+    COL_NAME_15     VARCHAR(20),
+    COL_NAME_16     VARCHAR(20),
+    COL_NAME_17     VARCHAR(20),
+    COL_NAME_18     VARCHAR(20),
+    COL_NAME_19     VARCHAR(20),
+    COL_NAME_20     VARCHAR(20),
+    COL_NAME_21     VARCHAR(20),
+    COL_NAME_22     VARCHAR(20),
+    COL_NAME_23     VARCHAR(20),
+    COL_NAME_24     VARCHAR(20),
+    COL_NAME_25     VARCHAR(20),
+    COL_NAME_26     VARCHAR(20),
+    COL_NAME_27     VARCHAR(20),
+    COL_NAME_28     VARCHAR(20),
+    COL_NAME_29     VARCHAR(20),
+    COL_NAME_30     VARCHAR(20),
+    COL_NAME_31     VARCHAR(20),
+    COL_NAME_32     VARCHAR(20),
+    COL_NAME_33     VARCHAR(20),
+    COL_NAME_34     VARCHAR(20),
+    COL_NAME_35     VARCHAR(20),
+    COL_NAME_36     VARCHAR(20),
+    COL_NAME_37     VARCHAR(20),
+    COL_NAME_38     VARCHAR(20),
+    COL_NAME_39     VARCHAR(20),
+    COL_NAME_40     VARCHAR(20)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_UNIT
+ADD UNIQUE (SENSOR_UNIT_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+(
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+ADD UNIQUE (BUILDING_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_DATA
+(
+    TIME_STAMP      DATE,
+    SITE_ID         BIGINT,
+    BUILDING_ID     BIGINT,
+    FLOOR_ID        BIGINT,
+    SECTOR_ID       BIGINT,
+    SENSOR_ID       BIGINT,
+    SENSOR_UNIT_ID  INTEGER,
+    VALUE_COL_1     INTEGER,
+    VALUE_COL_2     INTEGER,
+    VALUE_COL_3     INTEGER,
+    VALUE_COL_4     INTEGER,
+    VALUE_COL_5     INTEGER,
+    VALUE_COL_6     INTEGER,
+    VALUE_COL_7     INTEGER,
+    VALUE_COL_8     INTEGER,
+    VALUE_COL_9     INTEGER,
+    VALUE_COL_10    INTEGER,
+    VALUE_COL_11    INTEGER,
+    VALUE_COL_12    INTEGER,
+    VALUE_COL_13    INTEGER,
+    VALUE_COL_14    INTEGER,
+    VALUE_COL_15    INTEGER,
+    VALUE_COL_16    INTEGER,
+    VALUE_COL_17    INTEGER,
+    VALUE_COL_18    INTEGER,
+    VALUE_COL_19    INTEGER,
+    VALUE_COL_20    INTEGER,
+    VALUE_COL_21    INTEGER,
+    VALUE_COL_22    INTEGER,
+    VALUE_COL_23    INTEGER,
+    VALUE_COL_24    INTEGER,
+    VALUE_COL_25    INTEGER,
+    VALUE_COL_26    INTEGER,
+    VALUE_COL_27    INTEGER,
+    VALUE_COL_28    INTEGER,
+    VALUE_COL_29    INTEGER,
+    VALUE_COL_30    INTEGER,
+    VALUE_COL_31    INTEGER,
+    VALUE_COL_32    INTEGER,
+    VALUE_COL_33    INTEGER,
+    VALUE_COL_34    INTEGER,
+    VALUE_COL_35    INTEGER,
+    VALUE_COL_36    INTEGER,
+    VALUE_COL_37    INTEGER,
+    VALUE_COL_38    INTEGER,
+    VALUE_COL_39    INTEGER,
+    VALUE_COL_40    INTEGER
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_DATA
+ADD PRIMARY KEY (SENSOR_ID, TIME_STAMP);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+(
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+ADD UNIQUE (FLOOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+(
+    SECTOR_ID   BIGINT NOT NULL,
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+ADD UNIQUE (SECTOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SITE_INFO
+(
+    SITE_ID         BIGINT NOT NULL,
+    TELEPHONE_NO    VARCHAR(20),
+    SITE_NAME       VARCHAR(64),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    ADDR_LINE1      VARCHAR(128),
+    ADDR_LINE2      VARCHAR(128),
+    ADDR_CITY       VARCHAR(64),
+    ADDR_STATE      VARCHAR(128),
+    ADDR_COUNTRY    VARCHAR(64),
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SITE_INFO
+ADD UNIQUE (SITE_ID);
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB04, PORT_NO = 20300
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_INFO
+(
+    SENSOR_ID       BIGINT NOT NULL,
+    SECTOR_ID       BIGINT NOT NULL,
+    FLOOR_ID        BIGINT NOT NULL,
+    BUILDING_ID     BIGINT NOT NULL,
+    SITE_ID         BIGINT NOT NULL,
+    SERIAL_NO       VARCHAR(32),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    SENSOR_UNIT_ID  INTEGER DEFAULT 0 NOT NULL,
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_INFO
+ADD UNIQUE (SENSOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_UNIT
+(
+    SENSOR_UNIT_ID  INTEGER NOT NULL,
+    COL_NAME_1      VARCHAR(20),
+    COL_NAME_2      VARCHAR(20),
+    COL_NAME_3      VARCHAR(20),
+    COL_NAME_4      VARCHAR(20),
+    COL_NAME_5      VARCHAR(20),
+    COL_NAME_6      VARCHAR(20),
+    COL_NAME_7      VARCHAR(20),
+    COL_NAME_8      VARCHAR(20),
+    COL_NAME_9      VARCHAR(20),
+    COL_NAME_10     VARCHAR(20),
+    COL_NAME_11     VARCHAR(20),
+    COL_NAME_12     VARCHAR(20),
+    COL_NAME_13     VARCHAR(20),
+    COL_NAME_14     VARCHAR(20),
+    COL_NAME_15     VARCHAR(20),
+    COL_NAME_16     VARCHAR(20),
+    COL_NAME_17     VARCHAR(20),
+    COL_NAME_18     VARCHAR(20),
+    COL_NAME_19     VARCHAR(20),
+    COL_NAME_20     VARCHAR(20),
+    COL_NAME_21     VARCHAR(20),
+    COL_NAME_22     VARCHAR(20),
+    COL_NAME_23     VARCHAR(20),
+    COL_NAME_24     VARCHAR(20),
+    COL_NAME_25     VARCHAR(20),
+    COL_NAME_26     VARCHAR(20),
+    COL_NAME_27     VARCHAR(20),
+    COL_NAME_28     VARCHAR(20),
+    COL_NAME_29     VARCHAR(20),
+    COL_NAME_30     VARCHAR(20),
+    COL_NAME_31     VARCHAR(20),
+    COL_NAME_32     VARCHAR(20),
+    COL_NAME_33     VARCHAR(20),
+    COL_NAME_34     VARCHAR(20),
+    COL_NAME_35     VARCHAR(20),
+    COL_NAME_36     VARCHAR(20),
+    COL_NAME_37     VARCHAR(20),
+    COL_NAME_38     VARCHAR(20),
+    COL_NAME_39     VARCHAR(20),
+    COL_NAME_40     VARCHAR(20)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_UNIT
+ADD UNIQUE (SENSOR_UNIT_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+(
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+ADD UNIQUE (BUILDING_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_DATA
+(
+    TIME_STAMP      DATE,
+    SITE_ID         BIGINT,
+    BUILDING_ID     BIGINT,
+    FLOOR_ID        BIGINT,
+    SECTOR_ID       BIGINT,
+    SENSOR_ID       BIGINT,
+    SENSOR_UNIT_ID  INTEGER,
+    VALUE_COL_1     INTEGER,
+    VALUE_COL_2     INTEGER,
+    VALUE_COL_3     INTEGER,
+    VALUE_COL_4     INTEGER,
+    VALUE_COL_5     INTEGER,
+    VALUE_COL_6     INTEGER,
+    VALUE_COL_7     INTEGER,
+    VALUE_COL_8     INTEGER,
+    VALUE_COL_9     INTEGER,
+    VALUE_COL_10    INTEGER,
+    VALUE_COL_11    INTEGER,
+    VALUE_COL_12    INTEGER,
+    VALUE_COL_13    INTEGER,
+    VALUE_COL_14    INTEGER,
+    VALUE_COL_15    INTEGER,
+    VALUE_COL_16    INTEGER,
+    VALUE_COL_17    INTEGER,
+    VALUE_COL_18    INTEGER,
+    VALUE_COL_19    INTEGER,
+    VALUE_COL_20    INTEGER,
+    VALUE_COL_21    INTEGER,
+    VALUE_COL_22    INTEGER,
+    VALUE_COL_23    INTEGER,
+    VALUE_COL_24    INTEGER,
+    VALUE_COL_25    INTEGER,
+    VALUE_COL_26    INTEGER,
+    VALUE_COL_27    INTEGER,
+    VALUE_COL_28    INTEGER,
+    VALUE_COL_29    INTEGER,
+    VALUE_COL_30    INTEGER,
+    VALUE_COL_31    INTEGER,
+    VALUE_COL_32    INTEGER,
+    VALUE_COL_33    INTEGER,
+    VALUE_COL_34    INTEGER,
+    VALUE_COL_35    INTEGER,
+    VALUE_COL_36    INTEGER,
+    VALUE_COL_37    INTEGER,
+    VALUE_COL_38    INTEGER,
+    VALUE_COL_39    INTEGER,
+    VALUE_COL_40    INTEGER
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_DATA
+ADD PRIMARY KEY (SENSOR_ID, TIME_STAMP);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+(
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+ADD UNIQUE (FLOOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+(
+    SECTOR_ID   BIGINT NOT NULL,
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+ADD UNIQUE (SECTOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SITE_INFO
+(
+    SITE_ID         BIGINT NOT NULL,
+    TELEPHONE_NO    VARCHAR(20),
+    SITE_NAME       VARCHAR(64),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    ADDR_LINE1      VARCHAR(128),
+    ADDR_LINE2      VARCHAR(128),
+    ADDR_CITY       VARCHAR(64),
+    ADDR_STATE      VARCHAR(128),
+    ADDR_COUNTRY    VARCHAR(64),
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SITE_INFO
+ADD UNIQUE (SITE_ID);
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB05, PORT_NO = 20300
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_INFO
+(
+    SENSOR_ID       BIGINT NOT NULL,
+    SECTOR_ID       BIGINT NOT NULL,
+    FLOOR_ID        BIGINT NOT NULL,
+    BUILDING_ID     BIGINT NOT NULL,
+    SITE_ID         BIGINT NOT NULL,
+    SERIAL_NO       VARCHAR(32),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    SENSOR_UNIT_ID  INTEGER DEFAULT 0 NOT NULL,
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_INFO
+ADD UNIQUE (SENSOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_UNIT
+(
+    SENSOR_UNIT_ID  INTEGER NOT NULL,
+    COL_NAME_1      VARCHAR(20),
+    COL_NAME_2      VARCHAR(20),
+    COL_NAME_3      VARCHAR(20),
+    COL_NAME_4      VARCHAR(20),
+    COL_NAME_5      VARCHAR(20),
+    COL_NAME_6      VARCHAR(20),
+    COL_NAME_7      VARCHAR(20),
+    COL_NAME_8      VARCHAR(20),
+    COL_NAME_9      VARCHAR(20),
+    COL_NAME_10     VARCHAR(20),
+    COL_NAME_11     VARCHAR(20),
+    COL_NAME_12     VARCHAR(20),
+    COL_NAME_13     VARCHAR(20),
+    COL_NAME_14     VARCHAR(20),
+    COL_NAME_15     VARCHAR(20),
+    COL_NAME_16     VARCHAR(20),
+    COL_NAME_17     VARCHAR(20),
+    COL_NAME_18     VARCHAR(20),
+    COL_NAME_19     VARCHAR(20),
+    COL_NAME_20     VARCHAR(20),
+    COL_NAME_21     VARCHAR(20),
+    COL_NAME_22     VARCHAR(20),
+    COL_NAME_23     VARCHAR(20),
+    COL_NAME_24     VARCHAR(20),
+    COL_NAME_25     VARCHAR(20),
+    COL_NAME_26     VARCHAR(20),
+    COL_NAME_27     VARCHAR(20),
+    COL_NAME_28     VARCHAR(20),
+    COL_NAME_29     VARCHAR(20),
+    COL_NAME_30     VARCHAR(20),
+    COL_NAME_31     VARCHAR(20),
+    COL_NAME_32     VARCHAR(20),
+    COL_NAME_33     VARCHAR(20),
+    COL_NAME_34     VARCHAR(20),
+    COL_NAME_35     VARCHAR(20),
+    COL_NAME_36     VARCHAR(20),
+    COL_NAME_37     VARCHAR(20),
+    COL_NAME_38     VARCHAR(20),
+    COL_NAME_39     VARCHAR(20),
+    COL_NAME_40     VARCHAR(20)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_UNIT
+ADD UNIQUE (SENSOR_UNIT_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+(
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+ADD UNIQUE (BUILDING_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_DATA
+(
+    TIME_STAMP      DATE,
+    SITE_ID         BIGINT,
+    BUILDING_ID     BIGINT,
+    FLOOR_ID        BIGINT,
+    SECTOR_ID       BIGINT,
+    SENSOR_ID       BIGINT,
+    SENSOR_UNIT_ID  INTEGER,
+    VALUE_COL_1     INTEGER,
+    VALUE_COL_2     INTEGER,
+    VALUE_COL_3     INTEGER,
+    VALUE_COL_4     INTEGER,
+    VALUE_COL_5     INTEGER,
+    VALUE_COL_6     INTEGER,
+    VALUE_COL_7     INTEGER,
+    VALUE_COL_8     INTEGER,
+    VALUE_COL_9     INTEGER,
+    VALUE_COL_10    INTEGER,
+    VALUE_COL_11    INTEGER,
+    VALUE_COL_12    INTEGER,
+    VALUE_COL_13    INTEGER,
+    VALUE_COL_14    INTEGER,
+    VALUE_COL_15    INTEGER,
+    VALUE_COL_16    INTEGER,
+    VALUE_COL_17    INTEGER,
+    VALUE_COL_18    INTEGER,
+    VALUE_COL_19    INTEGER,
+    VALUE_COL_20    INTEGER,
+    VALUE_COL_21    INTEGER,
+    VALUE_COL_22    INTEGER,
+    VALUE_COL_23    INTEGER,
+    VALUE_COL_24    INTEGER,
+    VALUE_COL_25    INTEGER,
+    VALUE_COL_26    INTEGER,
+    VALUE_COL_27    INTEGER,
+    VALUE_COL_28    INTEGER,
+    VALUE_COL_29    INTEGER,
+    VALUE_COL_30    INTEGER,
+    VALUE_COL_31    INTEGER,
+    VALUE_COL_32    INTEGER,
+    VALUE_COL_33    INTEGER,
+    VALUE_COL_34    INTEGER,
+    VALUE_COL_35    INTEGER,
+    VALUE_COL_36    INTEGER,
+    VALUE_COL_37    INTEGER,
+    VALUE_COL_38    INTEGER,
+    VALUE_COL_39    INTEGER,
+    VALUE_COL_40    INTEGER
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_DATA
+ADD PRIMARY KEY (SENSOR_ID, TIME_STAMP);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+(
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+ADD UNIQUE (FLOOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+(
+    SECTOR_ID   BIGINT NOT NULL,
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+ADD UNIQUE (SECTOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SITE_INFO
+(
+    SITE_ID         BIGINT NOT NULL,
+    TELEPHONE_NO    VARCHAR(20),
+    SITE_NAME       VARCHAR(64),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    ADDR_LINE1      VARCHAR(128),
+    ADDR_LINE2      VARCHAR(128),
+    ADDR_CITY       VARCHAR(64),
+    ADDR_STATE      VARCHAR(128),
+    ADDR_COUNTRY    VARCHAR(64),
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SITE_INFO
+ADD UNIQUE (SITE_ID);
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB06, PORT_NO = 20300
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_INFO
+(
+    SENSOR_ID       BIGINT NOT NULL,
+    SECTOR_ID       BIGINT NOT NULL,
+    FLOOR_ID        BIGINT NOT NULL,
+    BUILDING_ID     BIGINT NOT NULL,
+    SITE_ID         BIGINT NOT NULL,
+    SERIAL_NO       VARCHAR(32),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    SENSOR_UNIT_ID  INTEGER DEFAULT 0 NOT NULL,
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_INFO
+ADD UNIQUE (SENSOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_UNIT
+(
+    SENSOR_UNIT_ID  INTEGER NOT NULL,
+    COL_NAME_1      VARCHAR(20),
+    COL_NAME_2      VARCHAR(20),
+    COL_NAME_3      VARCHAR(20),
+    COL_NAME_4      VARCHAR(20),
+    COL_NAME_5      VARCHAR(20),
+    COL_NAME_6      VARCHAR(20),
+    COL_NAME_7      VARCHAR(20),
+    COL_NAME_8      VARCHAR(20),
+    COL_NAME_9      VARCHAR(20),
+    COL_NAME_10     VARCHAR(20),
+    COL_NAME_11     VARCHAR(20),
+    COL_NAME_12     VARCHAR(20),
+    COL_NAME_13     VARCHAR(20),
+    COL_NAME_14     VARCHAR(20),
+    COL_NAME_15     VARCHAR(20),
+    COL_NAME_16     VARCHAR(20),
+    COL_NAME_17     VARCHAR(20),
+    COL_NAME_18     VARCHAR(20),
+    COL_NAME_19     VARCHAR(20),
+    COL_NAME_20     VARCHAR(20),
+    COL_NAME_21     VARCHAR(20),
+    COL_NAME_22     VARCHAR(20),
+    COL_NAME_23     VARCHAR(20),
+    COL_NAME_24     VARCHAR(20),
+    COL_NAME_25     VARCHAR(20),
+    COL_NAME_26     VARCHAR(20),
+    COL_NAME_27     VARCHAR(20),
+    COL_NAME_28     VARCHAR(20),
+    COL_NAME_29     VARCHAR(20),
+    COL_NAME_30     VARCHAR(20),
+    COL_NAME_31     VARCHAR(20),
+    COL_NAME_32     VARCHAR(20),
+    COL_NAME_33     VARCHAR(20),
+    COL_NAME_34     VARCHAR(20),
+    COL_NAME_35     VARCHAR(20),
+    COL_NAME_36     VARCHAR(20),
+    COL_NAME_37     VARCHAR(20),
+    COL_NAME_38     VARCHAR(20),
+    COL_NAME_39     VARCHAR(20),
+    COL_NAME_40     VARCHAR(20)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_UNIT
+ADD UNIQUE (SENSOR_UNIT_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+(
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+ADD UNIQUE (BUILDING_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_DATA
+(
+    TIME_STAMP      DATE,
+    SITE_ID         BIGINT,
+    BUILDING_ID     BIGINT,
+    FLOOR_ID        BIGINT,
+    SECTOR_ID       BIGINT,
+    SENSOR_ID       BIGINT,
+    SENSOR_UNIT_ID  INTEGER,
+    VALUE_COL_1     INTEGER,
+    VALUE_COL_2     INTEGER,
+    VALUE_COL_3     INTEGER,
+    VALUE_COL_4     INTEGER,
+    VALUE_COL_5     INTEGER,
+    VALUE_COL_6     INTEGER,
+    VALUE_COL_7     INTEGER,
+    VALUE_COL_8     INTEGER,
+    VALUE_COL_9     INTEGER,
+    VALUE_COL_10    INTEGER,
+    VALUE_COL_11    INTEGER,
+    VALUE_COL_12    INTEGER,
+    VALUE_COL_13    INTEGER,
+    VALUE_COL_14    INTEGER,
+    VALUE_COL_15    INTEGER,
+    VALUE_COL_16    INTEGER,
+    VALUE_COL_17    INTEGER,
+    VALUE_COL_18    INTEGER,
+    VALUE_COL_19    INTEGER,
+    VALUE_COL_20    INTEGER,
+    VALUE_COL_21    INTEGER,
+    VALUE_COL_22    INTEGER,
+    VALUE_COL_23    INTEGER,
+    VALUE_COL_24    INTEGER,
+    VALUE_COL_25    INTEGER,
+    VALUE_COL_26    INTEGER,
+    VALUE_COL_27    INTEGER,
+    VALUE_COL_28    INTEGER,
+    VALUE_COL_29    INTEGER,
+    VALUE_COL_30    INTEGER,
+    VALUE_COL_31    INTEGER,
+    VALUE_COL_32    INTEGER,
+    VALUE_COL_33    INTEGER,
+    VALUE_COL_34    INTEGER,
+    VALUE_COL_35    INTEGER,
+    VALUE_COL_36    INTEGER,
+    VALUE_COL_37    INTEGER,
+    VALUE_COL_38    INTEGER,
+    VALUE_COL_39    INTEGER,
+    VALUE_COL_40    INTEGER
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_DATA
+ADD PRIMARY KEY (SENSOR_ID, TIME_STAMP);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+(
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+ADD UNIQUE (FLOOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+(
+    SECTOR_ID   BIGINT NOT NULL,
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+ADD UNIQUE (SECTOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SITE_INFO
+(
+    SITE_ID         BIGINT NOT NULL,
+    TELEPHONE_NO    VARCHAR(20),
+    SITE_NAME       VARCHAR(64),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    ADDR_LINE1      VARCHAR(128),
+    ADDR_LINE2      VARCHAR(128),
+    ADDR_CITY       VARCHAR(64),
+    ADDR_STATE      VARCHAR(128),
+    ADDR_COUNTRY    VARCHAR(64),
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SITE_INFO
+ADD UNIQUE (SITE_ID);
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB07, PORT_NO = 20300
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_INFO
+(
+    SENSOR_ID       BIGINT NOT NULL,
+    SECTOR_ID       BIGINT NOT NULL,
+    FLOOR_ID        BIGINT NOT NULL,
+    BUILDING_ID     BIGINT NOT NULL,
+    SITE_ID         BIGINT NOT NULL,
+    SERIAL_NO       VARCHAR(32),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    SENSOR_UNIT_ID  INTEGER DEFAULT 0 NOT NULL,
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_INFO
+ADD UNIQUE (SENSOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_UNIT
+(
+    SENSOR_UNIT_ID  INTEGER NOT NULL,
+    COL_NAME_1      VARCHAR(20),
+    COL_NAME_2      VARCHAR(20),
+    COL_NAME_3      VARCHAR(20),
+    COL_NAME_4      VARCHAR(20),
+    COL_NAME_5      VARCHAR(20),
+    COL_NAME_6      VARCHAR(20),
+    COL_NAME_7      VARCHAR(20),
+    COL_NAME_8      VARCHAR(20),
+    COL_NAME_9      VARCHAR(20),
+    COL_NAME_10     VARCHAR(20),
+    COL_NAME_11     VARCHAR(20),
+    COL_NAME_12     VARCHAR(20),
+    COL_NAME_13     VARCHAR(20),
+    COL_NAME_14     VARCHAR(20),
+    COL_NAME_15     VARCHAR(20),
+    COL_NAME_16     VARCHAR(20),
+    COL_NAME_17     VARCHAR(20),
+    COL_NAME_18     VARCHAR(20),
+    COL_NAME_19     VARCHAR(20),
+    COL_NAME_20     VARCHAR(20),
+    COL_NAME_21     VARCHAR(20),
+    COL_NAME_22     VARCHAR(20),
+    COL_NAME_23     VARCHAR(20),
+    COL_NAME_24     VARCHAR(20),
+    COL_NAME_25     VARCHAR(20),
+    COL_NAME_26     VARCHAR(20),
+    COL_NAME_27     VARCHAR(20),
+    COL_NAME_28     VARCHAR(20),
+    COL_NAME_29     VARCHAR(20),
+    COL_NAME_30     VARCHAR(20),
+    COL_NAME_31     VARCHAR(20),
+    COL_NAME_32     VARCHAR(20),
+    COL_NAME_33     VARCHAR(20),
+    COL_NAME_34     VARCHAR(20),
+    COL_NAME_35     VARCHAR(20),
+    COL_NAME_36     VARCHAR(20),
+    COL_NAME_37     VARCHAR(20),
+    COL_NAME_38     VARCHAR(20),
+    COL_NAME_39     VARCHAR(20),
+    COL_NAME_40     VARCHAR(20)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_UNIT
+ADD UNIQUE (SENSOR_UNIT_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+(
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+ADD UNIQUE (BUILDING_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_DATA
+(
+    TIME_STAMP      DATE,
+    SITE_ID         BIGINT,
+    BUILDING_ID     BIGINT,
+    FLOOR_ID        BIGINT,
+    SECTOR_ID       BIGINT,
+    SENSOR_ID       BIGINT,
+    SENSOR_UNIT_ID  INTEGER,
+    VALUE_COL_1     INTEGER,
+    VALUE_COL_2     INTEGER,
+    VALUE_COL_3     INTEGER,
+    VALUE_COL_4     INTEGER,
+    VALUE_COL_5     INTEGER,
+    VALUE_COL_6     INTEGER,
+    VALUE_COL_7     INTEGER,
+    VALUE_COL_8     INTEGER,
+    VALUE_COL_9     INTEGER,
+    VALUE_COL_10    INTEGER,
+    VALUE_COL_11    INTEGER,
+    VALUE_COL_12    INTEGER,
+    VALUE_COL_13    INTEGER,
+    VALUE_COL_14    INTEGER,
+    VALUE_COL_15    INTEGER,
+    VALUE_COL_16    INTEGER,
+    VALUE_COL_17    INTEGER,
+    VALUE_COL_18    INTEGER,
+    VALUE_COL_19    INTEGER,
+    VALUE_COL_20    INTEGER,
+    VALUE_COL_21    INTEGER,
+    VALUE_COL_22    INTEGER,
+    VALUE_COL_23    INTEGER,
+    VALUE_COL_24    INTEGER,
+    VALUE_COL_25    INTEGER,
+    VALUE_COL_26    INTEGER,
+    VALUE_COL_27    INTEGER,
+    VALUE_COL_28    INTEGER,
+    VALUE_COL_29    INTEGER,
+    VALUE_COL_30    INTEGER,
+    VALUE_COL_31    INTEGER,
+    VALUE_COL_32    INTEGER,
+    VALUE_COL_33    INTEGER,
+    VALUE_COL_34    INTEGER,
+    VALUE_COL_35    INTEGER,
+    VALUE_COL_36    INTEGER,
+    VALUE_COL_37    INTEGER,
+    VALUE_COL_38    INTEGER,
+    VALUE_COL_39    INTEGER,
+    VALUE_COL_40    INTEGER
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_DATA
+ADD PRIMARY KEY (SENSOR_ID, TIME_STAMP);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+(
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+ADD UNIQUE (FLOOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+(
+    SECTOR_ID   BIGINT NOT NULL,
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+ADD UNIQUE (SECTOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SITE_INFO
+(
+    SITE_ID         BIGINT NOT NULL,
+    TELEPHONE_NO    VARCHAR(20),
+    SITE_NAME       VARCHAR(64),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    ADDR_LINE1      VARCHAR(128),
+    ADDR_LINE2      VARCHAR(128),
+    ADDR_CITY       VARCHAR(64),
+    ADDR_STATE      VARCHAR(128),
+    ADDR_COUNTRY    VARCHAR(64),
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SITE_INFO
+ADD UNIQUE (SITE_ID);
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB08, PORT_NO = 20300
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_INFO
+(
+    SENSOR_ID       BIGINT NOT NULL,
+    SECTOR_ID       BIGINT NOT NULL,
+    FLOOR_ID        BIGINT NOT NULL,
+    BUILDING_ID     BIGINT NOT NULL,
+    SITE_ID         BIGINT NOT NULL,
+    SERIAL_NO       VARCHAR(32),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    SENSOR_UNIT_ID  INTEGER DEFAULT 0 NOT NULL,
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_INFO
+ADD UNIQUE (SENSOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_UNIT
+(
+    SENSOR_UNIT_ID  INTEGER NOT NULL,
+    COL_NAME_1      VARCHAR(20),
+    COL_NAME_2      VARCHAR(20),
+    COL_NAME_3      VARCHAR(20),
+    COL_NAME_4      VARCHAR(20),
+    COL_NAME_5      VARCHAR(20),
+    COL_NAME_6      VARCHAR(20),
+    COL_NAME_7      VARCHAR(20),
+    COL_NAME_8      VARCHAR(20),
+    COL_NAME_9      VARCHAR(20),
+    COL_NAME_10     VARCHAR(20),
+    COL_NAME_11     VARCHAR(20),
+    COL_NAME_12     VARCHAR(20),
+    COL_NAME_13     VARCHAR(20),
+    COL_NAME_14     VARCHAR(20),
+    COL_NAME_15     VARCHAR(20),
+    COL_NAME_16     VARCHAR(20),
+    COL_NAME_17     VARCHAR(20),
+    COL_NAME_18     VARCHAR(20),
+    COL_NAME_19     VARCHAR(20),
+    COL_NAME_20     VARCHAR(20),
+    COL_NAME_21     VARCHAR(20),
+    COL_NAME_22     VARCHAR(20),
+    COL_NAME_23     VARCHAR(20),
+    COL_NAME_24     VARCHAR(20),
+    COL_NAME_25     VARCHAR(20),
+    COL_NAME_26     VARCHAR(20),
+    COL_NAME_27     VARCHAR(20),
+    COL_NAME_28     VARCHAR(20),
+    COL_NAME_29     VARCHAR(20),
+    COL_NAME_30     VARCHAR(20),
+    COL_NAME_31     VARCHAR(20),
+    COL_NAME_32     VARCHAR(20),
+    COL_NAME_33     VARCHAR(20),
+    COL_NAME_34     VARCHAR(20),
+    COL_NAME_35     VARCHAR(20),
+    COL_NAME_36     VARCHAR(20),
+    COL_NAME_37     VARCHAR(20),
+    COL_NAME_38     VARCHAR(20),
+    COL_NAME_39     VARCHAR(20),
+    COL_NAME_40     VARCHAR(20)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_UNIT
+ADD UNIQUE (SENSOR_UNIT_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+(
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+ADD UNIQUE (BUILDING_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_DATA
+(
+    TIME_STAMP      DATE,
+    SITE_ID         BIGINT,
+    BUILDING_ID     BIGINT,
+    FLOOR_ID        BIGINT,
+    SECTOR_ID       BIGINT,
+    SENSOR_ID       BIGINT,
+    SENSOR_UNIT_ID  INTEGER,
+    VALUE_COL_1     INTEGER,
+    VALUE_COL_2     INTEGER,
+    VALUE_COL_3     INTEGER,
+    VALUE_COL_4     INTEGER,
+    VALUE_COL_5     INTEGER,
+    VALUE_COL_6     INTEGER,
+    VALUE_COL_7     INTEGER,
+    VALUE_COL_8     INTEGER,
+    VALUE_COL_9     INTEGER,
+    VALUE_COL_10    INTEGER,
+    VALUE_COL_11    INTEGER,
+    VALUE_COL_12    INTEGER,
+    VALUE_COL_13    INTEGER,
+    VALUE_COL_14    INTEGER,
+    VALUE_COL_15    INTEGER,
+    VALUE_COL_16    INTEGER,
+    VALUE_COL_17    INTEGER,
+    VALUE_COL_18    INTEGER,
+    VALUE_COL_19    INTEGER,
+    VALUE_COL_20    INTEGER,
+    VALUE_COL_21    INTEGER,
+    VALUE_COL_22    INTEGER,
+    VALUE_COL_23    INTEGER,
+    VALUE_COL_24    INTEGER,
+    VALUE_COL_25    INTEGER,
+    VALUE_COL_26    INTEGER,
+    VALUE_COL_27    INTEGER,
+    VALUE_COL_28    INTEGER,
+    VALUE_COL_29    INTEGER,
+    VALUE_COL_30    INTEGER,
+    VALUE_COL_31    INTEGER,
+    VALUE_COL_32    INTEGER,
+    VALUE_COL_33    INTEGER,
+    VALUE_COL_34    INTEGER,
+    VALUE_COL_35    INTEGER,
+    VALUE_COL_36    INTEGER,
+    VALUE_COL_37    INTEGER,
+    VALUE_COL_38    INTEGER,
+    VALUE_COL_39    INTEGER,
+    VALUE_COL_40    INTEGER
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_DATA
+ADD PRIMARY KEY (SENSOR_ID, TIME_STAMP);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+(
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+ADD UNIQUE (FLOOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+(
+    SECTOR_ID   BIGINT NOT NULL,
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+ADD UNIQUE (SECTOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SITE_INFO
+(
+    SITE_ID         BIGINT NOT NULL,
+    TELEPHONE_NO    VARCHAR(20),
+    SITE_NAME       VARCHAR(64),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    ADDR_LINE1      VARCHAR(128),
+    ADDR_LINE2      VARCHAR(128),
+    ADDR_CITY       VARCHAR(64),
+    ADDR_STATE      VARCHAR(128),
+    ADDR_COUNTRY    VARCHAR(64),
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SITE_INFO
+ADD UNIQUE (SITE_ID);
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB09, PORT_NO = 20300
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_INFO
+(
+    SENSOR_ID       BIGINT NOT NULL,
+    SECTOR_ID       BIGINT NOT NULL,
+    FLOOR_ID        BIGINT NOT NULL,
+    BUILDING_ID     BIGINT NOT NULL,
+    SITE_ID         BIGINT NOT NULL,
+    SERIAL_NO       VARCHAR(32),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    SENSOR_UNIT_ID  INTEGER DEFAULT 0 NOT NULL,
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_INFO
+ADD UNIQUE (SENSOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_UNIT
+(
+    SENSOR_UNIT_ID  INTEGER NOT NULL,
+    COL_NAME_1      VARCHAR(20),
+    COL_NAME_2      VARCHAR(20),
+    COL_NAME_3      VARCHAR(20),
+    COL_NAME_4      VARCHAR(20),
+    COL_NAME_5      VARCHAR(20),
+    COL_NAME_6      VARCHAR(20),
+    COL_NAME_7      VARCHAR(20),
+    COL_NAME_8      VARCHAR(20),
+    COL_NAME_9      VARCHAR(20),
+    COL_NAME_10     VARCHAR(20),
+    COL_NAME_11     VARCHAR(20),
+    COL_NAME_12     VARCHAR(20),
+    COL_NAME_13     VARCHAR(20),
+    COL_NAME_14     VARCHAR(20),
+    COL_NAME_15     VARCHAR(20),
+    COL_NAME_16     VARCHAR(20),
+    COL_NAME_17     VARCHAR(20),
+    COL_NAME_18     VARCHAR(20),
+    COL_NAME_19     VARCHAR(20),
+    COL_NAME_20     VARCHAR(20),
+    COL_NAME_21     VARCHAR(20),
+    COL_NAME_22     VARCHAR(20),
+    COL_NAME_23     VARCHAR(20),
+    COL_NAME_24     VARCHAR(20),
+    COL_NAME_25     VARCHAR(20),
+    COL_NAME_26     VARCHAR(20),
+    COL_NAME_27     VARCHAR(20),
+    COL_NAME_28     VARCHAR(20),
+    COL_NAME_29     VARCHAR(20),
+    COL_NAME_30     VARCHAR(20),
+    COL_NAME_31     VARCHAR(20),
+    COL_NAME_32     VARCHAR(20),
+    COL_NAME_33     VARCHAR(20),
+    COL_NAME_34     VARCHAR(20),
+    COL_NAME_35     VARCHAR(20),
+    COL_NAME_36     VARCHAR(20),
+    COL_NAME_37     VARCHAR(20),
+    COL_NAME_38     VARCHAR(20),
+    COL_NAME_39     VARCHAR(20),
+    COL_NAME_40     VARCHAR(20)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_UNIT
+ADD UNIQUE (SENSOR_UNIT_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+(
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+ADD UNIQUE (BUILDING_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_DATA
+(
+    TIME_STAMP      DATE,
+    SITE_ID         BIGINT,
+    BUILDING_ID     BIGINT,
+    FLOOR_ID        BIGINT,
+    SECTOR_ID       BIGINT,
+    SENSOR_ID       BIGINT,
+    SENSOR_UNIT_ID  INTEGER,
+    VALUE_COL_1     INTEGER,
+    VALUE_COL_2     INTEGER,
+    VALUE_COL_3     INTEGER,
+    VALUE_COL_4     INTEGER,
+    VALUE_COL_5     INTEGER,
+    VALUE_COL_6     INTEGER,
+    VALUE_COL_7     INTEGER,
+    VALUE_COL_8     INTEGER,
+    VALUE_COL_9     INTEGER,
+    VALUE_COL_10    INTEGER,
+    VALUE_COL_11    INTEGER,
+    VALUE_COL_12    INTEGER,
+    VALUE_COL_13    INTEGER,
+    VALUE_COL_14    INTEGER,
+    VALUE_COL_15    INTEGER,
+    VALUE_COL_16    INTEGER,
+    VALUE_COL_17    INTEGER,
+    VALUE_COL_18    INTEGER,
+    VALUE_COL_19    INTEGER,
+    VALUE_COL_20    INTEGER,
+    VALUE_COL_21    INTEGER,
+    VALUE_COL_22    INTEGER,
+    VALUE_COL_23    INTEGER,
+    VALUE_COL_24    INTEGER,
+    VALUE_COL_25    INTEGER,
+    VALUE_COL_26    INTEGER,
+    VALUE_COL_27    INTEGER,
+    VALUE_COL_28    INTEGER,
+    VALUE_COL_29    INTEGER,
+    VALUE_COL_30    INTEGER,
+    VALUE_COL_31    INTEGER,
+    VALUE_COL_32    INTEGER,
+    VALUE_COL_33    INTEGER,
+    VALUE_COL_34    INTEGER,
+    VALUE_COL_35    INTEGER,
+    VALUE_COL_36    INTEGER,
+    VALUE_COL_37    INTEGER,
+    VALUE_COL_38    INTEGER,
+    VALUE_COL_39    INTEGER,
+    VALUE_COL_40    INTEGER
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_DATA
+ADD PRIMARY KEY (SENSOR_ID, TIME_STAMP);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+(
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+ADD UNIQUE (FLOOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+(
+    SECTOR_ID   BIGINT NOT NULL,
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+ADD UNIQUE (SECTOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SITE_INFO
+(
+    SITE_ID         BIGINT NOT NULL,
+    TELEPHONE_NO    VARCHAR(20),
+    SITE_NAME       VARCHAR(64),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    ADDR_LINE1      VARCHAR(128),
+    ADDR_LINE2      VARCHAR(128),
+    ADDR_CITY       VARCHAR(64),
+    ADDR_STATE      VARCHAR(128),
+    ADDR_COUNTRY    VARCHAR(64),
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SITE_INFO
+ADD UNIQUE (SITE_ID);
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB10, PORT_NO = 20300
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_INFO
+(
+    SENSOR_ID       BIGINT NOT NULL,
+    SECTOR_ID       BIGINT NOT NULL,
+    FLOOR_ID        BIGINT NOT NULL,
+    BUILDING_ID     BIGINT NOT NULL,
+    SITE_ID         BIGINT NOT NULL,
+    SERIAL_NO       VARCHAR(32),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    SENSOR_UNIT_ID  INTEGER DEFAULT 0 NOT NULL,
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_INFO
+ADD UNIQUE (SENSOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_UNIT
+(
+    SENSOR_UNIT_ID  INTEGER NOT NULL,
+    COL_NAME_1      VARCHAR(20),
+    COL_NAME_2      VARCHAR(20),
+    COL_NAME_3      VARCHAR(20),
+    COL_NAME_4      VARCHAR(20),
+    COL_NAME_5      VARCHAR(20),
+    COL_NAME_6      VARCHAR(20),
+    COL_NAME_7      VARCHAR(20),
+    COL_NAME_8      VARCHAR(20),
+    COL_NAME_9      VARCHAR(20),
+    COL_NAME_10     VARCHAR(20),
+    COL_NAME_11     VARCHAR(20),
+    COL_NAME_12     VARCHAR(20),
+    COL_NAME_13     VARCHAR(20),
+    COL_NAME_14     VARCHAR(20),
+    COL_NAME_15     VARCHAR(20),
+    COL_NAME_16     VARCHAR(20),
+    COL_NAME_17     VARCHAR(20),
+    COL_NAME_18     VARCHAR(20),
+    COL_NAME_19     VARCHAR(20),
+    COL_NAME_20     VARCHAR(20),
+    COL_NAME_21     VARCHAR(20),
+    COL_NAME_22     VARCHAR(20),
+    COL_NAME_23     VARCHAR(20),
+    COL_NAME_24     VARCHAR(20),
+    COL_NAME_25     VARCHAR(20),
+    COL_NAME_26     VARCHAR(20),
+    COL_NAME_27     VARCHAR(20),
+    COL_NAME_28     VARCHAR(20),
+    COL_NAME_29     VARCHAR(20),
+    COL_NAME_30     VARCHAR(20),
+    COL_NAME_31     VARCHAR(20),
+    COL_NAME_32     VARCHAR(20),
+    COL_NAME_33     VARCHAR(20),
+    COL_NAME_34     VARCHAR(20),
+    COL_NAME_35     VARCHAR(20),
+    COL_NAME_36     VARCHAR(20),
+    COL_NAME_37     VARCHAR(20),
+    COL_NAME_38     VARCHAR(20),
+    COL_NAME_39     VARCHAR(20),
+    COL_NAME_40     VARCHAR(20)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_UNIT
+ADD UNIQUE (SENSOR_UNIT_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+(
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+ADD UNIQUE (BUILDING_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_DATA
+(
+    TIME_STAMP      DATE,
+    SITE_ID         BIGINT,
+    BUILDING_ID     BIGINT,
+    FLOOR_ID        BIGINT,
+    SECTOR_ID       BIGINT,
+    SENSOR_ID       BIGINT,
+    SENSOR_UNIT_ID  INTEGER,
+    VALUE_COL_1     INTEGER,
+    VALUE_COL_2     INTEGER,
+    VALUE_COL_3     INTEGER,
+    VALUE_COL_4     INTEGER,
+    VALUE_COL_5     INTEGER,
+    VALUE_COL_6     INTEGER,
+    VALUE_COL_7     INTEGER,
+    VALUE_COL_8     INTEGER,
+    VALUE_COL_9     INTEGER,
+    VALUE_COL_10    INTEGER,
+    VALUE_COL_11    INTEGER,
+    VALUE_COL_12    INTEGER,
+    VALUE_COL_13    INTEGER,
+    VALUE_COL_14    INTEGER,
+    VALUE_COL_15    INTEGER,
+    VALUE_COL_16    INTEGER,
+    VALUE_COL_17    INTEGER,
+    VALUE_COL_18    INTEGER,
+    VALUE_COL_19    INTEGER,
+    VALUE_COL_20    INTEGER,
+    VALUE_COL_21    INTEGER,
+    VALUE_COL_22    INTEGER,
+    VALUE_COL_23    INTEGER,
+    VALUE_COL_24    INTEGER,
+    VALUE_COL_25    INTEGER,
+    VALUE_COL_26    INTEGER,
+    VALUE_COL_27    INTEGER,
+    VALUE_COL_28    INTEGER,
+    VALUE_COL_29    INTEGER,
+    VALUE_COL_30    INTEGER,
+    VALUE_COL_31    INTEGER,
+    VALUE_COL_32    INTEGER,
+    VALUE_COL_33    INTEGER,
+    VALUE_COL_34    INTEGER,
+    VALUE_COL_35    INTEGER,
+    VALUE_COL_36    INTEGER,
+    VALUE_COL_37    INTEGER,
+    VALUE_COL_38    INTEGER,
+    VALUE_COL_39    INTEGER,
+    VALUE_COL_40    INTEGER
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_DATA
+ADD PRIMARY KEY (SENSOR_ID, TIME_STAMP);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+(
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+ADD UNIQUE (FLOOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+(
+    SECTOR_ID   BIGINT NOT NULL,
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+ADD UNIQUE (SECTOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SITE_INFO
+(
+    SITE_ID         BIGINT NOT NULL,
+    TELEPHONE_NO    VARCHAR(20),
+    SITE_NAME       VARCHAR(64),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    ADDR_LINE1      VARCHAR(128),
+    ADDR_LINE2      VARCHAR(128),
+    ADDR_CITY       VARCHAR(64),
+    ADDR_STATE      VARCHAR(128),
+    ADDR_COUNTRY    VARCHAR(64),
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SITE_INFO
+ADD UNIQUE (SITE_ID);
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB11, PORT_NO = 20300
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_INFO
+(
+    SENSOR_ID       BIGINT NOT NULL,
+    SECTOR_ID       BIGINT NOT NULL,
+    FLOOR_ID        BIGINT NOT NULL,
+    BUILDING_ID     BIGINT NOT NULL,
+    SITE_ID         BIGINT NOT NULL,
+    SERIAL_NO       VARCHAR(32),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    SENSOR_UNIT_ID  INTEGER DEFAULT 0 NOT NULL,
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_INFO
+ADD UNIQUE (SENSOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SENSOR_UNIT
+(
+    SENSOR_UNIT_ID  INTEGER NOT NULL,
+    COL_NAME_1      VARCHAR(20),
+    COL_NAME_2      VARCHAR(20),
+    COL_NAME_3      VARCHAR(20),
+    COL_NAME_4      VARCHAR(20),
+    COL_NAME_5      VARCHAR(20),
+    COL_NAME_6      VARCHAR(20),
+    COL_NAME_7      VARCHAR(20),
+    COL_NAME_8      VARCHAR(20),
+    COL_NAME_9      VARCHAR(20),
+    COL_NAME_10     VARCHAR(20),
+    COL_NAME_11     VARCHAR(20),
+    COL_NAME_12     VARCHAR(20),
+    COL_NAME_13     VARCHAR(20),
+    COL_NAME_14     VARCHAR(20),
+    COL_NAME_15     VARCHAR(20),
+    COL_NAME_16     VARCHAR(20),
+    COL_NAME_17     VARCHAR(20),
+    COL_NAME_18     VARCHAR(20),
+    COL_NAME_19     VARCHAR(20),
+    COL_NAME_20     VARCHAR(20),
+    COL_NAME_21     VARCHAR(20),
+    COL_NAME_22     VARCHAR(20),
+    COL_NAME_23     VARCHAR(20),
+    COL_NAME_24     VARCHAR(20),
+    COL_NAME_25     VARCHAR(20),
+    COL_NAME_26     VARCHAR(20),
+    COL_NAME_27     VARCHAR(20),
+    COL_NAME_28     VARCHAR(20),
+    COL_NAME_29     VARCHAR(20),
+    COL_NAME_30     VARCHAR(20),
+    COL_NAME_31     VARCHAR(20),
+    COL_NAME_32     VARCHAR(20),
+    COL_NAME_33     VARCHAR(20),
+    COL_NAME_34     VARCHAR(20),
+    COL_NAME_35     VARCHAR(20),
+    COL_NAME_36     VARCHAR(20),
+    COL_NAME_37     VARCHAR(20),
+    COL_NAME_38     VARCHAR(20),
+    COL_NAME_39     VARCHAR(20),
+    COL_NAME_40     VARCHAR(20)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SENSOR_UNIT
+ADD UNIQUE (SENSOR_UNIT_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+(
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_BUILDING_INFO
+ADD UNIQUE (BUILDING_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_DATA
+(
+    TIME_STAMP      DATE,
+    SITE_ID         BIGINT,
+    BUILDING_ID     BIGINT,
+    FLOOR_ID        BIGINT,
+    SECTOR_ID       BIGINT,
+    SENSOR_ID       BIGINT,
+    SENSOR_UNIT_ID  INTEGER,
+    VALUE_COL_1     INTEGER,
+    VALUE_COL_2     INTEGER,
+    VALUE_COL_3     INTEGER,
+    VALUE_COL_4     INTEGER,
+    VALUE_COL_5     INTEGER,
+    VALUE_COL_6     INTEGER,
+    VALUE_COL_7     INTEGER,
+    VALUE_COL_8     INTEGER,
+    VALUE_COL_9     INTEGER,
+    VALUE_COL_10    INTEGER,
+    VALUE_COL_11    INTEGER,
+    VALUE_COL_12    INTEGER,
+    VALUE_COL_13    INTEGER,
+    VALUE_COL_14    INTEGER,
+    VALUE_COL_15    INTEGER,
+    VALUE_COL_16    INTEGER,
+    VALUE_COL_17    INTEGER,
+    VALUE_COL_18    INTEGER,
+    VALUE_COL_19    INTEGER,
+    VALUE_COL_20    INTEGER,
+    VALUE_COL_21    INTEGER,
+    VALUE_COL_22    INTEGER,
+    VALUE_COL_23    INTEGER,
+    VALUE_COL_24    INTEGER,
+    VALUE_COL_25    INTEGER,
+    VALUE_COL_26    INTEGER,
+    VALUE_COL_27    INTEGER,
+    VALUE_COL_28    INTEGER,
+    VALUE_COL_29    INTEGER,
+    VALUE_COL_30    INTEGER,
+    VALUE_COL_31    INTEGER,
+    VALUE_COL_32    INTEGER,
+    VALUE_COL_33    INTEGER,
+    VALUE_COL_34    INTEGER,
+    VALUE_COL_35    INTEGER,
+    VALUE_COL_36    INTEGER,
+    VALUE_COL_37    INTEGER,
+    VALUE_COL_38    INTEGER,
+    VALUE_COL_39    INTEGER,
+    VALUE_COL_40    INTEGER
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_DATA
+ADD PRIMARY KEY (SENSOR_ID, TIME_STAMP);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+(
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_FLOOR_INFO
+ADD UNIQUE (FLOOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+(
+    SECTOR_ID   BIGINT NOT NULL,
+    FLOOR_ID    BIGINT NOT NULL,
+    BUILDING_ID BIGINT NOT NULL,
+    SITE_ID     BIGINT NOT NULL,
+    GEO_LON     VARCHAR(15),
+    GEO_LAT     VARCHAR(15),
+    DESCRIPTION VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SECTOR_INFO
+ADD UNIQUE (SECTOR_ID);
+Alter success.
+iSQL> CREATE TABLE SMSSUSER.TBL_SM_SITE_INFO
+(
+    SITE_ID         BIGINT NOT NULL,
+    TELEPHONE_NO    VARCHAR(20),
+    SITE_NAME       VARCHAR(64),
+    GEO_LON         VARCHAR(15),
+    GEO_LAT         VARCHAR(15),
+    ADDR_LINE1      VARCHAR(128),
+    ADDR_LINE2      VARCHAR(128),
+    ADDR_CITY       VARCHAR(64),
+    ADDR_STATE      VARCHAR(128),
+    ADDR_COUNTRY    VARCHAR(64),
+    DESCRIPTION     VARCHAR(128)
+)
+TABLESPACE SYS_TBS_DISK_DATA;
+Create success.
+iSQL> ALTER TABLE SMSSUSER.TBL_SM_SITE_INFO
+ADD UNIQUE (SITE_ID);
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB01, PORT_NO = 20300
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+Create success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB02, PORT_NO = 20300
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+Create success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB03, PORT_NO = 20300
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+Create success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB04, PORT_NO = 20300
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+Create success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB05, PORT_NO = 20300
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+Create success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB06, PORT_NO = 20300
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+Create success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB07, PORT_NO = 20300
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+Create success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB08, PORT_NO = 20300
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+Create success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB09, PORT_NO = 20300
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+Create success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB10, PORT_NO = 20300
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+Create success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB11, PORT_NO = 20300
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+[ERR-6111B : Undefined replication name. The replication name was not found in the database.]
+Create success.
+Create success.
+Create success.
+Create success.
+Create success.
+Create success.
+Create success.
+Create success.
+Create success.
+Create success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB01, PORT_NO = 20300
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB02, PORT_NO = 20300
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB03, PORT_NO = 20300
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB04, PORT_NO = 20300
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB05, PORT_NO = 20300
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB06, PORT_NO = 20300
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB07, PORT_NO = 20300
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB08, PORT_NO = 20300
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB09, PORT_NO = 20300
+Alter success.
+-----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 6.3.1.5.2
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = TCP, SERVER = AB10, PORT_NO = 20300
+Alter success.
