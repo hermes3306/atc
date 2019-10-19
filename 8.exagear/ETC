@@ -1,0 +1,266 @@
+Installing Raspbian (stretch), Exagear V2.3, and the Latest Winsdr/Winquake on Raspberry Pi-3
+
+11/6/2017
+
+ 
+
+Save ALL current winsdr.ini files (16) before beginning!
+Remove any USB flash drives or USB devices.
+Install latest Raspbian (Stretch) on 16GB micro SD card or larger.
+ 
+
+Download full Raspbian Stretch and extract.
+
+Download and install WinDiskimager.
+
+Burn micro SD card.
+
+ 
+
+Setup to view hidden files from "view" in any folder.
+Setup network.
+$ sudo apt-get update
+$ sudo apt-get dist-upgrade
+$ sync
+$ sudo apt-get clean
+$ sudo rpi-update
+Setup keyboard, time zone, wifi country, and local, in Rpi-Preferences/Localization tab, disable splash screen in System tab.
+Also in the System tab, you may need to disable underscan to fill the screen.
+At this point you can rename the host system e.g. seismopi.
+$ sudo reboot
+ 
+
+Move the following into ~/Downloads:
+
+ 
+
+exagear-desktop-rpi-3.tar.gzßget the latest version available, now v2.3
+
+pk-000000002335.key (your exagear key file)
+
+winsdr478b6_32bit.exe
+
+wq339_32bit.exe
+
+all winsdr.ini files (get them all, 16 if you save period extended channels), for each instance of winsdr you will be running and put them in separate directories, e.g. sys1ini and sys2ini.)
+
+ 
+
+$ cd ~/Downloads
+$ tar -xvzpf exagear-desktop-*.tar.gz
+$ sudo ./install-exagear.sh
+$ sync
+$ sudo reboot
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Test exagear:
+
+ 
+
+Note: Once Exagear is installed, it is locked to the micro SD card and Rpi-3. To unlock use “purge” as explained in the exagear use guide pdf in ~/Downloads. If you can’t purge due to an unrecoverable crash, Eltechs will reset it for you when you send them your key file and a short note. (support@eltechs.com)
+
+ 
+
+$ exagear
+$ archßreturns "i686"
+$ exit
+$ archßreturns "armv7L"
+$ sudo apt-get update ß as suggested by Eltech
+ 
+Install wine in x86 environment: (takes awhile)
+
+ 
+
+$ exagear
+$ sudo apt-get update
+$ sudo apt-get install wine
+Keep original /etc/pulse/client.conf (Default=N).
+saned.service load error (Invalid argument)ßscanner issue, ignore for now
+$ exit
+$ sudo reboot
+$ exagear
+$ wine –versionßreturns "wine-2.0-eltechs"
+ 
+
+At this point I see a 90 second delay when the Pi is shutdown, but other than being a PITA, installation continues OK. The following may help to resolve this issue:
+
+ 
+
+“Enable persistence for the Systemd journal. The journal is by default non-persistent and so your systemd log-messages get thrown away at reboot.
+
+To enable persistence:
+
+$ sudo mkdir -p /var/log/journal
+$ sudo chown root.systemd-journal /var/log/journal
+$ sudo chmod g+rwx /var/log/journal
+If you reboot the machine now, you can look at the logs for the last shutdown period and check for 90 second time gaps. Use this command:”
+
+journalctl -b -1ßnumber
+ 
+
+ 
+
+ 
+
+ 
+
+Install winsdr and winquake:
+
+ 
+
+$ exagear
+$ cd ~/Downloads
+$ wine winsdr478b6_32bit.exe
+Choose not to install "mono"(open source .net) and "Gecko"(open source web browser engine).
+Create desktop icon for only the first instance of winsdr.
+$ wine wq339_32bit.exe
+Create desktop icon.
+WinSDR and Winquake are now installed, remove winsdr.lnk and winquake .lnk files.
+Run each instance of winsdr. Then populate all the ini files you saved in step 1 into ~/.wine/drive_c/WinSDR1, ~/.wine/drive_c/WinSDR2…
+ 
+
+Install x11vnc:
+
+ 
+
+$ sudo apt-get install x11vnc
+$ x11vnc –storepasswdßprompt to add password
+$ sudo nano ~/.config/lxsession/LXDE-pi/autostart
+Add to last line of autostart:
+ 
+
+@x11vnc -forever -usepw -display :0 –ultrafilexfer
+
+ 
+
+Add the following to /boot/congif.txt to allow full screen in x11vnc, without monitor:
+
+1.      uncomment: hdmi_force_hotplug=1
+
+2.      add: hdmi_group=2
+
+3.      add: hdmi_mode=82
+
+ 
+
+Add one high capacity USB drive to pi-3, visible by winsdr (a 256 GB drive works fine)
+
+ 
+
+$ sudo apt-get install gparted (install the GUI partition editor, it will be useful)
+Insert usb drive into pi
+$ sudo fdisk /dev/sda
+ 
+
+d-delete existing partition
+
+n-new partition
+
+p-primary partition
+
+choose default sector sizes
+
+1-partition number
+
+no need to keep original type signature
+
+w-write
+
+ 
+
+$ sudo reboot
+$ sudo fdisk -l  (check /dev/sda1 was created)
+$ sudo umount /dev/sda1
+$ sudo mkfs -t ext4 /dev/sda1
+$ sudo nano /etc/fstab
+Add following line to end of fstab:
+ 
+
+/dev/sda1 /home/pi/seismodata ext4 defaults 0 2
+
+ 
+
+$ sudo reboot
+$ cd  ~/
+$ sudo chmod 777 ./seismodata (make directory seismodata read/writable by everybody)
+ 
+
+Link Linux USB devices to multiple com ports:
+
+ 
+
+The kernel usually just assigns unpredictable device names, e.g. ttyUSBn, based on the order of discovery. To keep devices with fixed names do the following:
+Create a file: $sudo nano /etc/udev/rules.d/49-usb-serial.rules
+Add the following lines: (these are for my WebTronics16 bit PSN-ADC-USB V3 digitizers)
+ 
+
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403"
+
+ATTRS{idProduct}=="6001", ATTRS{serial}=="AE01E315"
+
+SYMLINK+="ttyUSB5"
+
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403"
+
+ATTRS{idProduct}=="6001", ATTRS{serial}=="A6024YR0"
+
+SYMLINK+="ttyUSB6"
+
+ 
+
+ttyUSB5 and ttyUSB6 are linked to /dev/ttyUSB0 and /dev/ttyUSB1. I had trouble using ttyUSB0 and ttyUSB1, so I picked 5 and 6.
+Specific {serial}, {idProduct} and {idVendor} can be found from                         $ lsusb -v and from reading $ dmesg.
+Insert USB cable from digitizer(s).
+Create soft links from Linux devices to com ports:
+$ ln -s /dev/ttyUSB5 ~/.wine/dosdevices/com5
+$ ln -s /dev/ttyUSB6 ~/.wine/dosdevices/com6
+Now select the appropiate com port in winsdr Settings/System/General for each instance of winsdr.
+ 
+
+ "GIF File Upload Settings":
+
+ 
+
+"FTP Upload Settings" are for Events only, no need to enable FTP.
+Set c:\winsdr directory permissions to everyone/everyone/everyone.
+IP Address: 45.40.165.6ßyour hosting IP
+username: earthmodeßyour username
+Password: _______________ßyour password
+check Passive Mode box
+Set remote directories to whatever they may be, e.g. /sys1/, /sys2/.
+ 
+
+Create Desktop Icons:
+
+ 
+
+Create empty file on desktop e.g. WinSDR1.desktop with text editor.
+Add:
+ 
+
+      [Desktop Entry]
+
+      Name=WinSDR1
+
+      Exec=env WINEPREFIX="/home/pi/.wine" wine c:\\\\WinSDR1\\\\winsdr.exe
+
+      Type=Application
+
+      StartupNotify=true
+
+      Path=/home/pi/.wine/dosdevices/c:/WinSDR1
+
+      Icon=BDDF_winsdr.0ßmay have  different name
+
+ 
+
+Save
+ 
