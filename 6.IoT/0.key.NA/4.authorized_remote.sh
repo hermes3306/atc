@@ -1,0 +1,10 @@
+rsh db@pc1 cp  /home/db/id_rsa.pub  /home/db/.ssh/authorized_keys
+rsh db@pc2 cp  /home/db/id_rsa.pub  /home/db/.ssh/authorized_keys
+rsh db@pc3 cp  /home/db/id_rsa.pub  /home/db/.ssh/authorized_keys
+rsh db@pc4 cp  /home/db/id_rsa.pub  /home/db/.ssh/authorized_keys
+rsh db@pc5 cp  /home/db/id_rsa.pub  /home/db/.ssh/authorized_keys
+rsh db@pc6 cp  /home/db/id_rsa.pub  /home/db/.ssh/authorized_keys
+rsh db@pc7 cp  /home/db/id_rsa.pub  /home/db/.ssh/authorized_keys
+rsh db@pc8 cp  /home/db/id_rsa.pub  /home/db/.ssh/authorized_keys
+rsh db@pc9 cp  /home/db/id_rsa.pub  /home/db/.ssh/authorized_keys
+rsh db@pc0 cp  /home/db/id_rsa.pub  /home/db/.ssh/authorized_keys

@@ -1,0 +1,10 @@
+rsh db@pc0 ssh-keygen -t rsa 
+rsh db@pc1 ssh-keygen -t rsa 
+rsh db@pc2 ssh-keygen -t rsa 
+rsh db@pc3 ssh-keygen -t rsa 
+rsh db@pc4 ssh-keygen -t rsa 
+rsh db@pc5 ssh-keygen -t rsa 
+rsh db@pc6 ssh-keygen -t rsa 
+rsh db@pc7 ssh-keygen -t rsa 
+rsh db@pc8 ssh-keygen -t rsa 
+rsh db@pc9 ssh-keygen -t rsa 

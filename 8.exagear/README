@@ -1,0 +1,33 @@
+Your license key is in attachment.  One key is valid for 11 device(s).
+
+ExaGear Desktop is available to download from here:
+http://downloads.eltechs.com/exagear-desktop-v-2-4/exagear-desktop-rpi3.tar.gz
+
+To install ExaGear Desktop follow the next steps.
+Save the license key from attachment to Downloads directory of your ARM device.
+Open command line Terminal and change current directory to Downloads:
+$ cd ~/Downloads/
+Download the archive with ExaGear Desktop packages:
+$ wget http://downloads.eltechs.com/exagear-desktop-v-2-4/exagear-desktop-rpi3.tar.gz
+Unpack downloaded archive:
+$ tar -xvzpf exagear-desktop-rpi3.tar.gz
+Install and activate ExaGear Desktop by running install-exagear.sh script in a directory with deb packages and one license key:
+$ sudo  ./install-exagear.sh
+
+To enter the guest x86 system use following command:
+$ exagear
+You are now inside the x86 world. You can use this guest shell as if it were running on an x86 machine. It is recommended to update repositories when you enter the guest x86 system for the first time:
+$ sudo apt-get update
+Now you can install Wine from apt-get repositories:
+$ sudo apt-get install wine
+With Wine you can install and run x86 Windows apps and games (for more info follow this link https://www.winehq.org/).
+To exit from the guest session use "exit" command. For more details read the user guide.
+
+If you would like to run PC games with 3D graphics you need to enable hardware graphics acceleration on Raspbian. For more info see this instruction 
+https://docs.eltechs.com/install-and-configure-exagear-desktop/hardware-graphics-acceleration-on-rpi 
+
+If you have questions feel free to email on support@eltechs.com or visit our tech forum http://forum.eltechs.com/
+
+Best regards,
+Eltechs team
+eltechs.com
