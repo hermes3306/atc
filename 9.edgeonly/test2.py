@@ -14,7 +14,7 @@ print('SENSOR   Site : Building : Floor : Sector : Sensor : ReportSec :  T :  H 
 
 cursor.execute(sql)
 cnt = 0
-
+ 
 x = cursor.fetchone() 
 while x: 
 	my_site_id 	= x[0]	
