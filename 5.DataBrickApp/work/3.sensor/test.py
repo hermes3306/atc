@@ -2,7 +2,7 @@ import pyodbc
 
 server_arr = ['PC0','PC1','PC2','PC3','PC4','PC5','PC6','PC7','PC8','PC9']
 
-conn = pyodbc.connect('DSN=ALTI_UNIXODBC; SERVER=127.0.0.1; PORT_NO=20300; NLS_USE=UTF8; UID=smssuser; PWD=smssuser')
+conn = pyodbc.connect('DSN=ALTI_UNIXODBC; SERVER=PC0; PORT_NO=20300; NLS_USE=UTF8; UID=smssuser; PWD=smssuser')
 
 dbcursor1 = conn.cursor()
 
