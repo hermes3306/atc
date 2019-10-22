@@ -18,7 +18,7 @@ p_arr = [0,1,1,2,1,1,0,0,0,1,1,0,1,0,0,1,0,1,0,0];
 server_arr = ['localhost','localhost','localhost','localhost','localhost', \
 		'localhost', 'localhost','localhost','localhost','localhost']
 
-port_arr = ['20301','20302','20303','20304' ]
+port_arr = ['20300','20300','20300','20300' ]
 
 print('SENSOR   Site : Building : Floor : Sector : Sensor : ReportSec :  T :  H :   L  : G : W : P')
 #for x in range(60) :
