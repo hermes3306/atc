@@ -1,0 +1,14 @@
+docker commit -a "pi" -m "altibase" altibase altibase:first
+
+
+
+
+
+
+
+
+
+
+
+
+
