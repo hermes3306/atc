@@ -1,2 +1,2 @@
-source 'https://rubygem.org'
-gem 'sigatra'
+source 'https://rubygems.org'
+gem 'sinatra'
