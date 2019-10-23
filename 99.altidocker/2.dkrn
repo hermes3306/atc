@@ -1,0 +1,1 @@
+sudo docker run -i -t --rm --name "altibase71" -p 20300:20300 altibase:71

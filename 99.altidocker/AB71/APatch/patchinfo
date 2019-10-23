@@ -1,0 +1,14 @@
+PRODUCT_SIGNATURE=server-7.1.0-64-release
+PATCH_VERSION=0_0_1_0
+
+=======  OS INFO  =======
+Linux rhel6.0-x64 2.6.32-71.el6.x86_64 #1 SMP Wed Sep 1 01:33:01 EDT 2010 x86_64 x86_64 x86_64 GNU/Linux
+=======  PATCH INFO  =======
+2.6.32-71.el6.x86_64
+=======  COMPILER INFO  =======
+gcc version 4.6.3 (GCC) 
+glibc 2.12
+=======  JAVA INFO  =======
+java version "1.5.0_22"
+Java(TM) 2 Runtime Environment, Standard Edition (build 1.5.0_22-b03)
+Java HotSpot(TM) 64-Bit Server VM (build 1.5.0_22-b03, mixed mode)

@@ -1,0 +1,1566 @@
+Log started 10/16/2019 at 10:56:57
+Preferred installation mode : gtk
+Trying to init installer in mode gtk
+Trying to init installer in mode gtk
+Trying to init installer in mode xwindow
+Mode xwindow successfully initialized
+Executing getconf LONG_BIT > .osbit.tmp
+Script exit code: 0
+
+Script output:
+ 
+
+Script stderr:
+ 
+
+Executing rm -rf .osbit.tmp
+Script exit code: 0
+
+Script output:
+ 
+
+Script stderr:
+ 
+
+Preparing to Install
+Preparing to Install
+Creating directory /home/niceguy/AB71/DB0
+Creating directory /home/niceguy/AB71/DB0/APatch
+Creating directory /home/niceguy/AB71/DB0/admin
+Creating directory /home/niceguy/AB71/DB0/arch_logs
+Creating directory /home/niceguy/AB71/DB0/altiComp
+Creating directory /home/niceguy/AB71/DB0/bin
+Creating directory /home/niceguy/AB71/DB0/conf
+Creating directory /home/niceguy/AB71/DB0/dbs
+Creating directory /home/niceguy/AB71/DB0/global
+Creating directory /home/niceguy/AB71/DB0/include
+Creating directory /home/niceguy/AB71/DB0/install
+Creating directory /home/niceguy/AB71/DB0/lib
+Creating directory /home/niceguy/AB71/DB0/logs
+Creating directory /home/niceguy/AB71/DB0/logs/never_remove_log_files
+Creating directory /home/niceguy/AB71/DB0/logs/do_not_remove_log_files
+Creating directory /home/niceguy/AB71/DB0/msg
+Creating directory /home/niceguy/AB71/DB0/sample
+Creating directory /home/niceguy/AB71/DB0/sample/SPATIAL
+Creating directory /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC
+Creating directory /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKT
+Creating directory /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKB
+Creating directory /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC
+Creating directory /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC/WKT
+Creating directory /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC/WKB
+Creating directory /home/niceguy/AB71/DB0/sample/UTIL
+Creating directory /home/niceguy/AB71/DB0/sample/JDBC
+Creating directory /home/niceguy/AB71/DB0/sample/JDBC/CLOB
+Creating directory /home/niceguy/AB71/DB0/sample/JDBC/SSL
+Creating directory /home/niceguy/AB71/DB0/sample/JDBC/MultipleResultSet
+Creating directory /home/niceguy/AB71/DB0/sample/JDBC/Logging
+Creating directory /home/niceguy/AB71/DB0/sample/JDBC/SimpleSQL
+Creating directory /home/niceguy/AB71/DB0/sample/JDBC/BLOB
+Creating directory /home/niceguy/AB71/DB0/sample/JDBC/Fail-Over
+Creating directory /home/niceguy/AB71/DB0/sample/ALA
+Creating directory /home/niceguy/AB71/DB0/sample/ALA/Altibase
+Creating directory /home/niceguy/AB71/DB0/sample/ALA/Oracle
+Creating directory /home/niceguy/AB71/DB0/sample/ALA/OracleOCI
+Creating directory /home/niceguy/AB71/DB0/sample/CHECKSERVER
+Creating directory /home/niceguy/AB71/DB0/sample/ILOADERAPI
+Creating directory /home/niceguy/AB71/DB0/sample/APRE
+Creating directory /home/niceguy/AB71/DB0/sample/APRE/CLOB
+Creating directory /home/niceguy/AB71/DB0/sample/APRE/include
+Creating directory /home/niceguy/AB71/DB0/sample/APRE/SSL
+Creating directory /home/niceguy/AB71/DB0/sample/APRE/BLOB
+Creating directory /home/niceguy/AB71/DB0/sample/APRE/schema
+Creating directory /home/niceguy/AB71/DB0/sample/APRE/Fail-Over
+Creating directory /home/niceguy/AB71/DB0/sample/SQLCLI
+Creating directory /home/niceguy/AB71/DB0/sample/SQLCLI/CLOB
+Creating directory /home/niceguy/AB71/DB0/sample/SQLCLI/SSL
+Creating directory /home/niceguy/AB71/DB0/sample/SQLCLI/BLOB
+Creating directory /home/niceguy/AB71/DB0/sample/SQLCLI/Fail-Over
+Creating directory /home/niceguy/AB71/DB0/sample/CAPI
+Creating directory /home/niceguy/AB71/DB0/sample/CAPI/SSL
+Creating directory /home/niceguy/AB71/DB0/sample/CAPI/Fail-Over
+Creating directory /home/niceguy/AB71/DB0/thirdparty
+Creating directory /home/niceguy/AB71/DB0/thirdparty/SmartSSD
+Creating directory /home/niceguy/AB71/DB0/thirdparty/ArcGIS
+Creating directory /home/niceguy/AB71/DB0/trc
+Creating directory /home/niceguy/AB71/DB0/altiMon
+Creating directory /home/niceguy/AB71/DB0/altiMon/conf
+Creating directory /home/niceguy/AB71/DB0/altiMon/lib
+Creating directory /home/niceguy/AB71/DB0/altiMon/action_logs
+Creating directory /home/niceguy/AB71/DB0/altiMon/action_scripts
+Creating directory /home/niceguy/AB71/DB0/packages
+Unpacking files
+Unpacking /home/niceguy/AB71/DB0/report.txt
+Unpacking /home/niceguy/AB71/DB0/bin/altilinker.jar
+Unpacking /home/niceguy/AB71/DB0/global/E_MM_US7ASCII.msg
+Unpacking /home/niceguy/AB71/DB0/global/E_SM_US7ASCII.msg
+Unpacking /home/niceguy/AB71/DB0/global/E_UT_US7ASCII.msg
+Unpacking /home/niceguy/AB71/DB0/global/genErrMsg
+Unpacking /home/niceguy/AB71/DB0/global/E_UL_US7ASCII.msg
+Unpacking /home/niceguy/AB71/DB0/global/E_QP_US7ASCII.msg
+Unpacking /home/niceguy/AB71/DB0/global/E_RP_US7ASCII.msg
+Unpacking /home/niceguy/AB71/DB0/include/sqlext.h
+Unpacking /home/niceguy/AB71/DB0/lib/libapre.a
+Unpacking /home/niceguy/AB71/DB0/lib/libsesc.a
+Unpacking /home/niceguy/AB71/DB0/lib/libalticapi.a
+Unpacking /home/niceguy/AB71/DB0/lib/libapre_sl.so
+Unpacking /home/niceguy/AB71/DB0/lib/libsesc_sl.so
+Unpacking /home/niceguy/AB71/DB0/lib/libaltibaseMonitor_sl.so
+Unpacking /home/niceguy/AB71/DB0/lib/libaltiutil_sl.so
+Unpacking /home/niceguy/AB71/DB0/lib/libaltibaseMonitor.a
+Unpacking /home/niceguy/AB71/DB0/lib/libalticapi_sl.so
+Unpacking /home/niceguy/AB71/DB0/lib/libacs.a
+Unpacking /home/niceguy/AB71/DB0/lib/libaltiutil.a
+Unpacking /home/niceguy/AB71/DB0/msg/E_QP_KO16KSC5601.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_QP_US7ASCII.msb
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/OracleOCI/OciApplier.c
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/Fail-Over/DistributedOLTPSample_ULFailOver.cpp
+Unpacking /home/niceguy/AB71/DB0/thirdparty/SmartSSD/libsdm.so
+Unpacking /home/niceguy/AB71/DB0/altiMon/altimon.jar
+Unpacking /home/niceguy/AB71/DB0/altiMon/lib/commons-logging-1.1.jar
+Unpacking /home/niceguy/AB71/DB0/altiMon/lib/commons-codec-1.6.jar
+Unpacking /home/niceguy/AB71/DB0/altiMon/lib/stax-1.2.0.jar
+Unpacking /home/niceguy/AB71/DB0/admin/adminview.sql
+Unpacking /home/niceguy/AB71/DB0/altiComp/altiComp.cfg
+Unpacking /home/niceguy/AB71/DB0/bin/altimon.sh
+Unpacking /home/niceguy/AB71/DB0/bin/altierr
+Unpacking /home/niceguy/AB71/DB0/conf/aexport.properties.sample
+Unpacking /home/niceguy/AB71/DB0/conf/altibase.properties.sample
+Unpacking /home/niceguy/AB71/DB0/include/alaTypes.h
+Unpacking /home/niceguy/AB71/DB0/include/alticapi.h
+Unpacking /home/niceguy/AB71/DB0/include/chksvr.h
+Unpacking /home/niceguy/AB71/DB0/include/acsAPI.h
+Unpacking /home/niceguy/AB71/DB0/include/acsTypes.h
+Unpacking /home/niceguy/AB71/DB0/include/altibaseMonitor.h
+Unpacking /home/niceguy/AB71/DB0/include/aprePredefinedTypes.h
+Unpacking /home/niceguy/AB71/DB0/include/alaAPI.h
+Unpacking /home/niceguy/AB71/DB0/install/altibase_env.mk
+Unpacking /home/niceguy/AB71/DB0/msg/APRE.ban
+Unpacking /home/niceguy/AB71/DB0/sample/UTIL/altiGrep.java
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/BLOB/altibase.gif
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/BLOB/adccenter.gif
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/OracleOCI/AlaReceiver.h
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/OracleOCI/AlaToOciConfig.h
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/OracleOCI/AlaReceiver.c
+Unpacking /home/niceguy/AB71/DB0/sample/CHECKSERVER/checkServerCancel.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/CHECKSERVER/checkServer.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/create_mt.sql
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/create.sql
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/datain.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/datain_cb.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/datain_cb_1.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/arrays2.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/cursor1.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/cursor2.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/argument.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/arrays1.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/binary.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/cparsefull.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/connect2.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/connect1.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/CLOB/clobSample.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/BLOB/blobSample.sc
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/CLOB/clobSample.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/BLOB/blobSample.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/common.h
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/SSL/common.h
+Unpacking /home/niceguy/AB71/DB0/altiMon/conf/config.xml
+Unpacking /home/niceguy/AB71/DB0/altiMon/lib/com.altibase.picl.jar
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/cpu_act.sh
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/cpu_act.sql
+Unpacking /home/niceguy/AB71/DB0/packages/catproc.sql
+Unpacking /home/niceguy/AB71/DB0/conf/dblink.conf.sample
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/deleteObject.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/deleteObject.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKT/deleteWKT.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKB/deleteWKB.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC/WKT/DeleteWKT.java
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC/WKB/DeleteWKB.java
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/OracleOCI/DBLog.h
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/dataout_cb.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/dataout_mt.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/dataout.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/dataout_cb_1.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/datain_cb_2.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/datain_mt.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/dataout_cb_2.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/delete.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/date.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/declare_stmt.sc
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_dead.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex1.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex5.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex4.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex2.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex4.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex3.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_cpool.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex2.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex6.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex6.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex1.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex3.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex5.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_clob.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex1.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex6.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex7.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex5.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex4.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex3.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_blob.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex1.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_blob.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex3.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex2.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex2.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex6.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex5.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_clob.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex4.c
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/db_usage.sql
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/db_usage.sh
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_stats.sql
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_output.plb
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_random.sql
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_sql.plb
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_concurrent_exec.plb
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_application_info.sql
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_lock.sql
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_stats.plb
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_utility.sql
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_lock.plb
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_shard.sql
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_recyclebin.plb
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_output.sql
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_alert.plb
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_concurrent_exec.sql
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_application_info.plb
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_utility.plb
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_sql.sql
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_alert.sql
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_shard_body.sql
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_random.plb
+Unpacking /home/niceguy/AB71/DB0/packages/dbms_recyclebin.sql
+Unpacking /home/niceguy/AB71/DB0/admin/dumpReplScript.sql
+Unpacking /home/niceguy/AB71/DB0/global/E_CM_US7ASCII.msg
+Unpacking /home/niceguy/AB71/DB0/global/E_DK_US7ASCII.msg
+Unpacking /home/niceguy/AB71/DB0/msg/DUMPDDF.ban
+Unpacking /home/niceguy/AB71/DB0/msg/DUMPLF.ban
+Unpacking /home/niceguy/AB71/DB0/msg/E_CM_US7ASCII.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_DK_US7ASCII.msb
+Unpacking /home/niceguy/AB71/DB0/msg/DUMPCI.ban
+Unpacking /home/niceguy/AB71/DB0/msg/E_DK_KO16KSC5601.msb
+Unpacking /home/niceguy/AB71/DB0/msg/DUMPLA.ban
+Unpacking /home/niceguy/AB71/DB0/msg/E_CM_KO16KSC5601.msb
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/Logging/drop_schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/dynamic4.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/dynamic2.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/dynamic1.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/dynamic3.sc
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta7.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta10.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta8.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta2.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta4.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_tran1.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta9.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta10.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_tran2.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_info2.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta4.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex7.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta2.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_tran1.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta5.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta6.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex8.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex8.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_info1.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta1.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta9.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_plan.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta5.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_tran2.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta7.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_plan.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta6.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta8.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta3.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_mt.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_ex7.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_meta3.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/demo_info2.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_tran2_sel.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_meta8.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_mt.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_tran2.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_meta2.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_meta8.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_ex7.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_meta2.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_tran1.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_tran1.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_meta1.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/demo_tran2.sql
+Unpacking /home/niceguy/AB71/DB0/bin/iloaderup
+Unpacking /home/niceguy/AB71/DB0/bin/il
+Unpacking /home/niceguy/AB71/DB0/global/E_SD_US7ASCII.msg
+Unpacking /home/niceguy/AB71/DB0/global/E_MT_US7ASCII.msg
+Unpacking /home/niceguy/AB71/DB0/global/E_ST_US7ASCII.msg
+Unpacking /home/niceguy/AB71/DB0/include/iloaderApi.h
+Unpacking /home/niceguy/AB71/DB0/msg/E_RP_US7ASCII.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_SM_US7ASCII.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_SD_US7ASCII.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_SM_KO16KSC5601.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_ST_US7ASCII.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_MT_US7ASCII.msb
+Unpacking /home/niceguy/AB71/DB0/msg/ILOADER.ban
+Unpacking /home/niceguy/AB71/DB0/msg/E_MM_KO16KSC5601.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_MM_US7ASCII.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_ID_US7ASCII.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_SD_KO16KSC5601.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_MT_KO16KSC5601.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_RP_KO16KSC5601.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_ID_KO16KSC5601.msb
+Unpacking /home/niceguy/AB71/DB0/msg/E_ST_KO16KSC5601.msb
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/CLOB/Greetings.txt
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/Fail-Over/FailOverCallbackSample.java
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/Fail-Over/FailOverSampleSTF.java
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/OracleOCI/Exception.h
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/formout_mt.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/formout.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/free.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/include/hostvar.h
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/include/hostvar2.h
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/Fail-Over/FailOverSample.sc
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/Fail-Over/FailOverSample.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/Fail-Over/FailOverCallbackSample.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/Fail-Over/FailOverCallbackSample.c
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/Fail-Over/FailOverSample.c
+Unpacking /home/niceguy/AB71/DB0/thirdparty/ArcGIS/geometry_columns.sql
+Unpacking /home/niceguy/AB71/DB0/altiMon/conf/GroupMetrics.xml
+Unpacking /home/niceguy/AB71/DB0/APatch/pkg_patch_0_0_1_0.txt
+Unpacking /home/niceguy/AB71/DB0/APatch/patchinfo
+Unpacking /home/niceguy/AB71/DB0/admin/install_proc.sh
+Unpacking /home/niceguy/AB71/DB0/bin/is
+Unpacking /home/niceguy/AB71/DB0/global/README.global
+Unpacking /home/niceguy/AB71/DB0/install/post_install.sh
+Unpacking /home/niceguy/AB71/DB0/install/pre_install.sh
+Unpacking /home/niceguy/AB71/DB0/lib/libaltijext.so
+Unpacking /home/niceguy/AB71/DB0/msg/ISQL.ban
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/insertObject.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/insertObject.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKT/insertWKT.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKT/MakeSelect.mk
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKT/MakeInsert.mk
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKT/MakeDelete.mk
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKT/MakeUpdate.mk
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKB/MakeSelect.mk
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKB/MakeInsert.mk
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKB/MakeDelete.mk
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKB/MakeUpdate.mk
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKB/insertWKB.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC/WKT/InsertWKT.java
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC/WKB/InsertWKB.java
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/CLOB/MemoryDBMS.txt
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/MultipleResultSet/MultipleResultSet.java
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/Logging/logging.properties
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/Fail-Over/MyFailOverCallback.java
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/Altibase/ReplToAltiSample.c
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/Altibase/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/OracleOCI/README
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/OracleOCI/OciApplier.h
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/OracleOCI/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/OracleOCI/Main.c
+Unpacking /home/niceguy/AB71/DB0/sample/CHECKSERVER/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/insert.sql
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/insert_mt.sql
+Unpacking /home/niceguy/AB71/DB0/sample/ILOADERAPI/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/indicator.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/psm2.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/psm1.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/mc3.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/insert.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/mt1.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/pointer.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/mc2.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/Makefile_cparse
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/macro.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/mt2.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/mc1.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/CLOB/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/CLOB/MemoryDBMS.txt
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/SSL/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/BLOB/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/BLOB/MemoryDBMS.txt
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/Fail-Over/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/README
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/CLOB/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/CLOB/MemoryDBMS.txt
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/SSL/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/BLOB/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/BLOB/MemoryDBMS.txt
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/Fail-Over/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/README
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/SSL/Makefile
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/Fail-Over/Makefile
+Unpacking /home/niceguy/AB71/DB0/altiMon/ReadMe.txt
+Unpacking /home/niceguy/AB71/DB0/altiMon/conf/Metrics.xml
+Unpacking /home/niceguy/AB71/DB0/altiMon/conf/log4j.properties
+Unpacking /home/niceguy/AB71/DB0/altiMon/lib/linux-x64.so
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/logfile_act.sh
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/long_query.sh
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/mem_stat.sql
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/mem_act.sh
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/mem_stat.sh
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/mem_act.sql
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/rep_act.sh
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/long_query.sql
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/rep_act.sql
+Unpacking /home/niceguy/AB71/DB0/altiMon/action_scripts/logfile_act.sql
+Unpacking /home/niceguy/AB71/DB0/admin/showTables.sql
+Unpacking /home/niceguy/AB71/DB0/admin/showProcBody.sql
+Unpacking /home/niceguy/AB71/DB0/admin/showReplications.sql
+Unpacking /home/niceguy/AB71/DB0/admin/showProcedures.sql
+Unpacking /home/niceguy/AB71/DB0/bin/server
+Unpacking /home/niceguy/AB71/DB0/include/sqlcli.h
+Unpacking /home/niceguy/AB71/DB0/include/stdWKBTypes.i
+Unpacking /home/niceguy/AB71/DB0/include/sqlucode.h
+Unpacking /home/niceguy/AB71/DB0/include/sqltypes.h
+Unpacking /home/niceguy/AB71/DB0/include/ses.h
+Unpacking /home/niceguy/AB71/DB0/include/sql.h
+Unpacking /home/niceguy/AB71/DB0/include/stdNativeTypes.i
+Unpacking /home/niceguy/AB71/DB0/msg/SHARDLOADER.ban
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/selectObject.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/selectObject.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKT/selectWKT.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKT/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKB/selectWKB.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKB/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC/WKT/SelectWKT.java
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC/WKT/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC/WKB/SelectWKB.java
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC/WKB/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/CLOB/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/SSL/SslSimpleSQL.java
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/MultipleResultSet/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/Logging/SimpleSQL.java
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/Logging/run.sh
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/SimpleSQL/SimpleSQL.java
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/BLOB/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/ALA/Oracle/ReplToOraSample.c
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/select.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/runtime_error_check.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/CLOB/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/SSL/sslSample.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/SSL/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/BLOB/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/schema/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/CLOB/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/SSL/sslSample.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/SSL/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SQLCLI/BLOB/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/SSL/schema.sql
+Unpacking /home/niceguy/AB71/DB0/sample/CAPI/SSL/sslSample.c
+Unpacking /home/niceguy/AB71/DB0/altiMon/lib/stax-api-1.0.1.jar
+Unpacking /home/niceguy/AB71/DB0/packages/sys_context.plb
+Unpacking /home/niceguy/AB71/DB0/packages/standard.sql
+Unpacking /home/niceguy/AB71/DB0/packages/sys_context.sql
+Unpacking /home/niceguy/AB71/DB0/admin/tracelog.sql
+Unpacking /home/niceguy/AB71/DB0/include/ulsAPI.i
+Unpacking /home/niceguy/AB71/DB0/include/ulsPrimTypes.i
+Unpacking /home/niceguy/AB71/DB0/include/xa.h
+Unpacking /home/niceguy/AB71/DB0/include/ulpLibInterface.h
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/updateObject.sql
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/updateObject.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKT/updateWKT.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoODBC/WKB/updateWKB.cpp
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC/WKT/UpdateWKT.java
+Unpacking /home/niceguy/AB71/DB0/sample/SPATIAL/GeoJDBC/WKB/UpdateWKB.java
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/CLOB/TestCLOB.java
+Unpacking /home/niceguy/AB71/DB0/sample/JDBC/BLOB/TestBLOB.java
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/varchar.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/whenever1.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/update.sc
+Unpacking /home/niceguy/AB71/DB0/sample/APRE/whenever2.sc
+Unpacking /home/niceguy/AB71/DB0/packages/utl_file.sql
+Unpacking /home/niceguy/AB71/DB0/packages/utl_raw.sql
+Unpacking /home/niceguy/AB71/DB0/packages/utl_raw.plb
+Unpacking /home/niceguy/AB71/DB0/packages/utl_file.plb
+Unpacking /home/niceguy/AB71/DB0/packages/utl_tcp.plb
+Unpacking /home/niceguy/AB71/DB0/packages/utl_tcp.sql
+Unpacking /home/niceguy/AB71/DB0/bin/altiAudit
+Unpacking /home/niceguy/AB71/DB0/bin/dumpct
+Unpacking /home/niceguy/AB71/DB0/bin/isql
+Unpacking /home/niceguy/AB71/DB0/bin/altiwrap
+Unpacking /home/niceguy/AB71/DB0/bin/dumpla
+Unpacking /home/niceguy/AB71/DB0/bin/dumpbi
+Unpacking /home/niceguy/AB71/DB0/bin/dumpddf
+Unpacking /home/niceguy/AB71/DB0/bin/altipasswd
+Unpacking /home/niceguy/AB71/DB0/bin/dumptbl
+Unpacking /home/niceguy/AB71/DB0/bin/dumpdb
+Unpacking /home/niceguy/AB71/DB0/bin/shmutil
+Unpacking /home/niceguy/AB71/DB0/bin/apre
+Unpacking /home/niceguy/AB71/DB0/bin/iloader
+Unpacking /home/niceguy/AB71/DB0/bin/altiProfile
+Unpacking /home/niceguy/AB71/DB0/bin/shardLoader
+Unpacking /home/niceguy/AB71/DB0/bin/dumpci
+Unpacking /home/niceguy/AB71/DB0/bin/killCheckServer
+Unpacking /home/niceguy/AB71/DB0/bin/sesc
+Unpacking /home/niceguy/AB71/DB0/bin/extprocAgent
+Unpacking /home/niceguy/AB71/DB0/bin/aexport
+Unpacking /home/niceguy/AB71/DB0/bin/dumplf
+Unpacking /home/niceguy/AB71/DB0/bin/altiComp
+Unpacking /home/niceguy/AB71/DB0/bin/printkey
+Unpacking /home/niceguy/AB71/DB0/bin/altibase
+Unpacking /home/niceguy/AB71/DB0/bin/dumptrc
+Unpacking /home/niceguy/AB71/DB0/bin/checkServer
+Unpacking /home/niceguy/AB71/DB0/lib/Altibase7_1.jar
+Unpacking /home/niceguy/AB71/DB0/lib/libala_sl.so
+Unpacking /home/niceguy/AB71/DB0/lib/libiloader_sl.so
+Unpacking /home/niceguy/AB71/DB0/lib/libaltibase_odbc-64bit-ul64.so
+Unpacking /home/niceguy/AB71/DB0/lib/libodbccli.a
+Unpacking /home/niceguy/AB71/DB0/lib/libshardcli.a
+Unpacking /home/niceguy/AB71/DB0/lib/libchksvr.a
+Unpacking /home/niceguy/AB71/DB0/lib/libaltibase_odbc-64bit-ul32.so
+Unpacking /home/niceguy/AB71/DB0/lib/libiloader.a
+Unpacking /home/niceguy/AB71/DB0/lib/libodbccli_sl.so
+Unpacking /home/niceguy/AB71/DB0/lib/Altibase.jar
+Unpacking /home/niceguy/AB71/DB0/lib/Altibase_t.jar
+Unpacking /home/niceguy/AB71/DB0/lib/libala.a
+Unpacking /home/niceguy/AB71/DB0/lib/libchksvr_sl.so
+Unpacking /home/niceguy/AB71/DB0/lib/libshardcli_sl.so
+Unpacking /home/niceguy/AB71/DB0/msg/manual.txt
+Unpacking /home/niceguy/AB71/DB0/altiMon/lib/log4j.jar
+Unpacking /home/niceguy/AB71/DB0/altiMon/lib/quartz-all-1.6.6.jar
+Unpacking /home/niceguy/AB71/DB0/altiMon/lib/commons-collections-3.2.jar
+Creating Shortcut for Uninstall Altibase Server 7.1.0.1.0
+Setting variable set_env_result from /home/niceguy/AB71/DB0/install/post_install.sh setenv a
+Script exit code: 0
+
+Script output:
+ [Linux Env.]
+	Target : /home/niceguy/AB71/DB0/conf/altibase_user.env
+
+	created  ----------------------- Altibase environment setup file.
+	added    ----------------------- ALTIBASE_HOME
+	added    ----------------------- PATH
+	added    ----------------------- LD_LIBRARY_PATH
+	added    ----------------------- CLASSPATH
+	
+ 
+        export ----------------------- 'altibase_user.env'
+        into '/home/niceguy/.profile'
+ 
+ 
+ 
+==============================================
+Please perform [re-login] 
+or [source /home/niceguy/.profile] 
+or [. /home/niceguy/.profile]
+==============================================
+
+Script stderr:
+ 
+
+Creating Uninstaller
+Creating uninstaller 25%
+Creating uninstaller 50%
+Creating uninstaller 75%
+Creating uninstaller 100%
+Installation completed
+Log finished 10/16/2019 at 10:57:24
+An Altibase database is being created.
+Please be patient; this may take some time.
+Setting variable post_install_result from /home/niceguy/AB71/DB0/install/post_install.sh dbcreate
+Script exit code: 0
+
+Script output:
+ -----------------------------------------------------------------
+     Altibase Client Query utility.
+     Release Version 7.1.0.1.0
+     Copyright 2000, ALTIBASE Corporation or its subsidiaries.
+     All Rights Reserved.
+-----------------------------------------------------------------
+ISQL_CONNECTION = UNIX, SERVER = localhost
+[ERR-910FB : Connected to idle instance]
+Connecting to the DB server.... Connected.
+
+
+TRANSITION TO PHASE : PROCESS
+Command executed successfully.
+
+DB Info (Page Size     = 32768)
+        (Page Count    = 257)
+        (Total DB Size = 8421376)
+        (DB File Size  = 1073741824)
+
+	Creating MMDB FILES     [SUCCESS]
+
+	Creating Catalog Tables [SUCCESS]
+
+	Creating DRDB FILES     [SUCCESS]
+
+  [SM] Rebuilding Indices [Total Count:0]  [SUCCESS]
+
+DB Writing Completed. All Done.
+
+Create success.
+
+
+TRANSITION TO PHASE : CONTROL
+
+
+TRANSITION TO PHASE : META
+  [SM] Recovery Phase - 1 : Preparing Database
+                          : Dynamic Memory Version => Parallel Loading
+  [SM] Recovery Phase - 2 : Loading Database 
+  [SM] Recovery Phase - 3 : Skipping Recovery & Starting Threads...
+                            Refining Disk Table 
+  [SM] Refine Memory Table : ...................................................................................................................................... [SUCCESS]
+  [SM] Rebuilding Indices [Total Count:138] .......................................................................................................................................... [SUCCESS]
+
+
+TRANSITION TO PHASE : SERVICE
+  [CM] Listener started : TCP on port 20300 [IPV4]
+  [CM] Listener started : UNIX
+  [CM] Listener started : IPC
+  [RP] Initialization : [PASS]
+
+--- STARTUP Process SUCCESS ---
+Alter success.
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+-- NAME
+--   catproc.sql
+-- DESCRIPTION
+--   Run all sql scripts
+-- NOTES
+--   This script must be run while connected AS SYS.
+--   $ALTIBASE_HOME Directory = "?"
+-- dbms package
+START ?/packages/dbms_application_info.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package dbms_application_info authid current_user is
+
+procedure set_module(module_name varchar(128), action_name varchar(128));
+
+procedure set_action(action_name varchar(128));
+
+procedure read_module(module_name out varchar(128), action_name out varchar(128));
+
+procedure set_client_info(client_info varchar(128));
+
+procedure read_client_info(client_info out varchar(128));
+
+end;
+/
+Create success.
+create public synonym dbms_application_info for sys.dbms_application_info;
+Create success.
+grant execute on sys.dbms_application_info to public;
+Grant success.
+START ?/packages/dbms_lock.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package dbms_lock authid current_user is
+
+nl_mode  constant integer := 1;
+ss_mode  constant integer := 2;
+sx_mode  constant integer := 3;
+s_mode   constant integer := 4;
+ssx_mode constant integer := 5;
+x_mode   constant integer := 6;
+
+maxwait  constant integer := 32767;
+
+badseconds_num NUMBER := -38148;
+
+function  request(id in integer,
+lockmode in integer default x_mode,
+timeout in integer default maxwait,
+release_on_commit in boolean default FALSE)
+return integer;
+function release(id in integer) return integer;
+procedure sleep(seconds in number);
+
+end dbms_lock;
+/
+Create success.
+create or replace public synonym dbms_lock for sys.dbms_lock;
+Create success.
+grant execute on dbms_lock to PUBLIC;
+Grant success.
+START ?/packages/dbms_output.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package dbms_output authid current_user as
+
+procedure put(a VARCHAR(65534));
+pragma restrict_references(put,WNDS,RNDS);
+
+procedure put_line(a VARCHAR(65533));
+pragma restrict_references(put_line,WNDS,RNDS);
+
+procedure new_line;
+pragma restrict_references(new_line,WNDS,RNDS);
+
+end;
+/
+Create success.
+create or replace public synonym dbms_output for dbms_output;
+Create success.
+grant execute on dbms_output to public;
+Grant success.
+START ?/packages/dbms_random.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+CREATE OR REPLACE PACKAGE dbms_random AUTHID CURRENT_USER AS
+
+TYPE num_array IS TABLE OF NUMBER INDEX BY INTEGER;
+
+PROCEDURE seed(val IN INTEGER);
+PRAGMA restrict_references (seed, WNDS);
+
+PROCEDURE seed(val IN VARCHAR(2000));
+PRAGMA restrict_references (seed, WNDS);
+
+FUNCTION value RETURN NUMBER;
+
+FUNCTION value (low IN NUMBER, high IN NUMBER) RETURN NUMBER;
+
+FUNCTION string (opt char(1), len NUMBER)
+RETURN VARCHAR(4000);  
+
+FUNCTION replay_random_number RETURN NUMBER;
+PRAGMA restrict_references (replay_random_number, WNDS);
+
+PROCEDURE initialize(val IN INTEGER);
+
+FUNCTION random RETURN BIGINT;
+
+PROCEDURE terminate;
+
+END dbms_random;
+/
+Create success.
+CREATE OR REPLACE PUBLIC SYNONYM dbms_random FOR sys.dbms_random;
+Create success.
+GRANT EXECUTE ON dbms_random TO public;
+Grant success.
+START ?/packages/dbms_sql.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package dbms_sql authid current_user 
+as
+native constant integer := 0;
+
+function  open_cursor() return integer;
+
+function  is_open(c in integer) return boolean;
+
+procedure parse(c             in integer,
+                sql           in varchar2(32000),
+                language_flag in integer);
+
+procedure bind_variable(c     in integer,
+                        name  in varchar2(128),
+                        value in varchar2(32000));
+
+procedure bind_variable(c     in integer,
+                        name  in varchar2(128),
+                        value in char(32000));
+
+procedure bind_variable(c     in integer,
+                        name  in varchar2(128),
+                        value in integer);
+
+procedure bind_variable(c     in integer,
+                        name  in varchar2(128),
+                        value in bigint);
+
+procedure bind_variable(c     in integer,
+                        name  in varchar2(128),
+                        value in smallint);
+
+procedure bind_variable(c     in integer,
+                        name  in varchar2(128),
+                        value in double);
+
+procedure bind_variable(c     in integer,
+                        name  in varchar2(128),
+                        value in real);
+
+procedure bind_variable(c     in integer,
+                        name  in varchar2(128),
+                        value in numeric(38));
+
+procedure bind_variable(c     in integer,
+                        name  in varchar2(128),
+                        value in date);
+
+function  execute_cursor(c in integer) return bigint;
+
+procedure define_column(c            in integer,
+                        position     in integer,
+                        column_value in varchar2(32000));
+
+procedure define_column(c            in integer,
+                        position     in integer,
+                        column_value in char(32000));
+
+procedure define_column(c            in integer,
+                        position     in integer,
+                        column_value in integer);
+
+procedure define_column(c            in integer,
+                        position     in integer,
+                        column_value in bigint);
+
+procedure define_column(c            in integer,
+                        position     in integer,
+                        column_value in smallint);
+
+procedure define_column(c            in integer,
+                        position     in integer,
+                        column_value in double);
+
+procedure define_column(c            in integer,
+                        position     in integer,
+                        column_value in real);
+
+procedure define_column(c            in integer,
+                        position     in integer,
+                        column_value in numeric(38));
+
+procedure define_column(c            in integer,
+                        position     in integer,
+                        column_value in date);
+
+procedure define_column_char(c            in integer,
+                             position     in integer,
+                             column_value in char(32000),
+                             column_size  in integer);
+
+function fetch_rows(c integer) return integer;
+
+procedure column_value(c             in integer,
+                       position      in integer,
+                       column_value  out varchar2(32000));
+
+procedure column_value(c             in integer,
+                       position      in integer,
+                       column_value  out char(32000));
+
+procedure column_value(c             in integer,
+                       position      in integer,
+                       column_value  out integer);
+
+procedure column_value(c             in integer,
+                       position      in integer,
+                       column_value  out bigint);
+
+procedure column_value(c             in integer,
+                       position      in integer,
+                       column_value  out smallint);
+
+procedure column_value(c             in integer,
+                       position      in integer,
+                       column_value  out double);
+
+procedure column_value(c             in integer,
+                       position      in integer,
+                       column_value  out real);
+
+procedure column_value(c             in integer,
+                       position      in integer,
+                       column_value  out numeric(38));
+
+procedure column_value(c             in integer,
+                       position      in integer,
+                       column_value  out date);
+
+procedure close_cursor(c in out integer);
+
+function  last_error_position() return integer;
+
+end dbms_sql;
+/
+Create success.
+create public synonym dbms_sql for sys.dbms_sql;
+Create success.
+grant execute on sys.dbms_sql to public;
+Grant success.
+START ?/packages/dbms_stats.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package dbms_stats authid current_user 
+as
+
+procedure gather_system_stats();
+
+procedure gather_database_stats( estimate_percent    in float   default 0,
+                                 degree              in integer default 0,
+                                 gather_system_stats in boolean default false,
+                                 no_invalidate       in boolean default false );
+
+procedure gather_table_stats( ownname          in varchar(128),
+                              tabname          in varchar(128),
+                              partname         in varchar(128) default null,
+                              estimate_percent in float   default 0,
+                              degree           in integer default 0,
+                              no_invalidate    in boolean default false );
+
+procedure gather_index_stats( ownname          in varchar(128),
+                              idxname          in varchar(128),
+                              estimate_percent in float   default 0,
+                              degree           in integer default 0,
+                              no_invalidate    in boolean default false );
+
+procedure set_system_stats( statname  in varchar(100),
+                            statvalue in double );
+
+procedure set_table_stats( ownname        in varchar(128),
+                           tabname        in varchar(128),
+                           partname       in varchar(128) default null,
+                           numrow         in bigint  default null,
+                           numpage        in bigint  default null,
+                           avgrlen        in bigint  default null,
+                           onerowreadtime in double  default null,
+                           no_invalidate  in boolean default false );
+
+procedure set_column_stats( ownname       in varchar(128),
+                            tabname       in varchar(128),
+                            colname       in varchar(128),
+                            partname      in varchar(128) default null,
+                            numdist       in bigint  default null,
+                            numnull       in bigint  default null,
+                            avgclen       in bigint  default null,
+                            minvalue      in varchar(48) default null,
+                            maxvalue      in varchar(48) default null,
+                            no_invalidate in boolean default false );
+
+procedure set_index_stats( ownname          in varchar(128),
+                           idxname          in varchar(128),
+                           keycount         in bigint  default null,
+                           numpage          in bigint  default null,
+                           numdist          in bigint  default null,
+                           clusteringfactor in bigint  default null,
+                           indexheight      in bigint  default null,
+                           avgslotcnt       in bigint  default null,
+                           no_invalidate    in boolean default false );
+
+procedure delete_system_stats();
+
+procedure delete_table_stats( ownname         in varchar(128),
+                              tabname         in varchar(128),
+                              partname        in varchar(128) default null,
+                              cascade_part    in boolean default true,
+                              cascade_columns in boolean default true,
+                              cascade_indexes in boolean default true,
+                              no_invalidate   in boolean default false );
+
+procedure delete_column_stats( ownname       in varchar(128),
+                               tabname       in varchar(128),
+                               colname       in varchar(128),
+                               partname      in varchar(128) default null,
+                               cascade_part  in boolean default true,
+                               no_invalidate in boolean default false );
+
+procedure delete_index_stats( ownname       in varchar(128),
+                              idxname       in varchar(128),
+                              no_invalidate in boolean default false );
+
+procedure delete_database_stats( no_invalidate in boolean default false );
+
+procedure get_system_stats( statname  in varchar(100),
+                            statvalue out double );
+
+procedure get_table_stats( ownname        in varchar(128),
+                           tabname        in varchar(128),
+                           partname       in varchar(128) default null,
+                           numrow         out bigint,
+                           numpage        out bigint,
+                           avgrlen        out bigint,
+                           cachedpage     out bigint,
+                           onerowreadtime out double );
+
+procedure get_column_stats( ownname  in varchar(128),
+                            tabname  in varchar(128),
+                            colname  in varchar(128),
+                            partname in varchar(128) default null,
+                            numdist  out bigint,
+                            numnull  out bigint,
+                            avgclen  out bigint,
+                            minvalue out varchar(48),
+                            maxvalue out varchar(48) );
+
+procedure get_index_stats( ownname          in varchar(128),
+                           idxname          in varchar(128),
+                           partname         in varchar(128) default null,
+                           keycount         out bigint,
+                           numpage          out bigint,
+                           numdist          out bigint,
+                           clusteringfactor out bigint,
+                           indexheight      out bigint,
+                           cachedpage       out bigint,
+                           avgslotcnt       out bigint );
+
+procedure copy_table_stats( ownname     in varchar(128),
+                            tabname     in varchar(128),
+                            srcpartname in varchar(128),
+                            dstpartname in varchar(128) );
+
+procedure set_primary_key_stats( ownname          in varchar(128),
+                                 tabname          in varchar(128),
+                                 keycount         in bigint  default null,
+                                 numpage          in bigint  default null,
+                                 numdist          in bigint  default null,
+                                 clusteringfactor in bigint  default null,
+                                 indexheight      in bigint  default null,
+                                 avgslotcnt       in bigint  default null,
+                                 no_invalidate    in boolean default false );
+
+procedure set_unique_key_stats( ownname          in varchar(128),
+                                tabname          in varchar(128),
+                                colnamelist      in varchar(32000),
+                                keycount         in bigint  default null,
+                                numpage          in bigint  default null,
+                                numdist          in bigint  default null,
+                                clusteringfactor in bigint  default null,
+                                indexheight      in bigint  default null,
+                                avgslotcnt       in bigint  default null,
+                                no_invalidate    in boolean default false );
+end dbms_stats;
+/
+Create success.
+create public synonym dbms_stats for sys.dbms_stats;
+Create success.
+grant execute on sys.dbms_stats to public;
+Grant success.
+START ?/packages/dbms_alert.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package dbms_alert authid current_user as
+
+procedure register( name in varchar(30) );
+
+procedure remove_event( name in varchar(30) );
+
+procedure removeall();
+
+procedure set_defaults( poll_interval in integer );
+
+procedure signal( name    in varchar(30),
+                  message in varchar(1800) );
+
+procedure waitany( name    out varchar(30),
+                   message out varchar(1800),
+                   status  out integer,
+                   timeout in  integer default 86400000 );
+
+procedure waitone( name    in  varchar(30),
+                   message out varchar(1800),
+                   status  out integer,
+                   timeout in  integer default 86400000 );
+
+end dbms_alert;
+/
+Create success.
+create public synonym dbms_alert for sys.dbms_alert;
+Create success.
+grant execute on sys.dbms_alert to public;
+Grant success.
+START ?/packages/dbms_concurrent_exec.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+CREATE OR REPLACE PACKAGE DBMS_CONCURRENT_EXEC AUTHID CURRENT_USER AS
+
+FUNCTION INITIALIZE ( IN_DEGREE INTEGER DEFAULT NULL ) RETURN INTEGER;
+
+FUNCTION GET_DEGREE_OF_CONCURRENCY                     RETURN INTEGER;
+
+FUNCTION REQUEST    ( TEXT VARCHAR(8192) )             RETURN INTEGER;
+
+FUNCTION WAIT_ALL                                      RETURN INTEGER;
+
+FUNCTION WAIT_REQ   ( REQ_ID INTEGER )                 RETURN INTEGER;
+
+FUNCTION FINALIZE                                      RETURN INTEGER;
+
+FUNCTION GET_ERROR_COUNT                               RETURN INTEGER;
+
+FUNCTION GET_ERROR  ( REQ_ID IN INTEGER,
+                      TEXT OUT VARCHAR(8192),
+                      ERR_CODE OUT INTEGER,
+                      ERR_MSG OUT VARCHAR(8192) )      RETURN INTEGER;
+
+FUNCTION GET_LAST_REQ_ID                               RETURN INTEGER;
+
+FUNCTION GET_REQ_TEXT ( REQ_ID INTEGER )               RETURN VARCHAR(8192);
+
+PROCEDURE PRINT_ERROR ( REQ_ID INTEGER );
+
+END;
+/
+Create success.
+CREATE OR REPLACE PUBLIC SYNONYM DBMS_CONCURRENT_EXEC FOR SYS.DBMS_CONCURRENT_EXEC;
+Create success.
+GRANT EXECUTE ON DBMS_CONCURRENT_EXEC TO PUBLIC;
+Grant success.
+START ?/packages/dbms_recyclebin.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+CREATE PACKAGE DBMS_RECYCLEBIN AUTHID CURRENT_USER AS
+
+PROCEDURE PURGE_USER_RECYCLEBIN;
+
+PROCEDURE PURGE_ALL_RECYCLEBIN;
+
+PROCEDURE PURGE_TABLESPACE( TABLESPACE_NAME IN VARCHAR(64) );
+
+PROCEDURE PURGE_ORIGINAL_NAME( ORIGINAL_NAME IN VARCHAR(128) );
+
+END;
+/
+Create success.
+CREATE OR REPLACE PUBLIC SYNONYM DBMS_RECYCLEBIN FOR SYS.DBMS_RECYCLEBIN;
+Create success.
+GRANT EXECUTE ON DBMS_RECYCLEBIN TO PUBLIC;
+Grant success.
+START ?/packages/dbms_utility.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package dbms_utility authid current_user as
+
+function format_call_stack return varchar(65534);
+
+function format_error_backtrace return varchar(65534);
+
+function format_error_stack return varchar(65534);
+
+end dbms_utility;
+/
+Create success.
+create public synonym dbms_utility for sys.dbms_utility;
+Create success.
+grant execute on sys.dbms_utility to public;
+Grant success.
+START ?/packages/dbms_application_info.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package body dbms_application_info WRAPPED
+'MTAzOQ==
+Mzg1
+AD1jcmVhdGUgb3IgcmVwbGFjZSBwYWNrYWdlIGJvZHkgZGJtc19hcHBsaWNhdGlvbl9pbmZvIGlzCgpwcm9jZWR1cmUgc2V0X21vZHVsZSggvAAABF9uYW1lIHZhcmNoYXIoMTI4KSwgYWOcBy9nACApClkJIEAAAANkdW1teSBpbnRlZ2VyOwpiZWdpbgpdAiCgAwM6PSBzcF81sAEsfAEDKTsKZW5kKWECOy68ArURKCARVAJ8ETaQAyrMAgNzZWxlY3TcIXEab8wBrCMPZnJvbSB2JHNlc3Npb24gd2hlQCkCaWQgPSDIAgNfaWQoKTsgIPgDvBwr+AMBcmVhZPw1KicDb3V0OcgGLnQAlDYoiAYruAPwMS/YA+ADIA0MBGg5KdACKzADeEEDY2xpZW50hVMoKSwAKzADmBVsN6xJIAKQCSkmASggKTEAIClwCSlYACtUApQVKXAAK1gCIAUkBSn0ALgoKkAAIAf0CCfkBCnyADsKjGMzYg87ChEAAEEyNTdCRDE0OTA2OUFBMkQ0OUM1QzUxNDkwQjI3QzFBMjg5MDdFNkQ=
+';
+/
+Create success.
+START ?/packages/dbms_lock.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package body dbms_lock WRAPPED
+'MjM5Mw==
+MTM1OA==
+ACpjcmVhdGUgb3IgcmVwbGFjZSBwYWNrYWdlIGJvZHkgZGJtc19sb2NrIGlzCgoKLS0gIFJlcXVlc3QgYSCcAgAHd2l0aCB0aGUgZ2l2ZW4gbW9kZS4gTm90ZVICYXRQAAdpcyByb3V0aW5lbAhkCAADICBvdmVybG9hZGVkIGJhc2VkIG9uRAUCZSB0eXBMEQZmIGl0cyBmaXJ0DApyZ3VtZW50LiAgVGhlgBAIICBhcHByb3ByaWFUDChuASB1ZAknPAEDaG93IGl0TA4FIGNhbGxlZC7SB0lmSBcBZGVhZJgXVBMGZGV0ZWN0ZWQsaxBuIGFIAA1yYml0cmFyeSBzZXNzaW9uVAjUBwtjaG9zZW4gdG8gcmVjZUkeICcoAQNzdGF0dXP4DAQqKipOT1RFWwAgV2hEBgRydW5uaW5nWCoKdGggbXVsdGktdGhyZY8gc2VyQCIOIChkaXNwYXRjaGVyKSBBTkTLDnBhcmIYbCC7BCwgYS78AAIic2hhclQooAQFIiB3aWxsIGL0JQJib3VuZGUWYSc7A2R1cmwRezZ0aW3LNWFueYo6cyBQCQEgaGVsJ8gERC8CcmVmb3JiBWUgM7cBbm90RQ4ggBECYWJsZSAniwFpcyBsDLwiA0lucHV0IGQaBG1ldGVyczrOHGlkwAEFICBGcm9tIDB8FQwxMDczNzQxODIzLiAgQWxgIJUxc0I1YXR4PUABAWUgc2FEGANudW1iZXKEHycmAWJlU1pmZXKtHW8osABkPwguIExvY2tpZHMgZmIOMjDgAEQPJwQBBzIxNDc0ODM2NDeMIgJhY2NlcEdFIGJ5UAlAG9BPU1NEbyBoIEhQRAMDZXNlIGFzJxQBAXRoZXmdB3JAA0c9ZCBmXG1IWAlkdWN0cyBzdXBwbGloYQ55IE9yYWNsZSBDb3Jwb3JhdEhPvSYghTNtUGvUCgW5q73Dtci02fgDayxvdXQ1dAANcmVsZWFzZV9vbl9jb21taTScAAlSZXR1cm4gdmFsdWXgMwcwIC0gc3VjY2Vz/xkxIC2AOii1ATNEAidJByBcLQNvcgotLSBBADRWB2FsdFwCeSBvd26QGAQgc3BlY2lmwB4BJ2lkJ3WPJ2wyCmhhbmRsZScKCmZ1bmNxHyBUbJSNAyhpZCBpbkgABHRlZ2VyLApMCy0IAHwHfCNMBEgAmAQIIGRlZmF1bHQgeF9kAzLUANgmRAZIACzQAARtYXh3YWl0MtQALzgFUAcFIGJvb2xlYW4n0AEDRkFMU0UpMaUCcrosaW6fDQphc48EcmV0VAiIAgQ7CmJlZ2luJ1oAOj1tXXKesF9yuq8oIEciKTsK8ARgN0MLOwplTH3MBFQDnTBStD9YnnAkDSBwcmV2aW91c2x5IGFxdWlghwFieSAn0QYnNvQWiQkgRKEgBPUWYSAu3BYgF+AQlBYgBWALPBgLAmRvbid0IAsSCy0tKBgLwEYsFQspVJOAbiAYJAiReiA9KAiQBOhBAVN1c3BkRGS/7NtwkZwBJ1wOBnBlcmlvZCBvZoB9qIw2AAYDc2Vjb25k8IMBICBJblTMiAIDLCBjdXJyTfdsdqVlIEBqAWltdW1IegFzb2x1mntpc05eIGhc01pfaHNEDpw1aHtw1XgICSAoZS5nLiwgMS4wMJQAAzEsIC45OZ2pYVjcAmxlZ2FsUvZkIFTnA3RpbmN0IICYBnMpLgpwcm9jZUDRBWUgc2xlZXAozBVsDr3FKfRvAmR1bW15XAIv/A2gA0dwc3BfsAj6GyApsG2WAjsKgG8IZGJtc19sb2NrOwoRAABGMjJCRTVFMEU5NjJCMDJGM0IwNUNCMUY2NTQ0RUYyRDhFMDUwREZE
+';
+/
+Create success.
+START ?/packages/dbms_output.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package body dbms_output WRAPPED
+'Mzg2
+MjEx
+ACVjcmVhdGUgb3IgcmVwbGFjZSBwYWNrYWdlIGJvZHkgZGJtc19vdXRwdXQgaXMKCnByb2NlZHVyWAQAB3V0KGEgVkFSQ0hBUig2NTUzNCkpCmFzCiBAAAADZHVtbXkgaW50ZWdlcjsKCmJlZ2luKWQABzo9IG52bDIocHJMBHwLDyggYSApLCAwLCAtMSk7CmVuZFQGK7ABAl9saW5lLcUBMzfEAT/BASBkDgd8fCBjaHIoMTApOe8BbmV3jA81bAM/pQEoN4wBA2VuZDsKChEAADhBMjQ1RURBNjJGNzVCNzg5RDZFRTlBNENFQzdEM0ZFNEI0MkI0OTU=
+';
+/
+Create success.
+START ?/packages/dbms_random.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+CREATE OR REPLACE PACKAGE BODY dbms_random WRAPPED
+'NDQ3Mg==
+MjM0Ng==
+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
+';
+/
+Create success.
+START ?/packages/dbms_sql.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package body dbms_sql WRAPPED
+'ODcwMg==
+MTE3NA==
+ADBjcmVhdGUgb3IgcmVwbGFjZSBwYWNrYWdlIGJvZHkgZGJtc19zcWwKYXMKCmZ1bmN0aW9uIG9wZW5fY3Vyc29yKClABwl0dXJuIGludGVnZXJlBWPwAQ07CmJlZ2luCmMgOj0gc3BfK+AAATsKcmWEBwNjOwplbmQqVQE7KbIBaXOZBihwCvwKJ9ABBGJvb2xlYW5yDmEg0AHxDmHQDicBASknxQFhpA7EA1QNBXByb2NlZHVyeB8DcnNlKGMgKgEAaSd2AywKKlwAbAFQI3gAzAAPaW4gdmFyY2hhcjIoMzIwMDApMMQACmxhbmd1YWdlX2ZsYWdEGkgAhScptBjcKC4WA3BhnBIDLCBzcWwpuBeIAivwAgJiaW5kX0AQAWlhYmzwGDrwAtQWAyBuYW1lIFwQKPMCMTI4MegC/AUCdmFsdWUrvACwHTwIAyt0AngUfyQoYyyZDyxPD2x1ZcgbK6gAIF2IA5AUIBF4A5gGIH9sA8xNIAvYBsgGIIDaBmJpQY90IAtkA6QGIIBgAwJzbWFsbFQwIAtoA+wGIIBwAwNkb3VibGUgC2gDpAYggGADAXJlYWwgC1gDfAUggFADCG51bWVyaWMoMzgpIAtsA/gGIH93FGRhdCANKgphdFDuIAM4GyckJQRleGVjdXRlJjAlNIwjhJkkcCCslC5sIC4UAS+gIyyAACs8HQJkZWZpbkAQAm9sdW1uLNwjIAPkIAFwb3NpI0woImggIAPBAGOADVT/OQQhJNAoAW51bGwkoCMrjAIgbPQClPwpcCAgieQCRMgiuC6cdiCJ1AK8XyCO0AL07yCO2AKk6yCO0AJ85iCOyAL44fToIIk0DieAHCAWyQJfmKcrrD0gAwgZac0gIBDgGZQGLvQZgBC8tzCgPoQG8ADHB3NpeiSkPCAI/BSQHFDWJ8wfB2ZldGNoX3Jvd3MjTEMk7D8xFkVhIMwMLrgfKgABL6gfKHAATA4oWEPYFyPgPiyUHyIYP8ANNwgEK7AFIAPAACq4AQQgIG91dCB2LFhEjHQphAPABgJlcnJvckAMkCIMOwphY3R1YWxfbGVuZ3RoKFgAuE0mfEfIB4kbX9oMKGM3LAOgOuQaPZgAKmwBIAWoAIQYPagAK1gDJcRDKqQBIG3kBimMDCA31AaIDDvIBiADvAYqCAU6BAbcBD+kBiCNmAbMeCA3iAbYCyAALGANKTArIDIkFLQLPrwGIANeDSAgxGaIrDpkDSekAD9uDSAgII10DSsMLyAytAb8Cz69BiAn4CM8HAYnJAYgAswGJ6wAIALUBiCP3AYpEDMgMtQGtAs+zAYgAAiMDSfsNiAypAZsCzycBiADlAYgBxwU3AQ/PA0gjQwULqA6IDKYBugMOy0oICAIEBTcMCADDBTIBT/JBiAgkAQUMRRbKrADKFg1KzQKKFgAObQ1IgBAIJ9UDQFsb3NlK/xdIrQ6JbQrLjAtLSgEK+oAKTskmIMBTlVMTCTZWmMpfQA7KUSDAmxhc3RfgU1f8I4gDRiFMwABJ3CDJTiFMZIAOwojoIUHZGJtc19zcWw7ChEAADk1NjkwNTI2NUZENTY0MTA1NzkwMTdGOTlEQ0VDNkQ0NzY2OEU4Nzc=
+';
+/
+Create success.
+START ?/packages/dbms_stats.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package body dbms_stats WRAPPED
+'MjI5MDc=
+NTU4Mg==
+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
+';
+/
+Create success.
+START ?/packages/dbms_alert.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package body dbms_alert WRAPPED
+'MTIwNw==
+NDQ5
+AEpjcmVhdGUgb3IgcmVwbGFjZSBwYWNrYWdlIGJvZHkgZGJtc19hbGVydCBhcwoKcHJvY2VkdXJlIHJlZ2lzdGVyKCBuYW1lIGluIHZhcmNoYXIoMzApICkKYXMKYVQCAAd0ZWdlcjsKYmVnaW4KICAgIGEgOj0gc3BfLfwAAyk7CmVuZCdVATssqAEHbW92ZV9ldmVudCAZuAFsCNQHJ7ABbAK8CjHAAQFhbGwoIAMcA3AIjAXoGMACK0gBAANzZXRfZGVmYXVsdHMoIHBvbGxfaW5bJ3ZhbFQkSACAJSAC3AQ6IAHcGiqIACwQAgJpZ25hbNAgTDEs0QYsnDNsNCgMAAFtZXNzbEEppwAxODAgBIEHcymyASwg4AnoFJADK3ACBHdhaXRhbnkodwJvdXQqTAkyeAInWAEqrACAFDO0AAVzdGF0dXMgIHQFdy9nZXIznAABdGltZa0EICdkBtA3AiA4NjQwYAAgAqgGK0QDJwoELCC6ECwg+AzMItgFL1MEb25lKFAEKSAGXGwz9ALoLWQY7HIgLEwEyScgIBZIBCc8AyAFSAQCb25lOwqQgwlkYm1zX2FsZXJ0OwoRAAAxRkJGRDE5MkIwNEMxODk4QUYxMzI4QzM1MjY3OUIwRjdEQjJDQjQ4
+';
+/
+Create success.
+START ?/packages/dbms_concurrent_exec.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+CREATE OR REPLACE PACKAGE BODY DBMS_CONCURRENT_EXEC WRAPPED
+'NDg5Mg==
+MTY1MA==
+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
+';
+/
+Create success.
+START ?/packages/dbms_recyclebin.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+CREATE PACKAGE BODY DBMS_RECYCLEBIN WRAPPED
+'MzA3MQ==
+ODgx
+AB5DUkVBVEUgUEFDS0FHRSBCT0RZIERCTVNfUkVDWUNMRUJJTiBBUwoKUFJPQ0VEVVJIBQZVUkdFX1VTRVItjAAAH1RZUEUgTkFNRV9BUlJBWSBJUyBUQUJMRSBPRiBWQVJDSEFSKDEyOCkgSU5ERVggQllAAQlURUdFUjsKClNRTCBAAPgEBDI1Nik7Ck5GAiAgKJQAlQlTKYgBDTsKQkVHSU4KICBTRUxFQ1S9DV9sEAYgQlVMSyBDT0ycAgFJTlRPsgNTCnAKDkZST00gU1lTVEVNXy5TWVNfqAsBXyBULCdbAERCQZQcAVNfIFWQBgVXSEVSRSBVLogfAklEID0gxAEDKCkgQU5EK2UAVCeUAGYDVC6dC1+EJAs9J1InOwoKICBGT1IgTlQbwBMILkZJUlNUKCkgLi7mAkxBgAIBTE9PUFwFYBd8JAI6PSAnUHAwuAQDICInIHx8rBFkH0QIWwEnIi68AoQPAVMoTimQAkQPegggIOAntAENIEVYRUNVVEUgSU1NRURJQUQBAVNRTDvQDgdFWENFUFRJT04gSCABTiBPVEIhUyBUAGQvwwhOVUwovgBORGgHAUVORCBrFzsKRWACLwsJQUxMIGIECW44UyAgBVEJLCiUBTd8CawEICyYCSBVMAlsRmBLIIIkCaxcTphFKK1iU2wBvoBJTifwEQI2NCkgKXSZnHBsZSAZpBLYXlgAM8wSXALIAEiPrJwokAKBE18qWgI7CrQDzAZ4ACh6AjsKzFR4AqwAKnAA5HkFSUYgSU5TVFIvCAQELCBDSFIoM5MfPSAwKuAOtA4nsgRfIEyLAVVQUEUwEQEgXLEDICBFTFNF0IIy6AAFUkVQTEFDRTI6CALmg0lGkKAv4Ba8Z4gkID+MDQJULlRCU6UNPS7dCF9ousgdbC4q2BcrPA4pjAAgR5gXIIpkDgVPUklHSU5BTJYsKCArOABo3/BnI1wgIC9sDvALKzQhcDlsACdcDitMAihUDmQSL1gOPNwNKyQBOdQNK5wAKswNK2AAL8QNK3QAmAYovA0rbAAp6AE+tA03iA2YWiAzmCSAC2EwIDjAJCmMACtgAwRfID0gU1VCUpxCKPBtaDIILCAxLCBMRU5HVEgsYAAEKSAtIDMyKS0sD+gHmsA9ICM8JiDROCYCRU5EOwoRAAA3OTM3NERCRjM3Njc3NTJFMTA1OEMwNTEzOUEyM0U4OUJFRTRCREU2
+';
+/
+Create success.
+START ?/packages/dbms_utility.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package body dbms_utility WRAPPED
+'NDIz
+MTkx
+ADhjcmVhdGUgb3IgcmVwbGFjZSBwYWNrYWdlIGJvZHkgZGJtc191dGlsaXR5IGFzCgpmdW5jdGlvbiBmb3JtYXRfY2FsbF9zdGFja0AIAAJ0dXJuIHZhcmNoYXIoNjU1MzQpClAGBWJlZ2luCnJlmwNzcF8v6AAEKCk7CmVuZDBNATswwAEEZXJyb3JfYkIOdHJ4FdgKIAjUAS38AC3oAS10ADf8ASAVxAO0C4wHM9wBhgM7CowhKuYFOwoRAABDMjYwNUFFNjhFNzQyMUNCQzkxNzhGMzgzQjdCRDdGMzBGOUExRTMx
+';
+/
+Create success.
+-- utility package
+START ?/packages/utl_file.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+CREATE OR REPLACE PACKAGE utl_file AUTHID CURRENT_USER AS
+
+invalid_path         EXCEPTION;
+invalid_mode         EXCEPTION;
+invalid_filehandle   EXCEPTION;
+invalid_operation    EXCEPTION;
+read_error           EXCEPTION;
+write_error          EXCEPTION;
+invalid_filename     EXCEPTION;
+access_denied        EXCEPTION;
+delete_failed        EXCEPTION;
+rename_failed        EXCEPTION;
+
+invalid_path_errcode        CONSTANT INTEGER:= 201237;
+invalid_mode_errcode        CONSTANT INTEGER:= 201235;
+invalid_filehandle_errcode  CONSTANT INTEGER:= 201238;
+invalid_operation_errcode   CONSTANT INTEGER:= 201239;
+read_error_errcode          CONSTANT INTEGER:= 201242;
+write_error_errcode         CONSTANT INTEGER:= 201243;
+access_denied_errcode       CONSTANT INTEGER:= 201236;
+delete_failed_errcode       CONSTANT INTEGER:= 201240;
+rename_failed_errcode       CONSTANT INTEGER:= 201241;
+
+PRAGMA EXCEPTION_INIT(invalid_path,        201237);
+PRAGMA EXCEPTION_INIT(invalid_mode,        201235);
+PRAGMA EXCEPTION_INIT(invalid_filehandle,  201238);
+PRAGMA EXCEPTION_INIT(invalid_operation,   201239);
+PRAGMA EXCEPTION_INIT(read_error,          201239);
+PRAGMA EXCEPTION_INIT(write_error,         201243);
+PRAGMA EXCEPTION_INIT(access_denied,       201236);
+PRAGMA EXCEPTION_INIT(delete_failed,       201240);
+PRAGMA EXCEPTION_INIT(rename_failed,       201241);
+
+
+FUNCTION fopen(location     IN VARCHAR(40),
+filename     IN VARCHAR(256),
+open_mode    IN VARCHAR(4),
+max_linesize IN INTEGER DEFAULT NULL)
+RETURN file_type;
+PRAGMA RESTRICT_REFERENCES(fopen, WNDS, RNDS);
+
+
+FUNCTION is_open(file IN file_type) RETURN BOOLEAN;
+PRAGMA RESTRICT_REFERENCES(is_open, WNDS, RNDS);
+
+PROCEDURE fclose(file IN OUT file_type);
+PRAGMA RESTRICT_REFERENCES(fclose, WNDS, RNDS);
+
+PROCEDURE fclose_all;
+PRAGMA RESTRICT_REFERENCES(fclose_all, WNDS, RNDS);
+
+PROCEDURE get_line(file   IN file_type,
+buffer OUT VARCHAR(32768),
+len    IN INTEGER DEFAULT NULL);
+PRAGMA RESTRICT_REFERENCES(get_line, WNDS, RNDS);
+
+PROCEDURE put(file   IN file_type,
+buffer IN VARCHAR(32768));
+PRAGMA RESTRICT_REFERENCES(put, WNDS, RNDS);
+
+PROCEDURE new_line(file  IN file_type,
+lines IN INTEGER DEFAULT 1);
+PRAGMA RESTRICT_REFERENCES(new_line, WNDS, RNDS);
+
+PROCEDURE put_line(file   IN file_type,
+buffer IN VARCHAR(32768),
+autoflush IN BOOLEAN DEFAULT FALSE);
+PRAGMA RESTRICT_REFERENCES(put_line, WNDS, RNDS);
+
+
+PROCEDURE fflush(file IN file_type);
+PRAGMA RESTRICT_REFERENCES(fflush, WNDS, RNDS);
+
+PROCEDURE fremove(location IN VARCHAR(40),
+filename IN VARCHAR(256));
+PRAGMA RESTRICT_REFERENCES(fremove, WNDS, RNDS);
+
+PROCEDURE fcopy(src_location  IN VARCHAR(40),
+src_filename  IN VARCHAR(256),
+dest_location IN VARCHAR(40),
+dest_filename IN VARCHAR(256),
+start_line    IN INTEGER DEFAULT 1,
+end_line      IN INTEGER DEFAULT NULL);
+PRAGMA RESTRICT_REFERENCES(fcopy, WNDS, RNDS);
+
+PROCEDURE frename(src_location   IN VARCHAR(40),
+src_filename   IN VARCHAR(256),
+dest_location  IN VARCHAR(40),
+dest_filename  IN VARCHAR(256),
+overwrite      IN BOOLEAN DEFAULT FALSE);
+PRAGMA RESTRICT_REFERENCES(frename, WNDS, RNDS);
+END utl_file;
+
+/
+Create success.
+CREATE OR REPLACE PUBLIC SYNONYM utl_file FOR sys.utl_file;
+Create success.
+GRANT EXECUTE ON utl_file TO PUBLIC;
+Grant success.
+START ?/packages/utl_raw.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+CREATE OR REPLACE PACKAGE utl_raw AUTHID CURRENT_USER IS
+
+big_endian         CONSTANT INTEGER := 1;
+little_endian      CONSTANT INTEGER := 2;
+machine_endian     CONSTANT INTEGER := 3;
+
+FUNCTION concat(r1  IN RAW(32767) DEFAULT NULL,
+r2  IN RAW(32767) DEFAULT NULL,
+r3  IN RAW(32767) DEFAULT NULL,
+r4  IN RAW(32767) DEFAULT NULL,
+r5  IN RAW(32767) DEFAULT NULL,
+r6  IN RAW(32767) DEFAULT NULL,
+r7  IN RAW(32767) DEFAULT NULL,
+r8  IN RAW(32767) DEFAULT NULL,
+r9  IN RAW(32767) DEFAULT NULL,
+r10 IN RAW(32767) DEFAULT NULL,
+r11 IN RAW(32767) DEFAULT NULL,
+r12 IN RAW(32767) DEFAULT NULL) RETURN RAW(32767);
+pragma RESTRICT_REFERENCES(concat, WNDS, RNDS);
+
+FUNCTION cast_to_raw(c IN VARCHAR(32767)) RETURN RAW(32767);
+pragma RESTRICT_REFERENCES(cast_to_raw, WNDS, RNDS);
+
+FUNCTION cast_to_varchar2(r IN RAW(32767)) RETURN VARCHAR(32767);
+pragma RESTRICT_REFERENCES(cast_to_varchar2, WNDS, RNDS);
+
+FUNCTION length(r IN RAW(32767)) RETURN NUMBER;
+pragma RESTRICT_REFERENCES(length, WNDS, RNDS);
+
+FUNCTION substr(r   IN RAW(32767),
+pos IN INTEGER,
+len IN INTEGER DEFAULT NULL) RETURN RAW(32767);
+pragma RESTRICT_REFERENCES(substr, WNDS, RNDS);
+
+FUNCTION cast_to_number(r IN RAW(40)) RETURN NUMBER;
+pragma RESTRICT_REFERENCES(cast_to_number, WNDS, RNDS);
+
+FUNCTION cast_from_number(n IN NUMBER) RETURN RAW(40);
+pragma RESTRICT_REFERENCES(cast_from_number, WNDS, RNDS);
+
+FUNCTION cast_to_binary_integer(r IN RAW(8),
+endianess IN INTEGER
+DEFAULT 1)
+RETURN INTEGER;
+pragma RESTRICT_REFERENCES(cast_to_binary_integer, WNDS, RNDS);
+
+FUNCTION cast_from_binary_integer(n IN INTEGER,
+endianess IN INTEGER
+DEFAULT 1)
+RETURN RAW(8);
+pragma RESTRICT_REFERENCES(cast_from_binary_integer,WNDS,RNDS);
+
+END UTL_RAW;
+/
+Create success.
+CREATE OR REPLACE PUBLIC SYNONYM utl_raw FOR sys.utl_raw;
+Create success.
+GRANT EXECUTE ON utl_raw TO PUBLIC;
+Grant success.
+START ?/packages/utl_tcp.sql
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+CREATE OR REPLACE PACKAGE utl_tcp AUTHID CURRENT_USER AS
+
+CRLF CONSTANT VARCHAR(2) := chr(13)||chr(10);
+
+FUNCTION open_connection(remote_host     IN VARCHAR(64),
+remote_port     IN INTEGER,
+local_host      IN VARCHAR(64)    DEFAULT NULL,
+local_port      IN INTEGER DEFAULT NULL,
+in_buffer_size  IN INTEGER DEFAULT NULL,
+out_buffer_size IN INTEGER DEFAULT NULL,
+charset         IN VARCHAR(16)    DEFAULT NULL,
+newline         IN VARCHAR(2)    DEFAULT CRLF,
+tx_timeout      IN INTEGER DEFAULT NULL,
+wallet_path     IN VARCHAR(256)    DEFAULT NULL,
+wallet_password IN VARCHAR    DEFAULT NULL)
+RETURN CONNECT_TYPE;
+
+FUNCTION write_raw(c    IN CONNECT_TYPE ,
+data IN            RAW(65534),
+len  IN            INTEGER DEFAULT NULL)
+RETURN INTEGER;
+
+
+FUNCTION is_connect( c IN CONNECT_TYPE) RETURN INTEGER;
+
+
+PROCEDURE close_connection(c IN CONNECT_TYPE);
+
+PROCEDURE close_all_connections;
+
+END;
+/
+Create success.
+CREATE OR REPLACE PUBLIC SYNONYM utl_tcp FOR sys.utl_tcp;
+Create success.
+GRANT EXECUTE ON sys.utl_tcp TO PUBLIC;
+Grant success.
+START ?/packages/utl_smtp.sql
+[ERR-910DF : Could not open file (/home/niceguy/AB71/DB0/packages/utl_smtp.sql)]
+START ?/packages/utl_file.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package body utl_file WRAPPED
+'MjYzNg==
+MTA4Mg==
+ADJjcmVhdGUgb3IgcmVwbGFjZSBwYWNrYWdlIGJvZHkgdXRsX2ZpbGUgaXMKCkZVTkNUSU9OIGZvcGVuKGxvY2F0aW9uIGAADUlOIFZBUkNIQVIoNDApLApsAikMAGwIAW5hbWWIAimvADI1NjCwAHQLAV9tb2SUBSmxADQwqAAMbWF4X2xpbmVzaXplIElOSAAAB1RFR0VSIERFRkFVTFQgTlVMTCkKUkVUVVJYFglpbGVfdHlwZQphcwpkEg4gRklMRV9UWVBFOwpiZWdpbpgWhgM6PbADA09QRU4oIOodLCBwA2IZLCAolgIpO5wGA3JldHVyboQEAjsKZW5kuSQ7Kd8EaXNfdQYocAhIFYgFghIpIMgUBEJPT0xFQU5gFKISaWaUBFwvBiBudWxsIHRoZbQU9A0BYWxzZVsNbHNlKhMCdHJ1dAICbmQgaWZUA3wArA9YEQ1QUk9DRURVUkUgZmNsb3NlJzsCT1VUkA2oEigMAnA2iBbwIgNDTE9TRSiOBSApuAuoCTF0AQFfYWxsaAlwCANkdW1teSDMHCrIBaADK3gBBkFMTCggVFJVRSyEAXgJK5QBAWdldF9kQNkRICtcBS8cCnQQBSBidWZmZXIgeR1WzFYCMzI3NjgweAmaBWxliFw1dgkgKXQbsDV4BdAL7BkDR0VUTElO0iUsIGwJxCbgFys3A3B1dLgxPBwD0AwpbAygGIwRdBCgKj+nBVBVVL0mLNAiAywgRkFMUyfPBXB1dCt7Am5ld7AtmEEgAagFYTNzegRJTixdDjEnpgJ2MVwDkAO0aC3kAgJCRUdJToRbAUZPUiCQBQMgMSAuLiCoCwFMT09QlAMo0APkLylsAwJDSFIoMVSSKHADeAUBRU5EIH4HOwpkAegbK7wDXB8qvANEFZFeX3KILAo2FAYILAphdXRvZmx1c2hkBtQwJ0wShCwBKQpBU4AXN7wDoAMxNAO6Dnx8J1QDKLQBSEtsGfgWKy0DZoAStEtAR2Q4nBggDyQCAkZMVVNItEZoc3wNqAsstAEDcmVtb3ZlKJAYSA7wbTKAGEAyZBJoq2wm6AV8wzyAAiyYBAJSRU1PVlRtMMAWJ6wCoBMssAIGY29weShzcmNf/AaYb/AQM7wCdAUnxAIuyAIw3xFkZXNclOTmPjAElAUndAEptAB8ITBwAQFzdGFyVgtpbuTmL7gNMM8AZW5kiFtBLyCUHS7MAKjnROVkBLQsxlk7CihUDqAD9FQDQ09QWSggaCPhKSyUAeoZLCCEGyhwAJgBKHQAKCIDLCAngALRWmZwNCzaBnJlfEUt4AYqLAYz5QYgK0gCsB/pPTIyPCJAIJwU+BaYJeQGNYgBgAbgGyvAADaIAVRlAnJ3cml0jDiEBtgtIB3gEANSRU5BTUUgG1AGKGAC5DG+LjsKI5QjB3V0bF9maWxlOwoRAABCREJDMjI0NUUxMUFENEU4REQ1QzVFQUQwQUNGMTg1NTgxQjk2QUQ5
+';
+/
+Create success.
+START ?/packages/utl_raw.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package body utl_raw WRAPPED
+'OTg0Mw==
+MzQyOQ==
+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
+';
+/
+Create success.
+START ?/packages/utl_tcp.plb
+/***********************************************************************
+ * Copyright 1999-2015, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+create or replace package body utl_tcp WRAPPED
+'MTQ1MA==
+NjA0
+AD5jcmVhdGUgb3IgcmVwbGFjZSBwYWNrYWdlIGJvZHkgdXRsX3RjcCBpcwoKRlVOQ1RJT04gb3Blbl9jb25uZWN0aW9uKHJlbW90ZV9ob3N0IGAADUlOIFZBUkNIQVIoNjQpLApsAjMMAMMHcG9yJ+AABElOVEVHRVI50AACbG9jYWwosQEgLLQBfAwJREVGQVVMVCBOVUxMPyABJ/ABYAnVDyAgBgQBDGluX2J1ZmZlcl9zaXplICASBwFvdXQrCgFJTlAIhCAgBwwCA2NoYXJzZbwncB8pOwQxNilkAiAGMAMEbmV3bGluZWQGjAApIQEyKxwBAUNSTEY5WAUGdHhfdGltZW91zBIgEUgDCHdhbGxldF9wYXRoLyUCNSAMTAMnJAEDc3N3b3JkTCvkU2ALKmEEKTiUCgAEUkVUVVJOIENPTk5FQ1RfVFlQRQphc58FcmV0K1wABDsKYmVnaW4nbAAFOj0gT1BFTl/OByggxF5pZSzwAWVQLLFVIC4+CCk77wl1cm5IdAR0OwplbmQ7KTMOd3JpTG8CcmF3KGNsGlQt0A2AFQQgLApkYXRhYB90A8wABVJBVyg2NTUzc3NsZW6AV8gDeAAyFgwpCtgg0ANkICusA3wTJywCAyAoIGMsIGYPLCBhDCkv2gJpc+SISAV4EyrWAikgIAKwASgGAWVkbAgnjAEMUFJPQ0VEVVJFIGNsb3Nl/AxllWMvpAF8GGweCmR1bW15IGludGVnZXIqGAegA0A5KzIBKGM3uAFQVynJAXMgDoABKfUAKCeIAQJlbmQ7ChEAADk5OTU5RDg5NzlBNEE2NzJEQThBNUZCRTJGNjYxN0Y2REQyMTI2NTE=
+';
+/
+Create success.
+START ?/packages/utl_smtp.plb
+[ERR-910DF : Could not open file (/home/niceguy/AB71/DB0/packages/utl_smtp.plb)]
+-- STANDARD package
+START ?/packages/standard.sql
+/***********************************************************************
+ * Copyright 1999-2017, ALTIBASE Corporation or its subsidiaries.
+ * All rights reserved.
+ **********************************************************************/
+CREATE OR REPLACE PACKAGE STANDARD AUTHID CURRENT_USER AS
+  TYPE SYS_REFCURSOR IS REF CURSOR;
+END;
+/
+Create success.
+CREATE PUBLIC SYNONYM STANDARD FOR SYS.STANDARD;
+Create success.
+GRANT EXECUTE ON SYS.STANDARD TO PUBLIC;
+Grant success.
+
+
+Script stderr:
+ 
+
