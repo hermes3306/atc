@@ -1,0 +1,3000 @@
+#===============================================================
+#       Altibase Package REPORT FILE 
+#       Package Date : Tue Jan 23 08:44:06 2018
+#       Product       Version 7.1.0.1.0 X86_64_LINUX_redhat_Enterprise_release6.0-64bit-7.1.0.1.0-release-GCC4.6.3 (x86_64-unknown-linux-gnu) Jan 23 2018 16:45:28 
+#       Binary DB     Version 6.5.1 
+#       Meta          Version 8.4.1 
+#       Cm   Protocol Version 7.1.6 
+#       Repl Protocol Version 7.4.2
+#===============================================================
+
+
+# Package Information ( * = ALL )
+# CPU_TYPE : X86 
+# OS_TYPE : LINUX 
+# OS_MAJORVER_VER : 2 
+# OS_MINORVER_VER : 6 
+# EDITION_TYPE : O 
+# DEVTYPE : * 
+# BITTYPE : 64 
+# COMPTYPE : GCC 
+# EXEEXT :  
+# OBJEXT : .o 
+# LIBPRE : lib 
+# LIBEXT : .a 
+# SOEXT : .so 
+
+
+# [*][*][*][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/APatch 
+APatch
+0
+
+# [*][*][*][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin 
+bin
+0
+
+# [*][*][*][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/conf 
+conf
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include 
+include
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib 
+lib
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/logs 
+logs
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/logs/do_not_remove_log_files 
+logs/do_not_remove_log_files
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/logs/never_remove_log_files 
+logs/never_remove_log_files
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/arch_logs 
+arch_logs
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg 
+msg
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/install 
+install
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/trc 
+trc
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiComp 
+altiComp
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global 
+global
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/admin 
+admin
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/dbs 
+dbs
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample 
+sample
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI 
+sample/SQLCLI
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE 
+sample/APRE
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC 
+sample/JDBC
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/BLOB 
+sample/SQLCLI/BLOB
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/CLOB 
+sample/SQLCLI/CLOB
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/Fail-Over 
+sample/SQLCLI/Fail-Over
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/SSL 
+sample/SQLCLI/SSL
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/BLOB 
+sample/APRE/BLOB
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/CLOB 
+sample/APRE/CLOB
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/Fail-Over 
+sample/APRE/Fail-Over
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/SimpleSQL 
+sample/JDBC/SimpleSQL
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/Logging 
+sample/JDBC/Logging
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/MultipleResultSet 
+sample/JDBC/MultipleResultSet
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/BLOB 
+sample/JDBC/BLOB
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/CLOB 
+sample/JDBC/CLOB
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/Fail-Over 
+sample/JDBC/Fail-Over
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/SSL 
+sample/JDBC/SSL
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/include 
+sample/APRE/include
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/schema 
+sample/APRE/schema
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/SSL 
+sample/APRE/SSL
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL 
+sample/SPATIAL
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC 
+sample/SPATIAL/GeoODBC
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKT 
+sample/SPATIAL/GeoODBC/WKT
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKB 
+sample/SPATIAL/GeoODBC/WKB
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC 
+sample/SPATIAL/GeoJDBC
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC/WKT 
+sample/SPATIAL/GeoJDBC/WKT
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC/WKB 
+sample/SPATIAL/GeoJDBC/WKB
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI 
+sample/CAPI
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/Fail-Over 
+sample/CAPI/Fail-Over
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/SSL 
+sample/CAPI/SSL
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA 
+sample/ALA
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/Altibase 
+sample/ALA/Altibase
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/Oracle 
+sample/ALA/Oracle
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/OracleOCI 
+sample/ALA/OracleOCI
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/UTIL 
+sample/UTIL
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI 
+sample/ILOADERAPI
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CHECKSERVER 
+sample/CHECKSERVER
+0
+
+# [*][*][S/C][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/thirdparty 
+thirdparty
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/thirdparty/ArcGIS 
+thirdparty/ArcGIS
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/thirdparty/SmartSSD 
+thirdparty/SmartSSD
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon 
+altiMon
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/conf 
+altiMon/conf
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/lib 
+altiMon/lib
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts 
+altiMon/action_scripts
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_logs 
+altiMon/action_logs
+0
+
+# [*][*][S][*][*][0755][DIR]
+# Directory CREATED : /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages 
+packages
+0
+
+# [*][*][S][*][*][4755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/altibase 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/altibase 
+bin/altibase
+25041401
+
+# [^*-WINDOWS-*-*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/shmutil 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/shmutil 
+bin/shmutil
+25052924
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/checkServer 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/checkServer 
+bin/checkServer
+1244066
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/killCheckServer 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/killCheckServer 
+bin/killCheckServer
+1240341
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/dumpla 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/dumpla 
+bin/dumpla
+6425678
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/sm/util/DUMPLA.ban 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/DUMPLA.ban 
+msg/DUMPLA.ban
+297
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/dumplf 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/dumplf 
+bin/dumplf
+6437460
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/sm/util/DUMPLF.ban 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/DUMPLF.ban 
+msg/DUMPLF.ban
+295
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/dumpci 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/dumpci 
+bin/dumpci
+6440741
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/sm/util/DUMPCI.ban 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/DUMPCI.ban 
+msg/DUMPCI.ban
+304
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/dumpddf 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/dumpddf 
+bin/dumpddf
+6430628
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/sm/util/DUMPDDF.ban 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/DUMPDDF.ban 
+msg/DUMPDDF.ban
+306
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/dumptbl 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/dumptbl 
+bin/dumptbl
+1200219
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/dumpbi 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/dumpbi 
+bin/dumpbi
+1201367
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/dumpct 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/dumpct 
+bin/dumpct
+1203809
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/altipasswd 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/altipasswd 
+bin/altipasswd
+2218708
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/altiProfile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/altiProfile 
+bin/altiProfile
+1228346
+
+# [^*-WINDOWS-*-*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/server 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/server 
+bin/server
+2254
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/dumpdb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/dumpdb 
+bin/dumpdb
+25076040
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/extprocAgent 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/extprocAgent 
+bin/extprocAgent
+1177928
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/altiAudit 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/altiAudit 
+bin/altiAudit
+1157254
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/printkey 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/printkey 
+bin/printkey
+1191181
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/conf/dblink.conf.sample 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/conf/dblink.conf.sample 
+conf/dblink.conf.sample
+1682
+
+# [*][^C][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/conf/altibase.properties.release 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/conf/altibase.properties.sample 
+conf/altibase.properties.sample
+30244
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_ID_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_ID_US7ASCII.msb 
+msg/E_ID_US7ASCII.msb
+10461
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_ID_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_ID_KO16KSC5601.msb 
+msg/E_ID_KO16KSC5601.msb
+10461
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_CM_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_CM_US7ASCII.msb 
+msg/E_CM_US7ASCII.msb
+3260
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_CM_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_CM_KO16KSC5601.msb 
+msg/E_CM_KO16KSC5601.msb
+3260
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_ST_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_ST_US7ASCII.msb 
+msg/E_ST_US7ASCII.msb
+2569
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_ST_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_ST_KO16KSC5601.msb 
+msg/E_ST_KO16KSC5601.msb
+2569
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_SM_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_SM_US7ASCII.msb 
+msg/E_SM_US7ASCII.msb
+22364
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_SM_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_SM_KO16KSC5601.msb 
+msg/E_SM_KO16KSC5601.msb
+22364
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_MT_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_MT_US7ASCII.msb 
+msg/E_MT_US7ASCII.msb
+4499
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_MT_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_MT_KO16KSC5601.msb 
+msg/E_MT_KO16KSC5601.msb
+4499
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_ST_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_ST_KO16KSC5601.msb 
+msg/E_ST_KO16KSC5601.msb
+2569
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_RP_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_RP_US7ASCII.msb 
+msg/E_RP_US7ASCII.msb
+19295
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_RP_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_RP_KO16KSC5601.msb 
+msg/E_RP_KO16KSC5601.msb
+19295
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_QP_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_QP_US7ASCII.msb 
+msg/E_QP_US7ASCII.msb
+45396
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_QP_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_QP_KO16KSC5601.msb 
+msg/E_QP_KO16KSC5601.msb
+45396
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_SD_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_SD_US7ASCII.msb 
+msg/E_SD_US7ASCII.msb
+2480
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_SD_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_SD_KO16KSC5601.msb 
+msg/E_SD_KO16KSC5601.msb
+2480
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_MM_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_MM_US7ASCII.msb 
+msg/E_MM_US7ASCII.msb
+6849
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_MM_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_MM_KO16KSC5601.msb 
+msg/E_MM_KO16KSC5601.msb
+6849
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_DK_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_DK_US7ASCII.msb 
+msg/E_DK_US7ASCII.msb
+4829
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/msg/E_DK_US7ASCII.msb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/E_DK_KO16KSC5601.msb 
+msg/E_DK_KO16KSC5601.msb
+4829
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/install//manual.txt 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/manual.txt 
+msg/manual.txt
+746968
+
+# [*][*][*][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/isql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/isql 
+bin/isql
+9195968
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/isql/src/ISQL.ban 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/ISQL.ban 
+msg/ISQL.ban
+288
+
+# [^*-WINDOWS-*-*][*][*][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/isql/src/is 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/is 
+bin/is
+84
+
+# [X86-LINUX-*-*][*][*][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/shardLoader 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/shardLoader 
+bin/shardLoader
+6812557
+
+# [X86-LINUX-*-*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/iloader3/src/SHARDLOADER.ban 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/SHARDLOADER.ban 
+msg/SHARDLOADER.ban
+294
+
+# [*][*][*][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/iloader 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/iloader 
+bin/iloader
+6761286
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/iloader3/src/ILOADER.ban 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/ILOADER.ban 
+msg/ILOADER.ban
+294
+
+# [^*-WINDOWS-*-*][*][*][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/iloader3/src/il 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/il 
+bin/il
+74
+
+# [^*-WINDOWS-*-*][*][*][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/iloader3/src/iloaderup 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/iloaderup 
+bin/iloaderup
+1759
+
+# [*][*][*][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/apre 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/apre 
+bin/apre
+2333929
+
+# [*][*][*][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/sesc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/sesc 
+bin/sesc
+2333929
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/ulp/APRE.ban 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/msg/APRE.ban 
+msg/APRE.ban
+286
+
+# [*][*][*][*][*][0644][ARL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libapre.a 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libapre.a 
+lib/libapre.a
+143854
+
+# [*][*][*][*][*][0644][ARL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libsesc.a 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libsesc.a 
+lib/libsesc.a
+143854
+
+# [^*-WINDOWS-*-*][*][*][*][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libapre_sl.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libapre_sl.so 
+lib/libapre_sl.so
+100175
+
+# [^*-WINDOWS-*-*][*][*][*][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libsesc_sl.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libsesc_sl.so 
+lib/libsesc_sl.so
+100175
+
+# [^*-WINDOWS-*-*][*][*][*][*][0755][!EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/altiComp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/altiComp 
+bin/altiComp
+3784971
+
+# [^*-WINDOWS-*-*][*][*][*][*][0644][!*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/audit/src/altiComp.cfg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiComp/altiComp.cfg 
+altiComp/altiComp.cfg
+1339
+
+# [*][*][*][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/aexport 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/aexport 
+bin/aexport
+3844648
+
+# [^*-WINDOWS-*-*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/utm/src/aexport.properties.org 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/conf/aexport.properties.sample 
+conf/aexport.properties.sample
+1609
+
+# [*][*][*][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/altiwrap 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/altiwrap 
+bin/altiwrap
+1987909
+
+# [^*-WINDOWS-*-*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/altimon.sh 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/altimon.sh 
+bin/altimon.sh
+2005
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/altimon.jar 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/altimon.jar 
+altiMon/altimon.jar
+108964
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/ReadMe.txt 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/ReadMe.txt 
+altiMon/ReadMe.txt
+882
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/conf/config.xml 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/conf/config.xml 
+altiMon/conf/config.xml
+749
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/conf/Metrics.xml 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/conf/Metrics.xml 
+altiMon/conf/Metrics.xml
+15019
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/conf/GroupMetrics.xml 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/conf/GroupMetrics.xml 
+altiMon/conf/GroupMetrics.xml
+458
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/conf/log4j.properties 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/conf/log4j.properties 
+altiMon/conf/log4j.properties
+719
+
+# [^*-WINDOWS-*-*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/cpu_act.sh 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/cpu_act.sh 
+altiMon/action_scripts/cpu_act.sh
+89
+
+# [^*-WINDOWS-*-*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/db_usage.sh 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/db_usage.sh 
+altiMon/action_scripts/db_usage.sh
+91
+
+# [^*-WINDOWS-*-*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/logfile_act.sh 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/logfile_act.sh 
+altiMon/action_scripts/logfile_act.sh
+97
+
+# [^*-WINDOWS-*-*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/long_query.sh 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/long_query.sh 
+altiMon/action_scripts/long_query.sh
+95
+
+# [^*-WINDOWS-*-*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/mem_act.sh 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/mem_act.sh 
+altiMon/action_scripts/mem_act.sh
+89
+
+# [^*-WINDOWS-*-*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/mem_stat.sh 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/mem_stat.sh 
+altiMon/action_scripts/mem_stat.sh
+91
+
+# [^*-WINDOWS-*-*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/rep_act.sh 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/rep_act.sh 
+altiMon/action_scripts/rep_act.sh
+89
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/cpu_act.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/cpu_act.sql 
+altiMon/action_scripts/cpu_act.sql
+796
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/db_usage.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/db_usage.sql 
+altiMon/action_scripts/db_usage.sql
+228
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/logfile_act.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/logfile_act.sql 
+altiMon/action_scripts/logfile_act.sql
+185
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/long_query.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/long_query.sql 
+altiMon/action_scripts/long_query.sql
+465
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/mem_act.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/mem_act.sql 
+altiMon/action_scripts/mem_act.sql
+309
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/mem_stat.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/mem_stat.sql 
+altiMon/action_scripts/mem_stat.sql
+309
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/action_scripts/rep_act.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/action_scripts/rep_act.sql 
+altiMon/action_scripts/rep_act.sql
+126
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/lib/com.altibase.picl.jar 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/lib/com.altibase.picl.jar 
+altiMon/lib/com.altibase.picl.jar
+10805
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/lib/commons-collections-3.2.jar 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/lib/commons-collections-3.2.jar 
+altiMon/lib/commons-collections-3.2.jar
+571259
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/lib/commons-logging-1.1.jar 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/lib/commons-logging-1.1.jar 
+altiMon/lib/commons-logging-1.1.jar
+52915
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/lib/log4j.jar 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/lib/log4j.jar 
+altiMon/lib/log4j.jar
+481534
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/lib/quartz-all-1.6.6.jar 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/lib/quartz-all-1.6.6.jar 
+altiMon/lib/quartz-all-1.6.6.jar
+446359
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/lib/stax-1.2.0.jar 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/lib/stax-1.2.0.jar 
+altiMon/lib/stax-1.2.0.jar
+179346
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/lib/stax-api-1.0.1.jar 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/lib/stax-api-1.0.1.jar 
+altiMon/lib/stax-api-1.0.1.jar
+26514
+
+# [X86-LINUX-*-*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/lib/linux-x64.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/lib/linux-x64.so 
+altiMon/lib/linux-x64.so
+23565
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/altiMon/com.altibase.altimon/lib/commons-codec-1.6.jar 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/altiMon/lib/commons-codec-1.6.jar 
+altiMon/lib/commons-codec-1.6.jar
+232771
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/include/sqlcli.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/sqlcli.h 
+include/sqlcli.h
+13795
+
+# [^*-WINDOWS-*-*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/include/unix-odbc/sql.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/sql.h 
+include/sql.h
+31945
+
+# [^*-WINDOWS-*-*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/include/unix-odbc/sqlext.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/sqlext.h 
+include/sqlext.h
+78410
+
+# [^*-WINDOWS-*-*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/include/unix-odbc/sqltypes.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/sqltypes.h 
+include/sqltypes.h
+11181
+
+# [^*-WINDOWS-*-*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/include/unix-odbc/sqlucode.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/sqlucode.h 
+include/sqlucode.h
+21671
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/cdbc/include/alticdbc.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/alticapi.h 
+include/alticapi.h
+17023
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/ulp/include/ulpLibInterface.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/ulpLibInterface.h 
+include/ulpLibInterface.h
+5136
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/include/ses.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/ses.h 
+include/ses.h
+840
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/include/aprePredefinedTypes.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/aprePredefinedTypes.h 
+include/aprePredefinedTypes.h
+1755
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/include/acsTypes.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/acsTypes.h 
+include/acsTypes.h
+2880
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/include/acsAPI.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/acsAPI.h 
+include/acsAPI.h
+1302
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/include/ulsAPI.i 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/ulsAPI.i 
+include/ulsAPI.i
+9834
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/include/xa.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/xa.h 
+include/xa.h
+7392
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/include/ulsPrimTypes.i 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/ulsPrimTypes.i 
+include/ulsPrimTypes.i
+389
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/st/include/stdNativeTypes.i 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/stdNativeTypes.i 
+include/stdNativeTypes.i
+10761
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/st/include/stdWKBTypes.i 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/stdWKBTypes.i 
+include/stdWKBTypes.i
+5389
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/include/alaAPI.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/alaAPI.h 
+include/alaAPI.h
+7957
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/include/alaTypes.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/alaTypes.h 
+include/alaTypes.h
+10132
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/checkServer/include/checkServer.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/chksvr.h 
+include/chksvr.h
+3351
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/iloader3/include/iloApi.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/iloaderApi.h 
+include/iloaderApi.h
+6316
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/include/altibaseMonitor.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/include/altibaseMonitor.h 
+include/altibaseMonitor.h
+11555
+
+# [^*-WINDOWS-*-*][*][*][64][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libaltibase_odbc-64bit-ul64.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libaltibase_odbc-64bit-ul64.so 
+lib/libaltibase_odbc-64bit-ul64.so
+3353433
+
+# [^*-WINDOWS-*-*][*][*][64][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libaltibase_odbc-64bit-ul32.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libaltibase_odbc-64bit-ul32.so 
+lib/libaltibase_odbc-64bit-ul32.so
+3352953
+
+# [*][*][*][*][*][0644][ARL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libodbccli.a 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libodbccli.a 
+lib/libodbccli.a
+7092782
+
+# [*][*][*][*][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libodbccli_sl.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libodbccli_sl.so 
+lib/libodbccli_sl.so
+3396819
+
+# [X86-LINUX-*-*][*][*][*][*][0644][ARL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libshardcli.a 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libshardcli.a 
+lib/libshardcli.a
+7190902
+
+# [X86-LINUX-*-*][*][*][*][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libshardcli_sl.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libshardcli_sl.so 
+lib/libshardcli_sl.so
+3473799
+
+# [*][*][*][*][*][0644][ARL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libalticapi.a 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libalticapi.a 
+lib/libalticapi.a
+123018
+
+# [*][*][*][*][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libalticapi_sl.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libalticapi_sl.so 
+lib/libalticapi_sl.so
+88762
+
+# [*-LINUX-*-*][*][*][*][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libaltijext.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libaltijext.so 
+lib/libaltijext.so
+6769
+
+# [*][*][*][*][*][0644][ARL]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/util/lib/libaltiutil.a 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libaltiutil.a 
+lib/libaltiutil.a
+57008
+
+# [*][*][*][*][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/util/lib/libaltiutil_sl.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libaltiutil_sl.so 
+lib/libaltiutil_sl.so
+55595
+
+# [*][*][*][*][*][0644][ARL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libacs.a 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libacs.a 
+lib/libacs.a
+91114
+
+# [*][*][*][*][*][0644][ARL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libala.a 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libala.a 
+lib/libala.a
+7222192
+
+# [*][*][*][*][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libala_sl.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libala_sl.so 
+lib/libala_sl.so
+3565021
+
+# [^*-WINDOWS-*-*][*][S][*][*][0644][ARL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libchksvr.a 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libchksvr.a 
+lib/libchksvr.a
+6681102
+
+# [^*-WINDOWS-*-*][*][S][*][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libchksvr_sl.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libchksvr_sl.so 
+lib/libchksvr_sl.so
+2235311
+
+# [*][*][*][*][*][0644][ARL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libiloader.a 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libiloader.a 
+lib/libiloader.a
+5804690
+
+# [*][*][*][*][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libiloader_sl.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libiloader_sl.so 
+lib/libiloader_sl.so
+4617506
+
+# [*][*][*][*][*][0644][ARL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libaltibaseMonitor.a 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libaltibaseMonitor.a 
+lib/libaltibaseMonitor.a
+63092
+
+# [^*-WINDOWS-*-*][*][*][*][*][0755][SHL]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/lib/libaltibaseMonitor_sl.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/lib/libaltibaseMonitor_sl.so 
+lib/libaltibaseMonitor_sl.so
+49517
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/install/altibase_env.mk 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/install/altibase_env.mk 
+install/altibase_env.mk
+4238
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/README 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/README 
+sample/SQLCLI/README
+1974
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_cpool.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_cpool.cpp 
+sample/SQLCLI/demo_cpool.cpp
+9535
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex1.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex1.cpp 
+sample/SQLCLI/demo_ex1.cpp
+11229
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex2.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex2.cpp 
+sample/SQLCLI/demo_ex2.cpp
+12342
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex3.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex3.cpp 
+sample/SQLCLI/demo_ex3.cpp
+11904
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex4.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex4.cpp 
+sample/SQLCLI/demo_ex4.cpp
+12095
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex5.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex5.cpp 
+sample/SQLCLI/demo_ex5.cpp
+10623
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex6.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex6.cpp 
+sample/SQLCLI/demo_ex6.cpp
+8554
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex7.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex7.cpp 
+sample/SQLCLI/demo_ex7.cpp
+8098
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex8.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex8.cpp 
+sample/SQLCLI/demo_ex8.cpp
+20404
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_plan.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_plan.cpp 
+sample/SQLCLI/demo_plan.cpp
+5047
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_info1.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_info1.cpp 
+sample/SQLCLI/demo_info1.cpp
+7282
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_info2.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_info2.cpp 
+sample/SQLCLI/demo_info2.cpp
+10740
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta1.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta1.cpp 
+sample/SQLCLI/demo_meta1.cpp
+4683
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta2.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta2.cpp 
+sample/SQLCLI/demo_meta2.cpp
+7617
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta3.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta3.cpp 
+sample/SQLCLI/demo_meta3.cpp
+5660
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta4.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta4.cpp 
+sample/SQLCLI/demo_meta4.cpp
+6032
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta5.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta5.cpp 
+sample/SQLCLI/demo_meta5.cpp
+5420
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta6.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta6.cpp 
+sample/SQLCLI/demo_meta6.cpp
+7321
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta7.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta7.cpp 
+sample/SQLCLI/demo_meta7.cpp
+5661
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta8.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta8.cpp 
+sample/SQLCLI/demo_meta8.cpp
+6907
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta9.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta9.cpp 
+sample/SQLCLI/demo_meta9.cpp
+9594
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta10.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta10.cpp 
+sample/SQLCLI/demo_meta10.cpp
+5850
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_tran1.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_tran1.cpp 
+sample/SQLCLI/demo_tran1.cpp
+8056
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_tran2.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_tran2.cpp 
+sample/SQLCLI/demo_tran2.cpp
+8154
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_dead.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_dead.cpp 
+sample/SQLCLI/demo_dead.cpp
+3947
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_mt.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_mt.cpp 
+sample/SQLCLI/demo_mt.cpp
+5235
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex1.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex1.sql 
+sample/SQLCLI/demo_ex1.sql
+623
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex2.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex2.sql 
+sample/SQLCLI/demo_ex2.sql
+184
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex3.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex3.sql 
+sample/SQLCLI/demo_ex3.sql
+184
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex4.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex4.sql 
+sample/SQLCLI/demo_ex4.sql
+184
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex5.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex5.sql 
+sample/SQLCLI/demo_ex5.sql
+616
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex6.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex6.sql 
+sample/SQLCLI/demo_ex6.sql
+641
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex7.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex7.sql 
+sample/SQLCLI/demo_ex7.sql
+443
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_ex8.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_ex8.sql 
+sample/SQLCLI/demo_ex8.sql
+78
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_plan.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_plan.sql 
+sample/SQLCLI/demo_plan.sql
+347
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta2.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta2.sql 
+sample/SQLCLI/demo_meta2.sql
+139
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta3.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta3.sql 
+sample/SQLCLI/demo_meta3.sql
+218
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta4.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta4.sql 
+sample/SQLCLI/demo_meta4.sql
+199
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta5.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta5.sql 
+sample/SQLCLI/demo_meta5.sql
+259
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta6.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta6.sql 
+sample/SQLCLI/demo_meta6.sql
+139
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta7.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta7.sql 
+sample/SQLCLI/demo_meta7.sql
+190
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta8.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta8.sql 
+sample/SQLCLI/demo_meta8.sql
+169
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta9.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta9.sql 
+sample/SQLCLI/demo_meta9.sql
+479
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_meta10.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_meta10.sql 
+sample/SQLCLI/demo_meta10.sql
+260
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_tran1.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_tran1.sql 
+sample/SQLCLI/demo_tran1.sql
+82
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_tran2.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_tran2.sql 
+sample/SQLCLI/demo_tran2.sql
+106
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/demo_info2.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/demo_info2.sql 
+sample/SQLCLI/demo_info2.sql
+92
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/Makefile 
+sample/SQLCLI/Makefile
+3352
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/BLOB/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/BLOB/Makefile 
+sample/SQLCLI/BLOB/Makefile
+291
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/BLOB/MemoryDBMS.txt 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/BLOB/MemoryDBMS.txt 
+sample/SQLCLI/BLOB/MemoryDBMS.txt
+4110
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/BLOB/blobSample.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/BLOB/blobSample.cpp 
+sample/SQLCLI/BLOB/blobSample.cpp
+8779
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/BLOB/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/BLOB/schema.sql 
+sample/SQLCLI/BLOB/schema.sql
+70
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/CLOB/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/CLOB/Makefile 
+sample/SQLCLI/CLOB/Makefile
+291
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/CLOB/MemoryDBMS.txt 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/CLOB/MemoryDBMS.txt 
+sample/SQLCLI/CLOB/MemoryDBMS.txt
+4108
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/CLOB/clobSample.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/CLOB/clobSample.cpp 
+sample/SQLCLI/CLOB/clobSample.cpp
+8784
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/CLOB/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/CLOB/schema.sql 
+sample/SQLCLI/CLOB/schema.sql
+70
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/Fail-Over/FailOverCallbackSample.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/Fail-Over/FailOverCallbackSample.cpp 
+sample/SQLCLI/Fail-Over/FailOverCallbackSample.cpp
+7378
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/Fail-Over/FailOverSample.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/Fail-Over/FailOverSample.cpp 
+sample/SQLCLI/Fail-Over/FailOverSample.cpp
+5671
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/Fail-Over/DistributedOLTPSample_ULFailOver.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/Fail-Over/DistributedOLTPSample_ULFailOver.cpp 
+sample/SQLCLI/Fail-Over/DistributedOLTPSample_ULFailOver.cpp
+40830
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/Fail-Over/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/Fail-Over/Makefile 
+sample/SQLCLI/Fail-Over/Makefile
+658
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/SSL/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/SSL/Makefile 
+sample/SQLCLI/SSL/Makefile
+288
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/SSL/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/SSL/schema.sql 
+sample/SQLCLI/SSL/schema.sql
+79
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SQLCLI/SSL/sslSample.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SQLCLI/SSL/sslSample.cpp 
+sample/SQLCLI/SSL/sslSample.cpp
+8614
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/README 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/README 
+sample/CAPI/README
+2437
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/common.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/common.h 
+sample/CAPI/common.h
+1365
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex1.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex1.c 
+sample/CAPI/demo_ex1.c
+5924
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex2.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex2.c 
+sample/CAPI/demo_ex2.c
+7695
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex3.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex3.c 
+sample/CAPI/demo_ex3.c
+6620
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex4.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex4.c 
+sample/CAPI/demo_ex4.c
+6198
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex5.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex5.c 
+sample/CAPI/demo_ex5.c
+7208
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex6.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex6.c 
+sample/CAPI/demo_ex6.c
+4636
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex7.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex7.c 
+sample/CAPI/demo_ex7.c
+4356
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_meta1.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_meta1.c 
+sample/CAPI/demo_meta1.c
+1519
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_meta2.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_meta2.c 
+sample/CAPI/demo_meta2.c
+1649
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_meta8.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_meta8.c 
+sample/CAPI/demo_meta8.c
+2545
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_tran1.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_tran1.c 
+sample/CAPI/demo_tran1.c
+5653
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_tran2.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_tran2.c 
+sample/CAPI/demo_tran2.c
+5498
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_mt.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_mt.c 
+sample/CAPI/demo_mt.c
+3093
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_blob.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_blob.c 
+sample/CAPI/demo_blob.c
+6270
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_clob.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_clob.c 
+sample/CAPI/demo_clob.c
+6061
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex1.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex1.sql 
+sample/CAPI/demo_ex1.sql
+623
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex2.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex2.sql 
+sample/CAPI/demo_ex2.sql
+184
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex3.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex3.sql 
+sample/CAPI/demo_ex3.sql
+184
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex4.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex4.sql 
+sample/CAPI/demo_ex4.sql
+184
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex5.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex5.sql 
+sample/CAPI/demo_ex5.sql
+616
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex6.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex6.sql 
+sample/CAPI/demo_ex6.sql
+616
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_ex7.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_ex7.sql 
+sample/CAPI/demo_ex7.sql
+443
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_meta2.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_meta2.sql 
+sample/CAPI/demo_meta2.sql
+139
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_meta8.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_meta8.sql 
+sample/CAPI/demo_meta8.sql
+169
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_tran1.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_tran1.sql 
+sample/CAPI/demo_tran1.sql
+82
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_tran2.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_tran2.sql 
+sample/CAPI/demo_tran2.sql
+106
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_tran2_sel.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_tran2_sel.sql 
+sample/CAPI/demo_tran2_sel.sql
+53
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_blob.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_blob.sql 
+sample/CAPI/demo_blob.sql
+71
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/demo_clob.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/demo_clob.sql 
+sample/CAPI/demo_clob.sql
+71
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/Makefile 
+sample/CAPI/Makefile
+3013
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/Fail-Over/FailOverCallbackSample.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/Fail-Over/FailOverCallbackSample.c 
+sample/CAPI/Fail-Over/FailOverCallbackSample.c
+4251
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/Fail-Over/FailOverSample.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/Fail-Over/FailOverSample.c 
+sample/CAPI/Fail-Over/FailOverSample.c
+2898
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/Fail-Over/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/Fail-Over/Makefile 
+sample/CAPI/Fail-Over/Makefile
+891
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/SSL/common.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/SSL/common.h 
+sample/CAPI/SSL/common.h
+1365
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/SSL/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/SSL/Makefile 
+sample/CAPI/SSL/Makefile
+624
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/SSL/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/SSL/schema.sql 
+sample/CAPI/SSL/schema.sql
+82
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CAPI/SSL/sslSample.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CAPI/SSL/sslSample.c 
+sample/CAPI/SSL/sslSample.c
+6186
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/Makefile 
+sample/APRE/Makefile
+5003
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/Makefile_cparse 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/Makefile_cparse 
+sample/APRE/Makefile_cparse
+529
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/argument.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/argument.sc 
+sample/APRE/argument.sc
+4307
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/arrays1.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/arrays1.sc 
+sample/APRE/arrays1.sc
+14483
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/arrays2.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/arrays2.sc 
+sample/APRE/arrays2.sc
+7681
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/binary.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/binary.sc 
+sample/APRE/binary.sc
+10231
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/connect1.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/connect1.sc 
+sample/APRE/connect1.sc
+3299
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/connect2.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/connect2.sc 
+sample/APRE/connect2.sc
+3091
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/cursor1.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/cursor1.sc 
+sample/APRE/cursor1.sc
+4020
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/cursor2.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/cursor2.sc 
+sample/APRE/cursor2.sc
+5780
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/date.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/date.sc 
+sample/APRE/date.sc
+8472
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/delete.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/delete.sc 
+sample/APRE/delete.sc
+1885
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/dynamic1.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/dynamic1.sc 
+sample/APRE/dynamic1.sc
+2538
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/dynamic2.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/dynamic2.sc 
+sample/APRE/dynamic2.sc
+2707
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/dynamic3.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/dynamic3.sc 
+sample/APRE/dynamic3.sc
+5140
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/dynamic4.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/dynamic4.sc 
+sample/APRE/dynamic4.sc
+7268
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/free.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/free.sc 
+sample/APRE/free.sc
+3061
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/indicator.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/indicator.sc 
+sample/APRE/indicator.sc
+12121
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/insert.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/insert.sc 
+sample/APRE/insert.sc
+3093
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/mc1.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/mc1.sc 
+sample/APRE/mc1.sc
+5584
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/mc2.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/mc2.sc 
+sample/APRE/mc2.sc
+7653
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/mc3.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/mc3.sc 
+sample/APRE/mc3.sc
+9069
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/mt1.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/mt1.sc 
+sample/APRE/mt1.sc
+3794
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/mt2.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/mt2.sc 
+sample/APRE/mt2.sc
+6609
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/psm1.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/psm1.sc 
+sample/APRE/psm1.sc
+3964
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/psm2.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/psm2.sc 
+sample/APRE/psm2.sc
+3577
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/runtime_error_check.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/runtime_error_check.sc 
+sample/APRE/runtime_error_check.sc
+8273
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/select.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/select.sc 
+sample/APRE/select.sc
+3889
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/update.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/update.sc 
+sample/APRE/update.sc
+3226
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/varchar.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/varchar.sc 
+sample/APRE/varchar.sc
+7069
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/whenever1.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/whenever1.sc 
+sample/APRE/whenever1.sc
+2045
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/whenever2.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/whenever2.sc 
+sample/APRE/whenever2.sc
+1683
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/pointer.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/pointer.sc 
+sample/APRE/pointer.sc
+3667
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/cparsefull.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/cparsefull.sc 
+sample/APRE/cparsefull.sc
+2880
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/declare_stmt.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/declare_stmt.sc 
+sample/APRE/declare_stmt.sc
+2922
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/macro.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/macro.sc 
+sample/APRE/macro.sc
+2446
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/include/hostvar.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/include/hostvar.h 
+sample/APRE/include/hostvar.h
+1987
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/include/hostvar2.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/include/hostvar2.h 
+sample/APRE/include/hostvar2.h
+1955
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/schema/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/schema/schema.sql 
+sample/APRE/schema/schema.sql
+15181
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/BLOB/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/BLOB/Makefile 
+sample/APRE/BLOB/Makefile
+347
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/BLOB/MemoryDBMS.txt 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/BLOB/MemoryDBMS.txt 
+sample/APRE/BLOB/MemoryDBMS.txt
+4110
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/BLOB/blobSample.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/BLOB/blobSample.sc 
+sample/APRE/BLOB/blobSample.sc
+1864
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/BLOB/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/BLOB/schema.sql 
+sample/APRE/BLOB/schema.sql
+58
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/CLOB/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/CLOB/Makefile 
+sample/APRE/CLOB/Makefile
+347
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/CLOB/MemoryDBMS.txt 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/CLOB/MemoryDBMS.txt 
+sample/APRE/CLOB/MemoryDBMS.txt
+4110
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/CLOB/clobSample.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/CLOB/clobSample.sc 
+sample/APRE/CLOB/clobSample.sc
+1886
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/CLOB/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/CLOB/schema.sql 
+sample/APRE/CLOB/schema.sql
+58
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/Fail-Over/FailOverSample.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/Fail-Over/FailOverSample.sc 
+sample/APRE/Fail-Over/FailOverSample.sc
+2767
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/Fail-Over/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/Fail-Over/Makefile 
+sample/APRE/Fail-Over/Makefile
+372
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/SSL/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/SSL/Makefile 
+sample/APRE/SSL/Makefile
+349
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/SSL/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/SSL/schema.sql 
+sample/APRE/SSL/schema.sql
+275
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/APRE/SSL/sslSample.sc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/APRE/SSL/sslSample.sc 
+sample/APRE/SSL/sslSample.sc
+3115
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/SimpleSQL/SimpleSQL.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/SimpleSQL/SimpleSQL.java 
+sample/JDBC/SimpleSQL/SimpleSQL.java
+3649
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/Logging/SimpleSQL.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/Logging/SimpleSQL.java 
+sample/JDBC/Logging/SimpleSQL.java
+3649
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/Logging/logging.properties 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/Logging/logging.properties 
+sample/JDBC/Logging/logging.properties
+3018
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/Logging/run.sh 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/Logging/run.sh 
+sample/JDBC/Logging/run.sh
+358
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/Logging/drop_schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/Logging/drop_schema.sql 
+sample/JDBC/Logging/drop_schema.sql
+25
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/MultipleResultSet/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/MultipleResultSet/schema.sql 
+sample/JDBC/MultipleResultSet/schema.sql
+1675
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/MultipleResultSet/MultipleResultSet.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/MultipleResultSet/MultipleResultSet.java 
+sample/JDBC/MultipleResultSet/MultipleResultSet.java
+2445
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/BLOB/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/BLOB/schema.sql 
+sample/JDBC/BLOB/schema.sql
+382
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/BLOB/TestBLOB.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/BLOB/TestBLOB.java 
+sample/JDBC/BLOB/TestBLOB.java
+7761
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/BLOB/altibase.gif 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/BLOB/altibase.gif 
+sample/JDBC/BLOB/altibase.gif
+4406
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/BLOB/adccenter.gif 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/BLOB/adccenter.gif 
+sample/JDBC/BLOB/adccenter.gif
+3327
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/CLOB/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/CLOB/schema.sql 
+sample/JDBC/CLOB/schema.sql
+367
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/CLOB/TestCLOB.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/CLOB/TestCLOB.java 
+sample/JDBC/CLOB/TestCLOB.java
+7582
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/CLOB/Greetings.txt 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/CLOB/Greetings.txt 
+sample/JDBC/CLOB/Greetings.txt
+1839
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/CLOB/MemoryDBMS.txt 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/CLOB/MemoryDBMS.txt 
+sample/JDBC/CLOB/MemoryDBMS.txt
+4110
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/Fail-Over/FailOverCallbackSample.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/Fail-Over/FailOverCallbackSample.java 
+sample/JDBC/Fail-Over/FailOverCallbackSample.java
+3191
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/Fail-Over/FailOverSampleSTF.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/Fail-Over/FailOverSampleSTF.java 
+sample/JDBC/Fail-Over/FailOverSampleSTF.java
+3246
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/Fail-Over/MyFailOverCallback.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/Fail-Over/MyFailOverCallback.java 
+sample/JDBC/Fail-Over/MyFailOverCallback.java
+2172
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/JDBC/SSL/SslSimpleSQL.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/JDBC/SSL/SslSimpleSQL.java 
+sample/JDBC/SSL/SslSimpleSQL.java
+4351
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/Makefile 
+sample/SPATIAL/Makefile
+1037
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/insertObject.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/insertObject.sql 
+sample/SPATIAL/insertObject.sql
+75
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/insertObject.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/insertObject.cpp 
+sample/SPATIAL/insertObject.cpp
+26747
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/selectObject.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/selectObject.sql 
+sample/SPATIAL/selectObject.sql
+972
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/selectObject.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/selectObject.cpp 
+sample/SPATIAL/selectObject.cpp
+20990
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/updateObject.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/updateObject.sql 
+sample/SPATIAL/updateObject.sql
+685
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/updateObject.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/updateObject.cpp 
+sample/SPATIAL/updateObject.cpp
+8692
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/deleteObject.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/deleteObject.sql 
+sample/SPATIAL/deleteObject.sql
+685
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/deleteObject.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/deleteObject.cpp 
+sample/SPATIAL/deleteObject.cpp
+7975
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKB/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKB/schema.sql 
+sample/SPATIAL/GeoODBC/WKB/schema.sql
+96
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKB/MakeInsert.mk 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKB/MakeInsert.mk 
+sample/SPATIAL/GeoODBC/WKB/MakeInsert.mk
+313
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKB/MakeUpdate.mk 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKB/MakeUpdate.mk 
+sample/SPATIAL/GeoODBC/WKB/MakeUpdate.mk
+313
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKB/MakeSelect.mk 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKB/MakeSelect.mk 
+sample/SPATIAL/GeoODBC/WKB/MakeSelect.mk
+313
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKB/MakeDelete.mk 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKB/MakeDelete.mk 
+sample/SPATIAL/GeoODBC/WKB/MakeDelete.mk
+313
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKB/insertWKB.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKB/insertWKB.cpp 
+sample/SPATIAL/GeoODBC/WKB/insertWKB.cpp
+7550
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKB/updateWKB.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKB/updateWKB.cpp 
+sample/SPATIAL/GeoODBC/WKB/updateWKB.cpp
+7557
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKB/selectWKB.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKB/selectWKB.cpp 
+sample/SPATIAL/GeoODBC/WKB/selectWKB.cpp
+9790
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKB/deleteWKB.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKB/deleteWKB.cpp 
+sample/SPATIAL/GeoODBC/WKB/deleteWKB.cpp
+6221
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKT/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKT/schema.sql 
+sample/SPATIAL/GeoODBC/WKT/schema.sql
+96
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKT/MakeInsert.mk 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKT/MakeInsert.mk 
+sample/SPATIAL/GeoODBC/WKT/MakeInsert.mk
+313
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKT/MakeUpdate.mk 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKT/MakeUpdate.mk 
+sample/SPATIAL/GeoODBC/WKT/MakeUpdate.mk
+313
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKT/MakeSelect.mk 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKT/MakeSelect.mk 
+sample/SPATIAL/GeoODBC/WKT/MakeSelect.mk
+313
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKT/MakeDelete.mk 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKT/MakeDelete.mk 
+sample/SPATIAL/GeoODBC/WKT/MakeDelete.mk
+313
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKT/insertWKT.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKT/insertWKT.cpp 
+sample/SPATIAL/GeoODBC/WKT/insertWKT.cpp
+5444
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKT/updateWKT.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKT/updateWKT.cpp 
+sample/SPATIAL/GeoODBC/WKT/updateWKT.cpp
+5480
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKT/selectWKT.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKT/selectWKT.cpp 
+sample/SPATIAL/GeoODBC/WKT/selectWKT.cpp
+5481
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoODBC/WKT/deleteWKT.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoODBC/WKT/deleteWKT.cpp 
+sample/SPATIAL/GeoODBC/WKT/deleteWKT.cpp
+4494
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoJDBC/WKB/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC/WKB/schema.sql 
+sample/SPATIAL/GeoJDBC/WKB/schema.sql
+96
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoJDBC/WKB/InsertWKB.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC/WKB/InsertWKB.java 
+sample/SPATIAL/GeoJDBC/WKB/InsertWKB.java
+5755
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoJDBC/WKB/UpdateWKB.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC/WKB/UpdateWKB.java 
+sample/SPATIAL/GeoJDBC/WKB/UpdateWKB.java
+5786
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoJDBC/WKB/SelectWKB.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC/WKB/SelectWKB.java 
+sample/SPATIAL/GeoJDBC/WKB/SelectWKB.java
+8100
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoJDBC/WKB/DeleteWKB.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC/WKB/DeleteWKB.java 
+sample/SPATIAL/GeoJDBC/WKB/DeleteWKB.java
+4418
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoJDBC/WKT/schema.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC/WKT/schema.sql 
+sample/SPATIAL/GeoJDBC/WKT/schema.sql
+96
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoJDBC/WKT/InsertWKT.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC/WKT/InsertWKT.java 
+sample/SPATIAL/GeoJDBC/WKT/InsertWKT.java
+2876
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoJDBC/WKT/UpdateWKT.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC/WKT/UpdateWKT.java 
+sample/SPATIAL/GeoJDBC/WKT/UpdateWKT.java
+2913
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoJDBC/WKT/SelectWKT.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC/WKT/SelectWKT.java 
+sample/SPATIAL/GeoJDBC/WKT/SelectWKT.java
+2775
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/SPATIAL/GeoJDBC/WKT/DeleteWKT.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/SPATIAL/GeoJDBC/WKT/DeleteWKT.java 
+sample/SPATIAL/GeoJDBC/WKT/DeleteWKT.java
+2468
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/Altibase/ReplToAltiSample.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/Altibase/ReplToAltiSample.c 
+sample/ALA/Altibase/ReplToAltiSample.c
+15276
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/Altibase/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/Altibase/Makefile 
+sample/ALA/Altibase/Makefile
+426
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/Oracle/ReplToOraSample.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/Oracle/ReplToOraSample.c 
+sample/ALA/Oracle/ReplToOraSample.c
+15376
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/OracleOCI/AlaReceiver.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/OracleOCI/AlaReceiver.c 
+sample/ALA/OracleOCI/AlaReceiver.c
+30449
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/OracleOCI/AlaReceiver.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/OracleOCI/AlaReceiver.h 
+sample/ALA/OracleOCI/AlaReceiver.h
+928
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/OracleOCI/AlaToOciConfig.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/OracleOCI/AlaToOciConfig.h 
+sample/ALA/OracleOCI/AlaToOciConfig.h
+745
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/OracleOCI/DBLog.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/OracleOCI/DBLog.h 
+sample/ALA/OracleOCI/DBLog.h
+1681
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/OracleOCI/Exception.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/OracleOCI/Exception.h 
+sample/ALA/OracleOCI/Exception.h
+1831
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/OracleOCI/Main.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/OracleOCI/Main.c 
+sample/ALA/OracleOCI/Main.c
+2614
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/OracleOCI/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/OracleOCI/Makefile 
+sample/ALA/OracleOCI/Makefile
+670
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/OracleOCI/OciApplier.c 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/OracleOCI/OciApplier.c 
+sample/ALA/OracleOCI/OciApplier.c
+33353
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/OracleOCI/OciApplier.h 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/OracleOCI/OciApplier.h 
+sample/ALA/OracleOCI/OciApplier.h
+1189
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ALA/OracleOCI/README 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ALA/OracleOCI/README 
+sample/ALA/OracleOCI/README
+1928
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/UTIL/altiGrep.java 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/UTIL/altiGrep.java 
+sample/UTIL/altiGrep.java
+7535
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/tool/procedure//dumpReplScript.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/admin/dumpReplScript.sql 
+admin/dumpReplScript.sql
+2249
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/tool/procedure/showProcBody.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/admin/showProcBody.sql 
+admin/showProcBody.sql
+1058
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/tool/procedure/showProcedures.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/admin/showProcedures.sql 
+admin/showProcedures.sql
+979
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/tool/procedure/showReplications.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/admin/showReplications.sql 
+admin/showReplications.sql
+2681
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/tool/procedure/showTables.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/admin/showTables.sql 
+admin/showTables.sql
+970
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/tool/procedure/tracelog.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/admin/tracelog.sql 
+admin/tracelog.sql
+638
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/tool/procedure/adminview.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/admin/adminview.sql 
+admin/adminview.sql
+10011
+
+# [^*-WINDOWS-*-*][*][*][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/tool/procedure/install_proc.sh 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/admin/install_proc.sh 
+admin/install_proc.sh
+132
+
+# [^*-WINDOWS-*-*][*][*][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/tool/install/pre_install.sh 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/install/pre_install.sh 
+install/pre_install.sh
+8221
+
+# [^*-WINDOWS-*-*][*][*][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/tool/install/post_install.sh 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/install/post_install.sh 
+install/post_install.sh
+9948
+
+# [*][*][*][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/tool/altierr/altierr 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/altierr 
+bin/altierr
+3116
+
+# [*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/dumptrc 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/bin/dumptrc 
+bin/dumptrc
+49467923
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CHECKSERVER/checkServer.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CHECKSERVER/checkServer.cpp 
+sample/CHECKSERVER/checkServer.cpp
+680
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CHECKSERVER/checkServerCancel.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CHECKSERVER/checkServerCancel.cpp 
+sample/CHECKSERVER/checkServerCancel.cpp
+1489
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/CHECKSERVER/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/CHECKSERVER/Makefile 
+sample/CHECKSERVER/Makefile
+448
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/create.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/create.sql 
+sample/ILOADERAPI/create.sql
+46
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/create_mt.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/create_mt.sql 
+sample/ILOADERAPI/create_mt.sql
+472
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/datain.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/datain.cpp 
+sample/ILOADERAPI/datain.cpp
+1218
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/datain_cb.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/datain_cb.cpp 
+sample/ILOADERAPI/datain_cb.cpp
+2744
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/datain_cb_1.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/datain_cb_1.cpp 
+sample/ILOADERAPI/datain_cb_1.cpp
+2829
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/datain_cb_2.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/datain_cb_2.cpp 
+sample/ILOADERAPI/datain_cb_2.cpp
+2880
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/datain_mt.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/datain_mt.cpp 
+sample/ILOADERAPI/datain_mt.cpp
+2360
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/dataout.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/dataout.cpp 
+sample/ILOADERAPI/dataout.cpp
+1220
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/dataout_cb.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/dataout_cb.cpp 
+sample/ILOADERAPI/dataout_cb.cpp
+2746
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/dataout_cb_1.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/dataout_cb_1.cpp 
+sample/ILOADERAPI/dataout_cb_1.cpp
+2837
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/dataout_cb_2.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/dataout_cb_2.cpp 
+sample/ILOADERAPI/dataout_cb_2.cpp
+2888
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/dataout_mt.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/dataout_mt.cpp 
+sample/ILOADERAPI/dataout_mt.cpp
+2360
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/formout.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/formout.cpp 
+sample/ILOADERAPI/formout.cpp
+1180
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/formout_mt.cpp 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/formout_mt.cpp 
+sample/ILOADERAPI/formout_mt.cpp
+2324
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/insert.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/insert.sql 
+sample/ILOADERAPI/insert.sql
+579
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/insert_mt.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/insert_mt.sql 
+sample/ILOADERAPI/insert_mt.sql
+460
+
+# [*][*][*][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/sample/ILOADERAPI/Makefile 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/sample/ILOADERAPI/Makefile 
+sample/ILOADERAPI/Makefile
+2239
+
+# [*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/./README.global 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/README.global 
+global/README.global
+168
+
+# [^*-WINDOWS-*-*][*][S][*][*][0755][EXE]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/bin/genErrMsg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/genErrMsg 
+global/genErrMsg
+136567
+
+# [*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/cm/msg//E_CM_US7ASCII.msg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/E_CM_US7ASCII.msg 
+global/E_CM_US7ASCII.msg
+25980
+
+# [*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/sm/msg//E_SM_US7ASCII.msg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/E_SM_US7ASCII.msg 
+global/E_SM_US7ASCII.msg
+138973
+
+# [*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/rp/msg//E_RP_US7ASCII.msg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/E_RP_US7ASCII.msg 
+global/E_RP_US7ASCII.msg
+113548
+
+# [*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/mt/msg//E_MT_US7ASCII.msg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/E_MT_US7ASCII.msg 
+global/E_MT_US7ASCII.msg
+24512
+
+# [*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/qp/msg//E_QP_US7ASCII.msg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/E_QP_US7ASCII.msg 
+global/E_QP_US7ASCII.msg
+213117
+
+# [*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/sd/msg//E_SD_US7ASCII.msg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/E_SD_US7ASCII.msg 
+global/E_SD_US7ASCII.msg
+10940
+
+# [*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/st/msg//E_ST_US7ASCII.msg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/E_ST_US7ASCII.msg 
+global/E_ST_US7ASCII.msg
+13881
+
+# [*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/mm/msg//E_MM_US7ASCII.msg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/E_MM_US7ASCII.msg 
+global/E_MM_US7ASCII.msg
+53711
+
+# [*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/dk/msg//E_DK_US7ASCII.msg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/E_DK_US7ASCII.msg 
+global/E_DK_US7ASCII.msg
+29016
+
+# [*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/src/ul/msg//E_UL_US7ASCII.msg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/E_UL_US7ASCII.msg 
+global/E_UL_US7ASCII.msg
+45347
+
+# [*][*][S][*][*][0755][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/msg//E_UT_US7ASCII.msg 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/global/E_UT_US7ASCII.msg 
+global/E_UT_US7ASCII.msg
+38929
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/thirdparty/ArcGIS/geometry_columns.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/thirdparty/ArcGIS/geometry_columns.sql 
+thirdparty/ArcGIS/geometry_columns.sql
+15189
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/thirdparty/SmartSSD/libsdm.so 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/thirdparty/SmartSSD/libsdm.so 
+thirdparty/SmartSSD/libsdm.so
+193028
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/catproc.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/catproc.sql 
+packages/catproc.sql
+1420
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_application_info.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_application_info.sql 
+packages/dbms_application_info.sql
+768
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_application_info.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_application_info.plb 
+packages/dbms_application_info.plb
+889
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_lock.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_lock.sql 
+packages/dbms_lock.sql
+930
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_lock.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_lock.plb 
+packages/dbms_lock.plb
+2177
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_output.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_output.sql 
+packages/dbms_output.sql
+643
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_output.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_output.plb 
+packages/dbms_output.plb
+643
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_random.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_random.sql 
+packages/dbms_random.sql
+989
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_random.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_random.plb 
+packages/dbms_random.plb
+3499
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/sys_context.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/sys_context.sql 
+packages/sys_context.sql
+2728
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/sys_context.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/sys_context.plb 
+packages/sys_context.plb
+1641
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/utl_file.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/utl_file.sql 
+packages/utl_file.sql
+3409
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/utl_file.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/utl_file.plb 
+packages/utl_file.plb
+1808
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/utl_raw.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/utl_raw.sql 
+packages/utl_raw.sql
+2028
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/utl_raw.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/utl_raw.plb 
+packages/utl_raw.plb
+4939
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/utl_tcp.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/utl_tcp.sql 
+packages/utl_tcp.sql
+1228
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/utl_tcp.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/utl_tcp.plb 
+packages/utl_tcp.plb
+1167
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_sql.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_sql.sql 
+packages/dbms_sql.sql
+5001
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_sql.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_sql.plb 
+packages/dbms_sql.plb
+1931
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_alert.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_alert.sql 
+packages/dbms_alert.sql
+1051
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_alert.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_alert.plb 
+packages/dbms_alert.plb
+961
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_concurrent_exec.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_concurrent_exec.sql 
+packages/dbms_concurrent_exec.sql
+1349
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_concurrent_exec.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_concurrent_exec.plb 
+packages/dbms_concurrent_exec.plb
+2579
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_recyclebin.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_recyclebin.sql 
+packages/dbms_recyclebin.sql
+613
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_recyclebin.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_recyclebin.plb 
+packages/dbms_recyclebin.plb
+1531
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_stats.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_stats.sql 
+packages/dbms_stats.sql
+7892
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_stats.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_stats.plb 
+packages/dbms_stats.plb
+7809
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_utility.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_utility.sql 
+packages/dbms_utility.sql
+582
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/dbms_utility.plb 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_utility.plb 
+packages/dbms_utility.plb
+615
+
+# [*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/altibase_home/packages/standard.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/standard.sql 
+packages/standard.sql
+429
+
+# [X86-LINUX-*-*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/package/dbms_shard.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_shard.sql 
+packages/dbms_shard.sql
+2999
+
+# [X86-LINUX-*-*][*][S][*][*][0644][*]
+# COPYED  : From /home/hdb71_p/work/altidev4/ut/package/dbms_shard_body.sql 
+#         : To   /home/hdb71_p/work/altidev4/altipkgdir_server_patch/packages/dbms_shard_body.sql 
+packages/dbms_shard_body.sql
+12061
+

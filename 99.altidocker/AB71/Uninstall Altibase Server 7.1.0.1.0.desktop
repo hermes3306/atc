@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=0.9.4
+Name=Uninstall Altibase Server 7.1.0.1.0
+Comment=Uninstall
+Icon=
+Exec=/home/niceguy/AB71/DB0/APatch/uninstall-p0_0_1_0
+Terminal=false
+Path=/home/niceguy/AB71/DB0
