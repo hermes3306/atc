@@ -1,0 +1,65 @@
+Please refer to the following file to check the Altibase version.
+    /home/niceguy/AB71/DB0/APatch/patchinfo 
+
+[ Quick Guide to Making Settings in Altibase ]
+
+1. Set kernel variables using the root user account.
+    run the '/home/niceguy/AB71/DB0/install/pre_install.sh' file
+    - This script helps you make kernel parameter settings.
+
+================ LINUX ================
+[ How to modify kernel parameter values ]
+
+echo 512 32000 512 512 > /proc/sys/kernel/sem
+echo 872415232 > /proc/sys/kernel/shmall
+
+# shmall 
+If it is desired to use Altibase in shared memory mode, the value of 'shmall' must be set. This value determines the maximum size of an Altibase database.
+
+These values must be set in order for Altibase to operate properly.
+They must be set such that they are suitable for the system configuration.
+
+=====================================
+
+
+
+
+2. Provide a license.
+    Please rename and locate the license file as shown below.
+    /home/niceguy/AB71/DB0/conf/license
+
+    If no license file has been issued or if the license file has expired,
+    Altibase services will not start.
+    In this case, please visit http://support.altibase.com
+
+
+3. Configure user environment variables 
+    (using the user account with which Altibase was installed).
+    Run the '/home/niceguy/AB71/DB0/install/post_install.sh' file
+    under the account with which Altibase was installed.
+
+    This script performs necessary post-installation configuration.
+
+    1) Create the Altibase user environment file and apply it to the user profile.
+         (/home/niceguy/AB71/DB0/conf/altibase_user.env)
+    2) Create a database.
+
+         If you selected 'YES' in response to the question about whether to create 
+         a database after installation, at "Altibase Property setting step 1", 
+         a database will be automatically created.
+
+         If you selected 'NO' in response to this question,
+         you need to create a database manually.
+
+         shell> server create [DB Character Set] [National Character Set]
+
+
+4. Start up and shut down the server
+    shell> server start
+    shell> server stop
+
+5. Runs all scripts required for or used with PSM
+    Run the '/home/niceguy/AB71/DB0/packages/catproc.sql' file.
+
+6. Connect to the database using iSQL
+    shell> isql -s 127.0.0.1 -u SYS -p MANAGER

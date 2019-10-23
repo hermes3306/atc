@@ -1,0 +1,3 @@
+Repository: /altidev4/tags/altibase_7_1_0_1_0_tag
+Revision: 82112
+Last Changed Rev: 81997

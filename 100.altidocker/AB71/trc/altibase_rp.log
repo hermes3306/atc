@@ -1,0 +1,351 @@
+* ALTIBASE LOGFILE-0 (7.1.0.1.0) : X86_64_LINUX_redhat_Enterprise_release6.0-64bit-7.1.0.1.0-release-GCC4.6.3 (x86_64-unknown-linux-gnu) Jan 23 2018 16:45:28
+[2019/10/16 10:57:29 17][PID:15611][Thread-140044449989440][LWP-15611]
+[[[[[[ ALTIBASE STARTUP ]]]]]]
+[2019/10/16 11:04:09 17][PID:16354][Thread-140029839639360][LWP-16354]
+[[[[[[ ALTIBASE STARTUP ]]]]]]
+[2019/10/16 11:10:47 17][PID:17129][Thread-140370621666112][LWP-17129]
+[[[[[[ ALTIBASE STARTUP ]]]]]]
+[2019/10/16 11:12:37 17][PID:17794][Thread-139937087787840][LWP-17794]
+[[[[[[ ALTIBASE STARTUP ]]]]]]
+[2019/10/16 11:12:38 682][PID:17156][Thread-140370621666112][LWP-17129]
+[[[[[[ ALTIBASE SHUTDOWN ]]]]]]
+[2019/10/16 11:12:44 58F][PID:17802][Thread-139936965105408][LWP-17808]
+ERR-7100f(errno=98) Unable to bind the socket, errno=98
+
+[2019/10/16 11:14:15 17][PID:18007][Thread-140400863863616][LWP-18007]
+[[[[[[ ALTIBASE STARTUP ]]]]]]
+[2019/10/16 11:14:22 59B][PID:18015][Thread-140400741181184][LWP-18017]
+ERR-7100f(errno=98) Unable to bind the socket, errno=98
+
+[2019/10/16 11:15:21 17][PID:18143][Thread-140304044811072][LWP-18143]
+[[[[[[ ALTIBASE STARTUP ]]]]]]
+[2019/10/16 11:23:11 17][PID:19290][Thread-139810437677888][LWP-19290]
+[[[[[[ ALTIBASE STARTUP ]]]]]]
+[2019/10/16 11:23:12 682][PID:18151][Thread-140304044811072][LWP-18143]
+[[[[[[ ALTIBASE SHUTDOWN ]]]]]]
+[2019/10/16 13:29:02 17][PID:4389][Thread-140288044684096][LWP-4389]
+[[[[[[ ALTIBASE STARTUP ]]]]]]
+[2019/10/16 13:29:03 69F][PID:19298][Thread-139810437677888][LWP-19290]
+[[[[[[ ALTIBASE SHUTDOWN ]]]]]]
+[2019/10/16 13:33:01 17][PID:5221][Thread-140537221399360][LWP-5221]
+[[[[[[ ALTIBASE STARTUP ]]]]]]
+[2019/10/16 13:33:02 676][PID:4397][Thread-140288044684096][LWP-4389]
+[[[[[[ ALTIBASE SHUTDOWN ]]]]]]
+[2019/10/16 13:34:31 676][PID:5229][Thread-140537221399360][LWP-5221]
+[[[[[[ ALTIBASE SHUTDOWN ]]]]]]
+[2019/10/16 13:34:31 17][PID:5728][Thread-140472439378752][LWP-5728]
+[[[[[[ ALTIBASE STARTUP ]]]]]]
+[2019/10/16 14:02:10 626][PID:5736][Thread-140470723319552][LWP-5852]
+[Receiver] Replication REP3 Started ...
+[2019/10/16 14:02:11 627][PID:5736][Thread-140470327965440][LWP-5875]
+[Receiver] Replication REP4 Started ...
+[2019/10/16 14:10:52 641][PID:5736][Thread-140470723319552][LWP-5852]
+ERR-620eb(errno=62) Exit flag is set.
+
+[2019/10/16 14:10:52 642][PID:5736][Thread-140470723319552][LWP-5852]
+ERR-61047(errno=62) [Receiver] REP3 receiver has error in recvXlog()
+
+[2019/10/16 14:10:52 643][PID:5736][Thread-140470723319552][LWP-5852]
+ERR-61048(errno=62) [Receiver] REP3 receiver has recvXLog error in run()
+
+[2019/10/16 14:10:52 644][PID:5736][Thread-140470723319552][LWP-5852]
+ERR-6104b(errno=62) [Receiver] REP3 receiver is ended (by thr_exit)
+
+[2019/10/16 14:10:52 645][PID:5736][Thread-140470723319552][LWP-5852]
+Error Stop!
+
+[2019/10/16 14:10:52 646][PID:5736][Thread-140470723319552][LWP-5852]
+[Receiver] Replication REP3 Stopped ...
+[2019/10/16 14:10:52 649][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-620eb(errno=62) Exit flag is set.
+
+[2019/10/16 14:10:52 64A][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-61047(errno=62) [Receiver] REP4 receiver has error in recvXlog()
+
+[2019/10/16 14:10:52 64B][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-61048(errno=62) [Receiver] REP4 receiver has recvXLog error in run()
+
+[2019/10/16 14:10:52 64C][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-6104b(errno=62) [Receiver] REP4 receiver is ended (by thr_exit)
+
+[2019/10/16 14:10:52 64D][PID:5736][Thread-140470327965440][LWP-5875]
+Error Stop!
+
+[2019/10/16 14:10:52 64E][PID:5736][Thread-140470327965440][LWP-5875]
+[Receiver] Replication REP4 Stopped ...
+[2019/10/16 14:10:52 650][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61126(errno=16) Replication not found
+
+[2019/10/16 14:10:52 651][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61030(errno=16) [Receiver] Failed to build meta information
+
+[2019/10/16 14:10:52 653][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61126(errno=16) Replication not found
+
+[2019/10/16 14:10:52 654][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61030(errno=16) [Receiver] Failed to build meta information
+
+[2019/10/16 14:11:29 69F][PID:5736][Thread-140470327965440][LWP-5875]
+[Receiver] Replication REP3 Started ...
+[2019/10/16 14:11:30 6A0][PID:5736][Thread-140470723319552][LWP-5852]
+[Receiver] Replication REP4 Started ...
+[2019/10/16 14:12:29 6BA][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-620eb(errno=62) Exit flag is set.
+
+[2019/10/16 14:12:29 6BB][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-61047(errno=62) [Receiver] REP3 receiver has error in recvXlog()
+
+[2019/10/16 14:12:29 6BC][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-61048(errno=62) [Receiver] REP3 receiver has recvXLog error in run()
+
+[2019/10/16 14:12:29 6BD][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-6104b(errno=62) [Receiver] REP3 receiver is ended (by thr_exit)
+
+[2019/10/16 14:12:29 6BE][PID:5736][Thread-140470327965440][LWP-5875]
+Error Stop!
+
+[2019/10/16 14:12:29 6BF][PID:5736][Thread-140470327965440][LWP-5875]
+[Receiver] Replication REP3 Stopped ...
+[2019/10/16 14:12:30 6C2][PID:5736][Thread-140470723319552][LWP-5852]
+ERR-620eb(errno=62) Exit flag is set.
+
+[2019/10/16 14:12:30 6C3][PID:5736][Thread-140470723319552][LWP-5852]
+ERR-61047(errno=62) [Receiver] REP4 receiver has error in recvXlog()
+
+[2019/10/16 14:12:30 6C4][PID:5736][Thread-140470723319552][LWP-5852]
+ERR-61048(errno=62) [Receiver] REP4 receiver has recvXLog error in run()
+
+[2019/10/16 14:12:30 6C5][PID:5736][Thread-140470723319552][LWP-5852]
+ERR-6104b(errno=62) [Receiver] REP4 receiver is ended (by thr_exit)
+
+[2019/10/16 14:12:30 6C6][PID:5736][Thread-140470723319552][LWP-5852]
+Error Stop!
+
+[2019/10/16 14:12:30 6C7][PID:5736][Thread-140470723319552][LWP-5852]
+[Receiver] Replication REP4 Stopped ...
+[2019/10/16 14:12:30 6C9][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61126(errno=16) Replication not found
+
+[2019/10/16 14:12:30 6CA][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61030(errno=16) [Receiver] Failed to build meta information
+
+[2019/10/16 14:12:30 6CB][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61126(errno=16) Replication not found
+
+[2019/10/16 14:12:30 6CD][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61030(errno=16) [Receiver] Failed to build meta information
+
+[2019/10/16 14:12:32 6FE][PID:5736][Thread-140470723319552][LWP-5852]
+[Receiver] Replication REP1 Started ...
+[2019/10/16 14:12:33 6FF][PID:5736][Thread-140470327965440][LWP-5875]
+[Receiver] Replication REP3 Started ...
+[2019/10/16 14:12:34 700][PID:5736][Thread-140470638421760][LWP-5859]
+[Receiver] Replication REP4 Started ...
+[2019/10/16 14:13:07 716][PID:5736][Thread-140470723319552][LWP-5852]
+ERR-620eb(errno=62) Exit flag is set.
+
+[2019/10/16 14:13:07 717][PID:5736][Thread-140470723319552][LWP-5852]
+ERR-61047(errno=62) [Receiver] REP1 receiver has error in recvXlog()
+
+[2019/10/16 14:13:07 718][PID:5736][Thread-140470723319552][LWP-5852]
+ERR-61048(errno=62) [Receiver] REP1 receiver has recvXLog error in run()
+
+[2019/10/16 14:13:07 719][PID:5736][Thread-140470723319552][LWP-5852]
+ERR-6104b(errno=62) [Receiver] REP1 receiver is ended (by thr_exit)
+
+[2019/10/16 14:13:07 71A][PID:5736][Thread-140470723319552][LWP-5852]
+Error Stop!
+
+[2019/10/16 14:13:07 71B][PID:5736][Thread-140470723319552][LWP-5852]
+[Receiver] Replication REP1 Stopped ...
+[2019/10/16 14:13:07 720][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-620eb(errno=62) Exit flag is set.
+
+[2019/10/16 14:13:07 721][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-61047(errno=62) [Receiver] REP3 receiver has error in recvXlog()
+
+[2019/10/16 14:13:07 722][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-61048(errno=62) [Receiver] REP3 receiver has recvXLog error in run()
+
+[2019/10/16 14:13:07 723][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-6104b(errno=62) [Receiver] REP3 receiver is ended (by thr_exit)
+
+[2019/10/16 14:13:07 724][PID:5736][Thread-140470327965440][LWP-5875]
+Error Stop!
+
+[2019/10/16 14:13:07 725][PID:5736][Thread-140470327965440][LWP-5875]
+[Receiver] Replication REP3 Stopped ...
+[2019/10/16 14:13:07 727][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61126(errno=16) Replication not found
+
+[2019/10/16 14:13:07 728][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61030(errno=16) [Receiver] Failed to build meta information
+
+[2019/10/16 14:13:07 72A][PID:5736][Thread-140470638421760][LWP-5859]
+ERR-620eb(errno=62) Exit flag is set.
+
+[2019/10/16 14:13:07 72B][PID:5736][Thread-140470638421760][LWP-5859]
+ERR-61047(errno=62) [Receiver] REP4 receiver has error in recvXlog()
+
+[2019/10/16 14:13:07 72C][PID:5736][Thread-140470638421760][LWP-5859]
+ERR-61048(errno=62) [Receiver] REP4 receiver has recvXLog error in run()
+
+[2019/10/16 14:13:07 72D][PID:5736][Thread-140470638421760][LWP-5859]
+ERR-6104b(errno=62) [Receiver] REP4 receiver is ended (by thr_exit)
+
+[2019/10/16 14:13:07 72E][PID:5736][Thread-140470638421760][LWP-5859]
+Error Stop!
+
+[2019/10/16 14:13:07 72F][PID:5736][Thread-140470638421760][LWP-5859]
+[Receiver] Replication REP4 Stopped ...
+[2019/10/16 14:13:07 731][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61126(errno=16) Replication not found
+
+[2019/10/16 14:13:07 732][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61030(errno=16) [Receiver] Failed to build meta information
+
+[2019/10/16 14:13:07 734][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61126(errno=16) Replication not found
+
+[2019/10/16 14:13:07 735][PID:5736][Thread-140470192109312][LWP-5881]
+ERR-61030(errno=16) [Receiver] Failed to build meta information
+
+[2019/10/16 14:13:10 766][PID:5736][Thread-140470638421760][LWP-5859]
+[Receiver] Replication REP1 Started ...
+[2019/10/16 14:13:11 767][PID:5736][Thread-140470327965440][LWP-5875]
+[Receiver] Replication REP3 Started ...
+[2019/10/16 14:13:12 768][PID:5736][Thread-140470723319552][LWP-5852]
+[Receiver] Replication REP4 Started ...
+[2019/10/16 14:17:59 7AC][PID:5736][Thread-140470638421760][LWP-5859]
+ERR-620eb(errno=62) Exit flag is set.
+
+[2019/10/16 14:17:59 7AD][PID:5736][Thread-140470638421760][LWP-5859]
+ERR-61047(errno=62) [Receiver] REP1 receiver has error in recvXlog()
+
+[2019/10/16 14:17:59 7AE][PID:5736][Thread-140470638421760][LWP-5859]
+ERR-61048(errno=62) [Receiver] REP1 receiver has recvXLog error in run()
+
+[2019/10/16 14:17:59 7AF][PID:5736][Thread-140470638421760][LWP-5859]
+ERR-6104b(errno=62) [Receiver] REP1 receiver is ended (by thr_exit)
+
+[2019/10/16 14:17:59 7B0][PID:5736][Thread-140470638421760][LWP-5859]
+Error Stop!
+
+[2019/10/16 14:17:59 7B1][PID:5736][Thread-140470638421760][LWP-5859]
+[Receiver] Replication REP1 Stopped ...
+[2019/10/16 14:17:59 7B4][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-620eb(errno=62) Exit flag is set.
+
+[2019/10/16 14:17:59 7B5][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-61047(errno=62) [Receiver] REP3 receiver has error in recvXlog()
+
+[2019/10/16 14:17:59 7B6][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-61048(errno=62) [Receiver] REP3 receiver has recvXLog error in run()
+
+[2019/10/16 14:17:59 7B7][PID:5736][Thread-140470327965440][LWP-5875]
+ERR-6104b(errno=62) [Receiver] REP3 receiver is ended (by thr_exit)
+
+[2019/10/16 14:17:59 7B8][PID:5736][Thread-140470327965440][LWP-5875]
+Error Stop!
+
+[2019/10/16 14:17:59 7B9][PID:5736][Thread-140470327965440][LWP-5875]
+[Receiver] Replication REP3 Stopped ...
+[2019/10/16 14:17:59 7BC][PID:5736][Thread-140470723319552][LWP-5852]
+[ReceiverApply] REPLICATION STOP XLog arrived!
+[2019/10/16 14:17:59 7BD][PID:5736][Thread-140470723319552][LWP-5852]
+[Receiver] Replication Stop Message is arrived
+[2019/10/16 14:17:59 7BE][PID:5736][Thread-140470723319552][LWP-5852]
+[Receiver] Normal Stop
+[2019/10/16 14:17:59 7BF][PID:5736][Thread-140470723319552][LWP-5852]
+[Receiver] Replication REP4 Stopped ...
+[2019/10/16 14:18:10 17][PID:10296][Thread-140234267427648][LWP-10296]
+[[[[[[ ALTIBASE STARTUP ]]]]]]
+[2019/10/16 14:18:11 858][PID:5736][Thread-140472439378752][LWP-5728]
+[[[[[[ ALTIBASE SHUTDOWN ]]]]]]
+[2019/10/16 14:18:17 5A2][PID:10304][Thread-140232024389376][LWP-10514]
+[Receiver] Replication REP1 Started ...
+[2019/10/16 14:18:17 5A3][PID:10304][Thread-140232123860736][LWP-10512]
+[Receiver] Replication REP3 Started ...
+[2019/10/16 14:18:17 5A4][PID:10304][Thread-140232465127168][LWP-10470]
+[Receiver] Replication REP4 Started ...
+[2019/10/16 14:18:43 5C4][PID:10304][Thread-140232024389376][LWP-10514]
+ERR-620eb(errno=16) Exit flag is set.
+
+[2019/10/16 14:18:43 5C5][PID:10304][Thread-140232024389376][LWP-10514]
+ERR-61047(errno=16) [Receiver] REP1 receiver has error in recvXlog()
+
+[2019/10/16 14:18:43 5C6][PID:10304][Thread-140232024389376][LWP-10514]
+ERR-61048(errno=16) [Receiver] REP1 receiver has recvXLog error in run()
+
+[2019/10/16 14:18:43 5C7][PID:10304][Thread-140232024389376][LWP-10514]
+ERR-6104b(errno=16) [Receiver] REP1 receiver is ended (by thr_exit)
+
+[2019/10/16 14:18:43 5C8][PID:10304][Thread-140232024389376][LWP-10514]
+Error Stop!
+
+[2019/10/16 14:18:43 5C9][PID:10304][Thread-140232024389376][LWP-10514]
+[Receiver] Replication REP1 Stopped ...
+[2019/10/16 14:18:44 5CE][PID:10304][Thread-140232123860736][LWP-10512]
+ERR-620eb(errno=16) Exit flag is set.
+
+[2019/10/16 14:18:44 5CF][PID:10304][Thread-140232123860736][LWP-10512]
+ERR-61047(errno=16) [Receiver] REP3 receiver has error in recvXlog()
+
+[2019/10/16 14:18:44 5D0][PID:10304][Thread-140232123860736][LWP-10512]
+ERR-61048(errno=16) [Receiver] REP3 receiver has recvXLog error in run()
+
+[2019/10/16 14:18:44 5D1][PID:10304][Thread-140232123860736][LWP-10512]
+ERR-6104b(errno=16) [Receiver] REP3 receiver is ended (by thr_exit)
+
+[2019/10/16 14:18:44 5D2][PID:10304][Thread-140232123860736][LWP-10512]
+Error Stop!
+
+[2019/10/16 14:18:44 5D3][PID:10304][Thread-140232123860736][LWP-10512]
+[Receiver] Replication REP3 Stopped ...
+[2019/10/16 14:18:44 5D5][PID:10304][Thread-140232003409664][LWP-10516]
+ERR-61126(errno=16) Replication not found
+
+[2019/10/16 14:18:44 5D6][PID:10304][Thread-140232003409664][LWP-10516]
+ERR-61030(errno=16) [Receiver] Failed to build meta information
+
+[2019/10/16 14:18:45 5D8][PID:10304][Thread-140232465127168][LWP-10470]
+ERR-620eb(errno=16) Exit flag is set.
+
+[2019/10/16 14:18:45 5D9][PID:10304][Thread-140232465127168][LWP-10470]
+ERR-61047(errno=16) [Receiver] REP4 receiver has error in recvXlog()
+
+[2019/10/16 14:18:45 5DA][PID:10304][Thread-140232465127168][LWP-10470]
+ERR-61048(errno=16) [Receiver] REP4 receiver has recvXLog error in run()
+
+[2019/10/16 14:18:45 5DB][PID:10304][Thread-140232465127168][LWP-10470]
+ERR-6104b(errno=16) [Receiver] REP4 receiver is ended (by thr_exit)
+
+[2019/10/16 14:18:45 5DC][PID:10304][Thread-140232465127168][LWP-10470]
+Error Stop!
+
+[2019/10/16 14:18:45 5DD][PID:10304][Thread-140232465127168][LWP-10470]
+[Receiver] Replication REP4 Stopped ...
+[2019/10/16 14:18:45 5DF][PID:10304][Thread-140232003409664][LWP-10516]
+ERR-61126(errno=16) Replication not found
+
+[2019/10/16 14:18:45 5E0][PID:10304][Thread-140232003409664][LWP-10516]
+ERR-61030(errno=16) [Receiver] Failed to build meta information
+
+[2019/10/16 14:18:45 5E2][PID:10304][Thread-140232003409664][LWP-10516]
+ERR-61126(errno=16) Replication not found
+
+[2019/10/16 14:18:45 5E3][PID:10304][Thread-140232003409664][LWP-10516]
+ERR-61030(errno=16) [Receiver] Failed to build meta information
+
+[2019/10/16 14:18:48 614][PID:10304][Thread-140232465127168][LWP-10470]
+[Receiver] Replication REP1 Started ...
+[2019/10/16 14:18:49 615][PID:10304][Thread-140232123860736][LWP-10512]
+[Receiver] Replication REP2 Started ...
+[2019/10/16 14:18:50 616][PID:10304][Thread-140232024389376][LWP-10514]
+[Receiver] Replication REP3 Started ...
+[2019/10/16 14:18:51 617][PID:10304][Thread-140232158607104][LWP-10509]
+[Receiver] Replication REP4 Started ...
+[2019/10/22 16:43:51 17][PID:19134][Thread-140081022374720][LWP-19134]
+[[[[[[ ALTIBASE STARTUP ]]]]]]
+[2019/10/22 16:44:21 698][PID:19142][Thread-140081022374720][LWP-19134]
+[[[[[[ ALTIBASE SHUTDOWN ]]]]]]
