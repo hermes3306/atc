@@ -27,4 +27,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # ALTIBASE_ENV
-. /opt/AB71/conf/conf/altibase_user.env
+. /opt/AB71/conf/altibase_user.env

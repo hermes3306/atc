@@ -1,7 +1,7 @@
 import pyodbc
 
-port_arr=['20300','20300','20300']
-server_arr=["ezhub.club","192.168.35.21", "192.168.35.49"]
+port_arr=['20300','20300']
+server_arr=["ezhub.club","localhost"]
 
 Tot = 0
 ST = []

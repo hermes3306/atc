@@ -115,7 +115,8 @@ class test
        	PreparedStatement pstmt = null;
        	ResultSet res;
 
-		String url = "jdbc:Altibase://127.0.0.1:20300" + "/mydb";
+		String url = "jdbc:Altibase://ezhub.club:20300" + "/mydb";
+		//String url = "jdbc:Altibase://127.0.0.1:20300" + "/mydb";
 		String user = "SMSSUSER";
 		String passwd = "SMSSUSER";
 		String enc = "US7ASCII";

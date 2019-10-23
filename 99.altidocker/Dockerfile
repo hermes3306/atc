@@ -7,5 +7,4 @@ WORKDIR		/opt/AB71
 
 EXPOSE		20300
 RUN		/opt/AB71/install/post_install.sh dbcreate
-#CMD		/opt/AB71/bin/startdb.sh
-CMD		/bin/bash
+ENTRYPOINT ["/opt/AB71/bin/myserver2.sh"]
