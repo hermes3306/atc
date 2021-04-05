@@ -5,7 +5,7 @@ PORT="20300"
 CONNTYPE="1"
 
 #THREADS="1"
-THREADS="32"
+THREADS="16"
 RECORDS="1000000"
 UNIT="1000"
 THRESHOLD="1000"
@@ -30,13 +30,13 @@ case $CONNTYPE in
         export ISQL_CONNECTION="IPC"
         ;;
 esac
-isql -s $HOST -u $USER -p $PASSWORD -port $PORT -f schema.sql
+
 echo
 
 START="0"
 for THREAD in $THREADS
 do
 isql -s $HOST -u $USER -p $PASSWORD -port $PORT -f checkpoint.sql
-./bmt_insert $THREAD $START $RECORDS $UNIT $THRESHOLD $CAP $USER $PASSWORD $OPTION
+./bmt_delete $THREAD $START $RECORDS $UNIT $THRESHOLD $CAP $USER $PASSWORD $OPTION
 START=`expr $START + $RECORDS`
 done
